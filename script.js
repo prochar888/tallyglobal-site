@@ -424,29 +424,62 @@
   // The HTML already includes static dates in schema.
 
   /* --------------------------------------------------
-     12. TESTIMONIAL CAROUSEL — DRAG TO SCROLL
+     12. TESTIMONIAL CAROUSEL — AUTO-SCROLL + DRAG
      -------------------------------------------------- */
   const carousel = document.getElementById('testimonial-carousel');
   if (carousel) {
-    let isDown = false;
-    let startX;
-    let scrollLeft;
+    var isDown = false;
+    var startX;
+    var scrollLeftPos;
+    var autoScrollId;
+    var userInteracting = false;
+    var autoScrollSpeed = 0.5;
 
+    // Auto-scroll continuously to the right
+    function startAutoScroll() {
+      userInteracting = false;
+      autoScrollId = setInterval(function () {
+        if (userInteracting) return;
+        carousel.scrollLeft += autoScrollSpeed;
+        // Loop: when reaching the end, jump back to start
+        if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 1) {
+          carousel.scrollLeft = 0;
+        }
+      }, 16);
+    }
+
+    function pauseAutoScroll() {
+      userInteracting = true;
+      clearInterval(autoScrollId);
+    }
+
+    function resumeAfterDelay() {
+      setTimeout(function () {
+        if (!isDown) startAutoScroll();
+      }, 3000);
+    }
+
+    // Drag to scroll
     carousel.addEventListener('mousedown', function (e) {
       isDown = true;
+      pauseAutoScroll();
       carousel.style.cursor = 'grabbing';
       startX = e.pageX - carousel.offsetLeft;
-      scrollLeft = carousel.scrollLeft;
+      scrollLeftPos = carousel.scrollLeft;
     });
 
     carousel.addEventListener('mouseleave', function () {
-      isDown = false;
-      carousel.style.cursor = 'grab';
+      if (isDown) {
+        isDown = false;
+        carousel.style.cursor = 'grab';
+        resumeAfterDelay();
+      }
     });
 
     carousel.addEventListener('mouseup', function () {
       isDown = false;
       carousel.style.cursor = 'grab';
+      resumeAfterDelay();
     });
 
     carousel.addEventListener('mousemove', function (e) {
@@ -454,8 +487,40 @@
       e.preventDefault();
       var x = e.pageX - carousel.offsetLeft;
       var walk = (x - startX) * 1.5;
-      carousel.scrollLeft = scrollLeft - walk;
+      carousel.scrollLeft = scrollLeftPos - walk;
     });
+
+    // Pause on touch (mobile)
+    carousel.addEventListener('touchstart', function () {
+      pauseAutoScroll();
+    }, { passive: true });
+
+    carousel.addEventListener('touchend', function () {
+      resumeAfterDelay();
+    }, { passive: true });
+
+    // Pause on hover
+    carousel.addEventListener('mouseenter', function () {
+      if (!isDown) pauseAutoScroll();
+    });
+
+    carousel.addEventListener('mouseleave', function () {
+      if (!isDown) resumeAfterDelay();
+    });
+
+    // Start auto-scroll when carousel is visible
+    if (!prefersReducedMotion) {
+      var carouselObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            startAutoScroll();
+          } else {
+            pauseAutoScroll();
+          }
+        });
+      }, { threshold: 0.2 });
+      carouselObserver.observe(carousel);
+    }
   }
 
 })();
