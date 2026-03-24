@@ -26,6 +26,26 @@
     .sp-faq-item{border-bottom:1px solid #e5e7eb}.sp-faq-q{width:100%;text-align:left;background:none;border:none;padding:20px 40px 20px 0;font-size:1.05rem;font-weight:600;cursor:pointer;position:relative;color:var(--text-primary);font-family:inherit}.sp-faq-q::after{content:'+';position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:1.4rem;color:var(--accent)}.sp-faq-q.open::after{content:'\2212'}.sp-faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}.sp-faq-a p{padding:0 0 20px;color:var(--text-secondary);line-height:1.7}
     .sp-cta{background:linear-gradient(135deg,var(--dark) 0%,var(--dark-surface) 100%);color:#fff;padding:80px 0;text-align:center}.sp-cta h2{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;margin-bottom:16px}.sp-cta p{color:var(--text-on-dark);margin-bottom:32px;font-size:1.1rem}
     @media(max-width:768px){.approach-grid{grid-template-columns:1fr}.tl-table{display:block;overflow-x:auto}}
+    .case-study-card{background:#fff;border:2px solid #e5e7eb;border-radius:var(--radius-lg);padding:40px;margin-top:32px}
+    .case-study-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid #e5e7eb}
+    .case-study-logo{height:32px;width:auto;object-fit:contain}
+    .case-study-meta{display:flex;gap:8px;flex-wrap:wrap}
+    .case-study-tag{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:#008250;background:rgba(0,130,80,.08);padding:4px 12px;border-radius:4px}
+    .case-study-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:28px}
+    .case-stat{text-align:center;padding:20px;background:var(--bg-light);border-radius:var(--radius-md)}
+    .case-stat-num{display:block;font-size:1.75rem;font-weight:800;color:var(--accent);letter-spacing:-.02em}
+    .case-stat-label{font-size:.8rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.04em;margin-top:4px}
+    .case-study-body p{color:var(--text-secondary);line-height:1.7;margin-bottom:12px;font-size:.95rem}
+    .case-study-body p strong{color:var(--text-primary)}
+    .case-study-products{display:flex;gap:12px;margin:24px 0;flex-wrap:wrap}
+    .case-study-products img{width:56px;height:56px;border-radius:10px;object-fit:cover;border:1px solid #e5e7eb}
+    .case-study-quote{background:var(--dark);border-radius:var(--radius-md);padding:28px 32px;margin-top:24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+    .case-study-quote blockquote{color:#fff;font-size:1rem;font-style:italic;line-height:1.6;flex:1;min-width:200px;border:none;padding:0;margin:0}
+    .case-study-author{display:flex;align-items:center;gap:12px}
+    .case-author-avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.2)}
+    .case-study-author strong{color:#fff;font-size:.875rem}
+    .case-study-author span{color:var(--text-muted-dark);font-size:.8rem}
+    @media(max-width:768px){.case-study-stats{grid-template-columns:1fr}.case-study-header{flex-direction:column;align-items:flex-start}.case-study-card{padding:24px}}
   </style>
 </head>
 <body>
@@ -64,7 +84,7 @@
       <div class="svc-card"><h3>Registro Sanitario</h3><p>The &ldquo;sales permit&rdquo; for complex products: medications, medical devices, and certain supplements. Full dossier preparation and submission to COFEPRIS.</p></div>
       <div class="svc-card"><h3>Permiso Sanitario de Importaci&oacute;n</h3><p>Per-shipment import permit for regulated products. Required each time supplements, food, or health products cross the border. Valid for 30 days per permit.</p></div>
       <div class="svc-card"><h3>Responsable Sanitario</h3><p>We link a licensed health professional (with c&eacute;dula profesional) to your entity to supervise operations. Legally required for all companies handling health products.</p></div>
-      <div class="svc-card"><h3>Label Review &amp; Regulatory Labeling</h3><p>Design of compliant oversticker labels with all COFEPRIS-required warnings, nutritional tables, and ingredient lists. We review at a cadence of ~5 labels per week for high-volume clients.</p></div>
+      <div class="svc-card"><h3>Label Review &amp; Regulatory Labeling</h3><p>Design of compliant oversticker labels with all COFEPRIS-required warnings, nutritional tables, and ingredient lists. Our in-house team reviews labels 5&times; faster than traditional regulatory firms &mdash; averaging ~25 labels per month for high-volume clients.</p></div>
       <div class="svc-card"><h3>Aviso de Publicidad</h3><p>Marketing compliance permit for advertising health products. Required before running any ad campaigns, influencer partnerships, or social media promotions for regulated products.</p></div>
       <div class="svc-card"><h3>NOM Certifications</h3><p>Compliance with mandatory Mexican standards: NOM-050 (commercial labeling), NOM-141 (cosmetics), NOM for electronics (safety), and NOM for textiles (composition &amp; labeling).</p></div>
       <div class="svc-card"><h3>SENASICA Compliance</h3><p>Sanitary permits from Mexico&rsquo;s animal and plant health authority. Required for animal-origin products, plant-based supplements, and agricultural goods.</p></div>
@@ -82,6 +102,44 @@
       <div class="approach-card">
         <h3>The Viability Report</h3>
         <p>Before you invest in Mexican labeling, production runs, or import logistics, we analyze every ingredient against COFEPRIS regulations. If your product contains a prohibited substance, we catch it in week one &mdash; not after your container is stuck at customs. This saves our clients thousands in wasted production and shipping costs.</p>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="sp-section"><div class="container">
+    <h2>Case Study: GROWVE &mdash; 12 Brands Into Mexico</h2>
+    <p class="subtitle">How Tally navigated COFEPRIS compliance for one of the largest supplement portfolios to enter the Mexican market.</p>
+    <div class="case-study-card">
+      <div class="case-study-header">
+        <img src="https://static.wixstatic.com/media/f0c6b3_6ad38de08e5840ffb932756a4a678ba1~mv2.png" alt="GROWVE" class="case-study-logo">
+        <div class="case-study-meta">
+          <span class="case-study-tag">Supplements &amp; Wellness</span>
+          <span class="case-study-tag">12+ Brands</span>
+          <span class="case-study-tag">USA &rarr; Mexico</span>
+        </div>
+      </div>
+      <div class="case-study-body">
+        <div class="case-study-stats">
+          <div class="case-stat"><span class="case-stat-num">12+</span><span class="case-stat-label">Brands launched</span></div>
+          <div class="case-stat"><span class="case-stat-num">10 wks</span><span class="case-stat-label">Zero to operational</span></div>
+          <div class="case-stat"><span class="case-stat-num">100%</span><span class="case-stat-label">First-pass approval</span></div>
+        </div>
+        <p><strong>The challenge:</strong> GROWVE, a US-based portfolio company managing 12+ supplement and wellness brands, needed to enter the Mexican market. Each brand required individual COFEPRIS viability analysis, compliant labeling, and Registro Sanitario submissions.</p>
+        <p><strong>What we did:</strong> Tally&rsquo;s in-house regulatory team ran viability reports on every SKU, designed NOM-compliant oversticker labels, and managed COFEPRIS filings for the entire portfolio simultaneously. We caught two prohibited ingredients in week one &mdash; before production started.</p>
+        <p><strong>The result:</strong> All 12 brands cleared regulatory requirements. Entity formed in 4 weeks. First import cleared customs in week 10. GROWVE is now operational on Amazon Mexico.</p>
+      </div>
+      <div class="case-study-products">
+        <img src="https://static.wixstatic.com/media/f0c6b3_2ca4c0295051490693ff6aeeba268efc~mv2.png/v1/fill/w_72,h_72,al_c,q_85,enc_avif,quality_auto/WARRIOR_BLEND_1100px.png" alt="GROWVE product">
+        <img src="https://static.wixstatic.com/media/f0c6b3_9e75abfb6c0849b1a77209a7cae1132b~mv2.png/v1/fill/w_72,h_72,al_c,q_85,enc_avif,quality_auto/LIVER_SUPPORT_1100px.png" alt="GROWVE product">
+        <img src="https://static.wixstatic.com/media/f0c6b3_f50d2a9d34224072915e857957ffbc83~mv2.png/v1/fill/w_72,h_72,al_c,q_85,enc_avif,quality_auto/TURMERIC_CURCUMIN_1100px.png" alt="GROWVE product">
+        <img src="https://static.wixstatic.com/media/f0c6b3_f1ee490943ef48749d545b72b7aa887e~mv2.png/v1/fill/w_72,h_72,al_c,q_85,enc_avif,quality_auto/ANTI_CELLULITE_1100px.png" alt="GROWVE product">
+      </div>
+      <div class="case-study-quote">
+        <blockquote>&ldquo;In general, Tally had been very responsive. They had been incredibly helpful.&rdquo;</blockquote>
+        <div class="case-study-author">
+          <img src="https://cdn.prod.website-files.com/68d6e3633a6cdf88cf9d3b70/6910f4671cb5e7dd0823e834_1696388491996.jpg" alt="Jamie Collinson" class="case-author-avatar">
+          <div><strong>Jamie Collinson</strong><br><span>Head of Market Entry Mexico, GROWVE</span></div>
+        </div>
       </div>
     </div>
   </div></section>
