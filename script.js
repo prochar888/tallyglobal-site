@@ -63,9 +63,9 @@
     window.addEventListener('scroll', function () {
       var scrollY = window.pageYOffset;
       if (scrollY > 100) {
-        header.style.background = 'rgba(10, 10, 10, 0.95)';
+        header.style.background = 'rgba(33, 33, 33, 0.95)';
       } else {
-        header.style.background = 'rgba(10, 10, 10, 0.85)';
+        header.style.background = 'rgba(33, 33, 33, 0.85)';
       }
       lastScroll = scrollY;
     }, { passive: true });
@@ -268,7 +268,7 @@
 
           if (dist < connectDistance) {
             var alpha = (1 - dist / connectDistance) * 0.15;
-            ctx.strokeStyle = 'rgba(79, 70, 229, ' + alpha + ')';
+            ctx.strokeStyle = 'rgba(96, 71, 255, ' + alpha + ')';
             ctx.lineWidth = 0.5;
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
@@ -308,7 +308,7 @@
         // Draw particle
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(79, 70, 229, ' + p.opacity + ')';
+        ctx.fillStyle = 'rgba(96, 71, 255, ' + p.opacity + ')';
         ctx.fill();
       }
 
@@ -398,7 +398,7 @@
 
       setTimeout(function () {
         submitBtn.textContent = 'Thank you! We\'ll be in touch within 24 hours.';
-        submitBtn.style.background = '#10B981';
+        submitBtn.style.background = '#49d475';
         leadForm.reset();
 
         setTimeout(function () {
