@@ -1699,6 +1699,17 @@ input, select, textarea {
   color: var(--text-muted-dark);
 }
 
+.carousel-avatar--initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--violet);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
 .carousel-flag {
   position: absolute;
   bottom: 28px;
