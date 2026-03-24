@@ -183,6 +183,124 @@ input, select, textarea {
   font-weight: 500;
 }
 
+.btn-xl {
+  padding: 20px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  letter-spacing: -0.01em;
+}
+
+/* --- Visual Strip (full-width image with overlay text) --- */
+.visual-strip {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.visual-strip img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.visual-strip-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(33, 33, 33, 0.85), rgba(33, 33, 33, 0.3));
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.visual-strip-text {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  max-width: 500px;
+  line-height: 1.35;
+}
+
+.visual-strip-text span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.75;
+  margin-top: 8px;
+}
+
+/* --- Visual Split (image + text side by side) --- */
+.visual-split {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.visual-split-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.visual-split--reverse .visual-split-container {
+  direction: rtl;
+}
+
+.visual-split--reverse .visual-split-container > * {
+  direction: ltr;
+}
+
+.visual-split-img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+.visual-split-content h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.visual-split-content p {
+  font-size: 1.0625rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.visual-split-content p + p {
+  margin-top: 12px;
+}
+
+/* --- China Desk Visual --- */
+.china-visual {
+  margin: 0 auto 56px;
+  max-width: 900px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  position: relative;
+}
+
+.china-visual img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.china-visual-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(255, 130, 72, 0.15), transparent);
+  pointer-events: none;
+}
+
 /* ======================================================
    NAVIGATION
    ====================================================== */
@@ -1686,6 +1804,10 @@ input, select, textarea {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .visual-split-container {
+    gap: 40px;
+  }
+
   .market-stats-grid {
     gap: 32px;
   }
@@ -1814,6 +1936,45 @@ input, select, textarea {
 
   .trust-strip {
     margin-bottom: 32px;
+  }
+
+  /* Visual components */
+  .visual-strip {
+    height: 200px;
+  }
+
+  .visual-strip-overlay {
+    padding: 0 24px;
+  }
+
+  .visual-strip-text {
+    font-size: 1.125rem;
+  }
+
+  .visual-split {
+    padding: 48px 0;
+  }
+
+  .visual-split-container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .visual-split--reverse .visual-split-container {
+    direction: ltr;
+  }
+
+  .visual-split-img {
+    border-radius: 12px;
+  }
+
+  .china-visual img {
+    height: 150px;
+  }
+
+  .btn-xl {
+    padding: 16px 36px;
+    font-size: 16px;
   }
 
   /* Problem */
