@@ -14,7 +14,12 @@
   --green: #49d475;
   --cyan: #5ed7ff;
   --black: #212121;
+  --dark: #212121;
   --dark-surface: #2a2a2a;
+  /* Aliases for service page inline styles */
+  --accent: #6047ff;
+  --accent-light: #7b66ff;
+  --bg-light: #fefcf8;
   --off-white: #fefcf8;
   --text-primary: #212121;
   --text-secondary: #6B7280;
