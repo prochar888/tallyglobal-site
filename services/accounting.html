@@ -18,6 +18,13 @@
     .cycle-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:32px}.cycle-step{text-align:center;padding:24px 16px;background:#fff;border-radius:var(--radius-md);border:1px solid #e5e7eb}.cycle-step .step-num{width:40px;height:40px;border-radius:50%;background:var(--accent);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;margin-bottom:12px}.cycle-step h3{font-size:1rem;font-weight:700;margin-bottom:8px}.cycle-step p{font-size:.9rem;color:var(--text-secondary);line-height:1.5}
     .sp-faq-item{border-bottom:1px solid #e5e7eb}.sp-faq-q{width:100%;text-align:left;background:none;border:none;padding:20px 40px 20px 0;font-size:1.05rem;font-weight:600;cursor:pointer;position:relative;color:var(--text-primary);font-family:inherit}.sp-faq-q::after{content:'+';position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:1.4rem;color:var(--accent)}.sp-faq-q.open::after{content:'\2212'}.sp-faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}.sp-faq-a p{padding:0 0 20px;color:var(--text-secondary);line-height:1.7}
     .sp-cta{background:linear-gradient(135deg,var(--dark) 0%,var(--dark-surface) 100%);color:#fff;padding:80px 0;text-align:center}.sp-cta h2{font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;margin-bottom:16px}.sp-cta p{color:var(--text-on-dark);margin-bottom:32px;font-size:1.1rem}
+    .sp-proof{background:var(--dark);color:#fff;padding:32px;border-radius:var(--radius-md);display:flex;align-items:center;gap:20px;margin-bottom:48px;flex-wrap:wrap}
+    .sp-proof-stat{font-size:2.5rem;font-weight:800;color:var(--accent-light);flex-shrink:0;letter-spacing:-.02em}
+    .sp-proof-text{font-size:1rem;color:var(--text-on-dark);line-height:1.5}
+    .sp-proof-text strong{color:#fff}
+    .sp-pricing-cta{background:linear-gradient(135deg,rgba(96,71,255,.06) 0%,rgba(96,71,255,.02) 100%);border:1px solid rgba(96,71,255,.15);border-radius:var(--radius-md);padding:32px;text-align:center;margin-top:48px}
+    .sp-pricing-cta h3{font-size:1.25rem;font-weight:700;margin-bottom:8px}
+    .sp-pricing-cta p{color:var(--text-secondary);margin-bottom:20px}
     @media(max-width:768px){.cycle-steps{grid-template-columns:1fr 1fr}.tax-table{display:block;overflow-x:auto}}
   </style>
 </head>
@@ -29,6 +36,11 @@
     <h1>Accounting &amp; Tax Compliance</h1>
     <p>Monthly bookkeeping, ISR, IVA, and DIOT filings. CFDI invoice management. Full fiscal compliance from day one &mdash; even during your pre-revenue COFEPRIS waiting period.</p>
   </div></section>
+
+  <div class="container" style="padding-top:32px"><div class="sp-proof">
+    <span class="sp-proof-stat">100%</span>
+    <p class="sp-proof-text"><strong>Fiscal compliance from day one.</strong> Even during your pre-revenue COFEPRIS wait, we file your monthly obligations on time. Zero SAT surprises.</p>
+  </div></div>
 
   <section class="sp-section"><div class="container">
     <h2>Why You Need Mexican Accounting</h2>
@@ -86,6 +98,14 @@
       <div class="sp-faq-item"><button class="sp-faq-q">Can I recover IVA paid on imports?</button><div class="sp-faq-a"><p>Yes. The 16% IVA paid on imports is fully creditable against IVA collected on sales. Proper accounting ensures you recover this significant cost through monthly tax filings.</p></div></div>
       <div class="sp-faq-item"><button class="sp-faq-q">What happens if I miss a tax filing deadline?</button><div class="sp-faq-a"><p>SAT imposes automatic penalties and interest for late filings. Repeated non-compliance can result in RFC cancellation, which would halt your ability to import, sell, and operate. We ensure all deadlines are met.</p></div></div>
       <div class="sp-faq-item"><button class="sp-faq-q">Do you handle transfer pricing?</button><div class="sp-faq-a"><p>Yes. For companies with related-party transactions (e.g., your US parent sells inventory to your Mexican subsidiary), we provide transfer pricing advisory to ensure compliance with Mexican and international regulations.</p></div></div>
+    </div>
+  </div></section>
+
+  <section class="sp-section"><div class="container">
+    <div class="sp-pricing-cta">
+      <h3>Monthly accounting included in all plans</h3>
+      <p>Starting at $588/month — bookkeeping, ISR, IVA, DIOT filings, and CFDI invoicing.</p>
+      <a href="/pricing.html" class="btn btn-primary">View Pricing</a>
     </div>
   </div></section>
 
