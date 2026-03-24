@@ -423,4 +423,39 @@
   // Could inject into footer, but kept minimal.
   // The HTML already includes static dates in schema.
 
+  /* --------------------------------------------------
+     12. TESTIMONIAL CAROUSEL — DRAG TO SCROLL
+     -------------------------------------------------- */
+  const carousel = document.getElementById('testimonial-carousel');
+  if (carousel) {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    carousel.addEventListener('mousedown', function (e) {
+      isDown = true;
+      carousel.style.cursor = 'grabbing';
+      startX = e.pageX - carousel.offsetLeft;
+      scrollLeft = carousel.scrollLeft;
+    });
+
+    carousel.addEventListener('mouseleave', function () {
+      isDown = false;
+      carousel.style.cursor = 'grab';
+    });
+
+    carousel.addEventListener('mouseup', function () {
+      isDown = false;
+      carousel.style.cursor = 'grab';
+    });
+
+    carousel.addEventListener('mousemove', function (e) {
+      if (!isDown) return;
+      e.preventDefault();
+      var x = e.pageX - carousel.offsetLeft;
+      var walk = (x - startX) * 1.5;
+      carousel.scrollLeft = scrollLeft - walk;
+    });
+  }
+
 })();
