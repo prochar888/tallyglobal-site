@@ -431,30 +431,33 @@
     var isDown = false;
     var startX;
     var scrollLeftPos;
-    var autoScrollId;
-    var userInteracting = false;
-    var autoScrollSpeed = 0.5;
+    var autoScrollRAF = null;
+    var resumeTimer = null;
+    var scrolling = false;
 
-    // Auto-scroll continuously to the right
     function startAutoScroll() {
-      userInteracting = false;
-      autoScrollId = setInterval(function () {
-        if (userInteracting) return;
-        carousel.scrollLeft += autoScrollSpeed;
-        // Loop: when reaching the end, jump back to start
+      if (scrolling) return;
+      scrolling = true;
+      function step() {
+        if (!scrolling) return;
+        carousel.scrollLeft += 0.5;
         if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 1) {
           carousel.scrollLeft = 0;
         }
-      }, 16);
+        autoScrollRAF = requestAnimationFrame(step);
+      }
+      autoScrollRAF = requestAnimationFrame(step);
     }
 
-    function pauseAutoScroll() {
-      userInteracting = true;
-      clearInterval(autoScrollId);
+    function stopAutoScroll() {
+      scrolling = false;
+      if (autoScrollRAF) cancelAnimationFrame(autoScrollRAF);
+      if (resumeTimer) clearTimeout(resumeTimer);
     }
 
     function resumeAfterDelay() {
-      setTimeout(function () {
+      if (resumeTimer) clearTimeout(resumeTimer);
+      resumeTimer = setTimeout(function () {
         if (!isDown) startAutoScroll();
       }, 3000);
     }
@@ -462,24 +465,28 @@
     // Drag to scroll
     carousel.addEventListener('mousedown', function (e) {
       isDown = true;
-      pauseAutoScroll();
+      stopAutoScroll();
       carousel.style.cursor = 'grabbing';
       startX = e.pageX - carousel.offsetLeft;
       scrollLeftPos = carousel.scrollLeft;
-    });
-
-    carousel.addEventListener('mouseleave', function () {
-      if (isDown) {
-        isDown = false;
-        carousel.style.cursor = 'grab';
-        resumeAfterDelay();
-      }
     });
 
     carousel.addEventListener('mouseup', function () {
       isDown = false;
       carousel.style.cursor = 'grab';
       resumeAfterDelay();
+    });
+
+    carousel.addEventListener('mouseleave', function () {
+      if (isDown) {
+        isDown = false;
+        carousel.style.cursor = 'grab';
+      }
+      resumeAfterDelay();
+    });
+
+    carousel.addEventListener('mouseenter', function () {
+      stopAutoScroll();
     });
 
     carousel.addEventListener('mousemove', function (e) {
@@ -490,32 +497,18 @@
       carousel.scrollLeft = scrollLeftPos - walk;
     });
 
-    // Pause on touch (mobile)
-    carousel.addEventListener('touchstart', function () {
-      pauseAutoScroll();
-    }, { passive: true });
+    // Pause on touch
+    carousel.addEventListener('touchstart', function () { stopAutoScroll(); }, { passive: true });
+    carousel.addEventListener('touchend', function () { resumeAfterDelay(); }, { passive: true });
 
-    carousel.addEventListener('touchend', function () {
-      resumeAfterDelay();
-    }, { passive: true });
-
-    // Pause on hover
-    carousel.addEventListener('mouseenter', function () {
-      if (!isDown) pauseAutoScroll();
-    });
-
-    carousel.addEventListener('mouseleave', function () {
-      if (!isDown) resumeAfterDelay();
-    });
-
-    // Start auto-scroll when carousel is visible
+    // Only auto-scroll when visible
     if (!prefersReducedMotion) {
       var carouselObserver = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
             startAutoScroll();
           } else {
-            pauseAutoScroll();
+            stopAutoScroll();
           }
         });
       }, { threshold: 0.2 });
