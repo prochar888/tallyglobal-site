@@ -51,7 +51,8 @@
     .sp-section h2 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); font-weight: 800; margin-bottom: 16px; }
     .sp-section .subtitle { color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 48px; max-width: 650px; }
     .included-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
-    .included-card { background: #fff; border: 1px solid #e5e7eb; border-radius: var(--radius-md); padding: 28px; }
+    .included-card { background: #fff; border: 1px solid #e5e7eb; border-radius: var(--radius-md); padding: 28px; transition: all 0.2s ease; }
+    .included-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px -8px rgba(0,0,0,0.1); }
     .included-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
     .included-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; }
     .entity-table { width: 100%; border-collapse: collapse; margin-top: 32px; font-size: 0.95rem; }
@@ -59,10 +60,10 @@
     .entity-table th { background: #212121; color: #ffffff; font-weight: 600; }
     .entity-table tr:hover { background: #f0f0ff; }
     .entity-table .rec { background: rgba(79,70,229,0.08); font-weight: 600; }
-    .timeline-steps { display: flex; flex-direction: column; gap: 0; margin-top: 32px; position: relative; padding-left: 40px; }
-    .timeline-steps::before { content: ''; position: absolute; left: 15px; top: 8px; bottom: 8px; width: 2px; background: #e5e7eb; }
+    .timeline-steps { display: flex; flex-direction: column; gap: 0; margin-top: 32px; position: relative; padding-left: 48px; }
+    .timeline-steps::before { content: ''; position: absolute; left: 15px; top: 8px; bottom: 8px; width: 2px; background: linear-gradient(to bottom, #6047ff, #ff8248); }
     .tl-step { position: relative; padding: 20px 0; }
-    .tl-step .tl-dot { position: absolute; left: -33px; top: 24px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); border: 3px solid #fff; box-shadow: 0 0 0 2px var(--accent); }
+    .tl-step .tl-dot { position: absolute; left: -40px; top: 20px; width: 24px; height: 24px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 4px rgba(96,71,255,0.15); }
     .tl-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
     .tl-step .tl-time { font-size: 0.85rem; color: var(--accent); font-weight: 600; margin-bottom: 6px; }
     .tl-step p { color: var(--text-secondary); font-size: 0.95rem; }
@@ -89,9 +90,14 @@
 
 <header class="site-header" id="site-header"><div class="container nav-container"><a href="/" class="logo" aria-label="Tally Global Home"><svg viewBox="0 0 226.8 185" xmlns="http://www.w3.org/2000/svg" width="120" height="48" style="fill:currentColor" class="logo-svg"><g><path d="M57.2,135.4c0,8.5,0,17,0,25.4c0,0.8-0.2,0.9-0.9,0.9c-6.5,0-13,0-19.5,0c-0.8,0-1-0.2-1-1c0-16.9,0-33.7,0-50.6c0-1.4,0.1-1.2-1.2-1.2c-6.1,0-12.1,0-18.2,0c-0.7,0-1-0.2-1-0.9c-0.1-2.2-0.5-4.4-0.3-6.6c0.4-4.8,3.8-8.3,8.6-9.2c1.3-0.2,2.6-0.3,4-0.3c16.2,0,32.3,0,48.5,0c0.8,0,1,0.2,1,1c0.2,2,0.2,3.9,0.3,5.9c0.2,5.7-3.2,9-8.3,9.8c-1.8,0.3-3.6,0.3-5.4,0.3c-1.8,0-3.7,0-5.5,0c-1,0-1,0-1,1C57.2,118.5,57.2,127,57.2,135.4z"/><path d="M167.1,182c-1.7,0-3.4,0-5-0.3c-4.4-0.9-6.3-3.8-5.3-8.1c0.5-2.1,1.5-4,2.6-5.9c0.2-0.5,0.5-0.2,0.8-0.1c1.8,1,3.7,1.5,5.8,1.4c3.5-0.1,5.5-1.5,6.7-4.8c0.8-2.4,0.8-2.4-1.6-2.4c-1.3,0-2.5-0.1-3.8,0c-0.8,0.1-1-0.3-1.3-0.9c-1.8-5.4-3.5-10.9-5.3-16.3c-2.4-7.3-4.8-14.7-7.2-22c-0.1-0.4-0.3-0.7,0.3-0.9c4-1.2,8.1-1.8,12.2-0.9c3.8,0.8,5.9,3.4,6.8,7.1c1.2,5.4,2.3,10.9,3.4,16.4c0.2,1.1,0.4,2.2,0.7,3.3c0.1,0.2,0,0.6,0.3,0.6c0.3,0,0.3-0.4,0.3-0.6c0.8-4,1.6-8,2.4-11.9c0.6-2.9,1-5.8,1.9-8.5c1.4-4.2,4.8-6.6,9.3-6.7c3,0,5.9,0.4,8.7,1.4c0.4,0.2,0.6,0.3,0.4,0.8c-3.2,11.7-6.3,23.5-9.5,35.2c-1,3.8-1.9,7.7-3.6,11.4c-1.6,3.6-3.7,6.9-7,9.3c-3.1,2.3-6.6,3.2-10.4,3.4C168.7,182.1,167.9,182,167.1,182z"/><path d="M103.6,145.2c0.1,2.8-0.1,6.2,0.1,9.7c0.1,2.3,0.4,4.5,1.1,6.7c0.2,0.5,0,0.7-0.5,0.8c-3.8,1.1-7.6,1.2-11.4,0.6c-1.9-0.3-3.6-1.2-4.4-3.2c-0.2-0.4-0.3-0.3-0.6-0.1c-4.7,3.7-10.2,4.1-15.8,3c-6.1-1.3-9.3-5.6-9.5-11.8c-0.2-6.5,3.2-10.5,8.6-12.9c3.9-1.7,8-2.4,12.3-2.6c0.9-0.1,1.9-0.1,2.8-0.1c0.4,0,0.5-0.1,0.5-0.5c0.2-2.6-0.9-3.9-3.4-4.3c-4-0.5-7.8,0.3-11.5,1.7c-1,0.4-2,0.8-2.9,1.3c-0.3,0.1-0.6,0.2-0.8-0.1c-1.2-1.6-2.3-3.3-2.8-5.3c-0.5-1.7,0-3.2,1.4-4.3c1.7-1.4,3.7-2.3,5.9-2.9c6.1-1.6,12.3-2,18.5-1c2.4,0.4,4.6,1.1,6.7,2.4c3.2,2.1,4.7,5.2,5.4,8.8c0.3,1.5,0.4,3.1,0.4,4.6C103.6,138.8,103.6,141.7,103.6,145.2z M87.1,147.1c0-1.1,0-2.2,0-3.4c0-0.4-0.1-0.7-0.6-0.6c-1.7,0.2-3.4,0.5-5,1.3c-1.4,0.7-2.3,1.8-2.6,3.4c-0.5,2.9,0.8,4.9,3.3,5.3c1,0.1,1.9,0,2.8-0.3c1.4-0.5,2-1.4,2-2.9C87.1,149,87.1,148.1,87.1,147.1z"/><path d="M150.6,130.9c0,10.1,0,20.2,0,30.4c0,0.7-0.2,1-0.9,1.2c-3.2,0.9-6.5,1.1-9.8,0.5c-4.3-0.8-6.5-3.1-6.9-7.5c-0.1-1.1-0.1-2.2-0.1-3.3c0-19.5,0-38.9,0-58.4c0-0.8,0.2-1.1,1-1.2c3.1-0.4,6.2-0.7,9.4-0.1c3.1,0.6,5.6,1.9,6.7,5c0.5,1.3,0.6,2.8,0.6,4.2C150.6,111.4,150.6,121.2,150.6,130.9z"/><path d="M125.8,130.7c0,10.2,0,20.3,0,30.5c0,0.7-0.2,1-0.9,1.2c-3.4,1-6.9,1.1-10.3,0.4c-3.9-0.9-5.9-3.2-6.3-7.3c-0.1-1.3-0.2-2.6-0.2-3.9c0-19.3,0-38.6,0-57.9c0-0.8,0.2-1.1,1-1.2c3.1-0.4,6.3-0.7,9.4-0.1c2.9,0.5,5.3,1.8,6.5,4.6c0.6,1.3,0.8,2.6,0.8,4C125.8,110.9,125.8,120.8,125.8,130.7z"/></g></svg></a><nav class="main-nav" id="main-nav" aria-label="Main navigation"><ul class="nav-links"><li><a href="/#services">Services</a></li><li><a href="/#how-it-works">How It Works</a></li><li><a href="/#why-tally">Why Tally</a></li><li><a href="/china/">China Desk</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/pricing.html">Pricing</a></li><li><a href="/#cta-final" class="nav-cta">Talk to Us</a></li></ul></nav><div class="nav-right"><div class="lang-switcher" aria-label="Language switcher"><a href="/" class="lang-active">EN</a><span class="lang-sep">|</span><a href="/china/">中文</a><span class="lang-sep">|</span><a href="/es/">ES</a></div><button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"><span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span></button></div></div></header>
 
-  <section class="service-hero">
-    <div class="container">
+  <section class="service-hero" style="position:relative;overflow:hidden">
+    <img src="https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?w=1600&h=600&fit=crop" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.15;pointer-events:none" loading="eager">
+    <div class="container" style="position:relative;z-index:1">
       <div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/#services">Services</a> &rsaquo; Legal Formation</div>
+      <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(73,212,117,0.15);border:1px solid rgba(73,212,117,0.3);border-radius:20px;padding:6px 16px;font-size:13px;color:#49d475;font-weight:600;margin-bottom:20px">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.5"/><path d="M5 8l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        100% Remote &mdash; No Travel Required
+      </div>
       <h1>Legal Entity Formation</h1>
       <p>Your own Mexican company &mdash; S&nbsp;de&nbsp;RL, SA, or SAPI structure. Fully owned by you, with RFC, eFirma, and complete corporate governance. Ready to operate in 4&ndash;6 weeks.</p>
     </div>
@@ -108,34 +114,42 @@
       <p class="subtitle">Everything you need to go from zero to a fully operational Mexican entity.</p>
       <div class="included-grid">
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(96,71,255,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#6047ff"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M3 9h6"/></svg></div>
           <h3>Company Name Reservation</h3>
           <p>We reserve your company name through the Ministry of Economy (Secretar&iacute;a de Econom&iacute;a) to ensure availability and legal protection.</p>
         </div>
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(96,71,255,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#6047ff"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="7" r="3"/><circle cx="5" cy="17" r="2.5"/><circle cx="19" cy="17" r="2.5"/><path d="M12 10v3M8.5 15.5L10 13M15.5 15.5L14 13"/></svg></div>
           <h3>Legal Structure &amp; Shareholders</h3>
           <p>Definition of entity type, equity split, shareholder rights, and corporate governance. We advise on the optimal structure for your business model.</p>
         </div>
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(255,130,72,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#ff8248"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8M16 17H8M10 9H8"/></svg></div>
           <h3>Incorporation Deed (Acta Constitutiva)</h3>
           <p>Drafting and notarization of your founding documents. Includes power of attorney, statutory examiner appointment, and all legally required clauses.</p>
         </div>
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(255,130,72,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#ff8248"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
           <h3>Beneficial Ownership Declaration</h3>
           <p>Compliance with Mexico&rsquo;s anti-money laundering regulations. We prepare the Beneficiary Controller Declaration and Mandato contract.</p>
         </div>
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(73,212,117,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#49d475"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
           <h3>Remote Signing via DocuSign</h3>
           <p>Shareholders sign all documents remotely &mdash; no need to travel to Mexico. Identity verification via MetaMap ensures legal validity.</p>
         </div>
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(94,215,255,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#5ed7ff"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
           <h3>RFC Registration (Tax ID)</h3>
           <p>We register your company with SAT and activate your RFC &mdash; required for invoicing, banking, importing, and all tax obligations.</p>
         </div>
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(94,215,255,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#5ed7ff"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><circle cx="12" cy="16" r="1"/></svg></div>
           <h3>eFirma (Digital Signature)</h3>
           <p>Procurement of your electronic signature from SAT. Required for digital tax filings, Padron de Importadores registration, and bank account opening.</p>
         </div>
         <div class="included-card">
+          <div style="width:44px;height:44px;border-radius:10px;background:rgba(96,71,255,0.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:#6047ff"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 21h18M3 7v14M21 7v14M6 7V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4"/></svg></div>
           <h3>Registro P&uacute;blico de Comercio</h3>
           <p>Inscription of your company in the Public Registry, giving it full legal personality and the ability to operate, contract, and litigate.</p>
         </div>
@@ -168,17 +182,36 @@
     </div>
   </section>
 
+  <section class="sp-section" style="background:var(--dark);color:#fff;padding:56px 0">
+    <div class="container">
+      <div style="max-width:720px;margin:0 auto;display:flex;align-items:center;gap:32px;flex-wrap:wrap">
+        <div style="flex:1;min-width:280px">
+          <img src="https://cdn.prod.website-files.com/68d6e3633a6cdf88cf9d3b70/691140cb8411638d6f70b9bd_Latitud.svg" alt="Latitud" style="height:24px;filter:brightness(0) invert(1);margin-bottom:16px" loading="lazy">
+          <blockquote style="font-size:1.25rem;font-style:italic;line-height:1.6;color:#fff;border:none;padding:0;margin:0">&ldquo;Just created a subsidiary thanks to Tally. Vamos Latituders!&rdquo;</blockquote>
+          <div style="display:flex;align-items:center;gap:12px;margin-top:20px">
+            <img src="https://cdn.prod.website-files.com/68d6e3633a6cdf88cf9d3b70/69112bafa5ef51074dc57045_latitud%20-%20portrait.webp" alt="Brian Requarth" style="width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,0.2)" loading="lazy">
+            <div>
+              <strong style="color:#fff;font-size:0.9375rem">Brian Requarth</strong><br>
+              <span style="color:var(--text-muted-dark);font-size:0.8125rem">Co-Founder, Latitud</span>
+            </div>
+            <img src="https://flagcdn.com/w160/br.png" alt="Brazil" style="width:28px;height:20px;border-radius:3px;object-fit:cover;margin-left:auto" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="sp-section">
     <div class="container">
       <h2>Timeline: From Decision to Operational Entity</h2>
       <p class="subtitle">A clear, managed path with no surprises.</p>
       <div class="timeline-steps">
-        <div class="tl-step"><div class="tl-dot"></div><div class="tl-time">Week 1</div><h3>Document Collection &amp; Structure Advisory</h3><p>We collect shareholder IDs, define the entity type, draft bylaws, and reserve the company name.</p></div>
-        <div class="tl-step"><div class="tl-dot"></div><div class="tl-time">Week 2</div><h3>Drafting &amp; Shareholder Signing</h3><p>Incorporation deed drafted. Shareholders review and sign via DocuSign. Identity verified through MetaMap.</p></div>
-        <div class="tl-step"><div class="tl-dot"></div><div class="tl-time">Week 2&ndash;3</div><h3>Notarization</h3><p>Documents taken to notary for formalization. Tally handles all in-person requirements.</p></div>
-        <div class="tl-step"><div class="tl-dot"></div><div class="tl-time">Week 3&ndash;4</div><h3>Registro P&uacute;blico Inscription</h3><p>Company registered in the Public Registry of Commerce, receiving full legal personality.</p></div>
-        <div class="tl-step"><div class="tl-dot"></div><div class="tl-time">Week 4&ndash;5</div><h3>RFC &amp; SAT Registration</h3><p>Tax ID obtained, fiscal regime configured, and company activated with SAT.</p></div>
-        <div class="tl-step"><div class="tl-dot"></div><div class="tl-time">Week 5&ndash;6</div><h3>eFirma &amp; Operational Readiness</h3><p>Digital signature procured. Your entity is now ready for banking, importing, and marketplace registration.</p></div>
+        <div class="tl-step"><div class="tl-dot">1</div><div class="tl-time">Week 1</div><h3>Document Collection &amp; Structure Advisory</h3><p>We collect shareholder IDs, define the entity type, draft bylaws, and reserve the company name.</p></div>
+        <div class="tl-step"><div class="tl-dot">2</div><div class="tl-time">Week 2</div><h3>Drafting &amp; Shareholder Signing</h3><p>Incorporation deed drafted. Shareholders review and sign via DocuSign. Identity verified through MetaMap.</p></div>
+        <div class="tl-step"><div class="tl-dot">3</div><div class="tl-time">Week 2&ndash;3</div><h3>Notarization</h3><p>Documents taken to notary for formalization. Tally handles all in-person requirements.</p></div>
+        <div class="tl-step"><div class="tl-dot">4</div><div class="tl-time">Week 3&ndash;4</div><h3>Registro P&uacute;blico Inscription</h3><p>Company registered in the Public Registry of Commerce, receiving full legal personality.</p></div>
+        <div class="tl-step"><div class="tl-dot">5</div><div class="tl-time">Week 4&ndash;5</div><h3>RFC &amp; SAT Registration</h3><p>Tax ID obtained, fiscal regime configured, and company activated with SAT.</p></div>
+        <div class="tl-step"><div class="tl-dot">6</div><div class="tl-time">Week 5&ndash;6</div><h3>eFirma &amp; Operational Readiness</h3><p>Digital signature procured. Your entity is now ready for banking, importing, and marketplace registration.</p></div>
       </div>
     </div>
   </section>
@@ -208,7 +241,7 @@
     <div class="container">
       <h2>Ready to Form Your Mexican Company?</h2>
       <p>Get a free consultation and custom roadmap for your entity formation.</p>
-      <a href="/contact.html" class="btn btn-primary">Get Your Free Assessment</a>
+      <a href="/#cta-final" class="btn btn-primary">Get Your Mexico Roadmap</a>
     </div>
   </section>
 
