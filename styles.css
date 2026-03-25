@@ -1712,14 +1712,15 @@ input, select, textarea {
 
 .carousel-flag {
   position: absolute;
-  bottom: 24px;
-  right: 28px;
-  width: 44px;
-  height: 32px;
+  bottom: 28px;
+  right: 32px;
+  width: 64px;
+  height: auto;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.15);
 }
 
 /* ======================================================
