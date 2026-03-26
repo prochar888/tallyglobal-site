@@ -2,18 +2,27 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KXDGDXZN');</script>
+  <!-- End Google Tag Manager -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Tally Global | Mexico Market Entry Company</title>
-  <meta name="description" content="Meet the team behind Tally Global. 20+ specialists in Mexico City helping international brands build real businesses in Latin America's fastest-growing ecommerce market.">
+  <title>About Tally Global | Our Story &amp; Mission</title>
+  <meta name="description" content="Founded in 2019 in Mexico City. 4,500+ companies formed. Meet the team and the mission behind Tally Global — the strategic partner for entrepreneurs building real businesses in Mexico.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://tallyglobal.ai/about">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.prod.website-files.com/68d0a16872bd6561dfde96a8/68d0a16872bd6561dfde973e_favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.prod.website-files.com/68d0a16872bd6561dfde96a8/68d0a16872bd6561dfde9740_apple-touch-icon.png">
   <link rel="alternate" hreflang="en" href="https://tallyglobal.ai/about">
   <link rel="alternate" hreflang="zh" href="https://tallyglobal.ai/china/">
   <link rel="alternate" hreflang="es" href="https://tallyglobal.ai/es/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="About Tally Global — Mexico Market Entry Company">
-  <meta property="og:description" content="20+ specialists in Mexico City helping 200+ international brands launch and scale in Mexico.">
+  <meta property="og:title" content="About Tally Global — Our Story &amp; Mission">
+  <meta property="og:description" content="Founded in 2019. 4,500+ companies formed. A small group of believers trying to change the world.">
   <meta property="og:image" content="https://tallyglobal.ai/og-image.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tallyglobal.ai/about">
@@ -21,14 +30,14 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="About Tally Global — Mexico Market Entry Company">
-  <meta name="twitter:description" content="20+ specialists in Mexico City helping 200+ international brands launch and scale in Mexico.">
+  <meta name="twitter:title" content="About Tally Global — Our Story &amp; Mission">
+  <meta name="twitter:description" content="Founded in 2019. 4,500+ companies formed. A small group of believers trying to change the world.">
   <meta name="twitter:image" content="https://tallyglobal.ai/og-image.jpg">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
@@ -42,8 +51,8 @@
     "alternateName": ["Tally Legal", "TallyGlobal.ai"],
     "url": "https://tallyglobal.ai",
     "logo": "https://tallyglobal.ai/logo.png",
-    "description": "End-to-end Mexico market entry for international ecommerce brands. Entity formation, COFEPRIS compliance, imports, banking, accounting, and marketplace onboarding.",
-    "foundingDate": "2023",
+    "description": "End-to-end Mexico market entry for international entrepreneurs. 4,500+ companies formed since 2019.",
+    "foundingDate": "2019",
     "foundingLocation": {
       "@type": "Place",
       "name": "Mexico City, Mexico"
@@ -68,369 +77,256 @@
     "sameAs": [
       "https://www.linkedin.com/company/tallylegal",
       "https://www.tallylegal.io"
-    ],
-    "areaServed": ["US", "CN", "CA", "GB", "DE", "KR", "JP"],
-    "serviceArea": {
-      "@type": "Country",
-      "name": "Mexico"
-    }
+    ]
   }
   </script>
 
   <style>
-    /* ===== ABOUT PAGE STYLES ===== */
+    /* ===== ABOUT PAGE — MANIFESTO STYLES ===== */
 
+    /* Hero */
     .about-hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+      background: var(--dark);
+    }
+
+    .about-hero-bg {
+      position: absolute;
+      inset: 0;
+      background: url('images/tally-team.jpg') center/cover no-repeat;
+      opacity: 0.2;
+      z-index: 0;
+    }
+
+    .about-hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(10, 10, 20, 0.85) 0%, rgba(10, 10, 20, 0.95) 100%);
+      z-index: 1;
+    }
+
+    .about-hero .container {
+      position: relative;
+      z-index: 2;
+      padding: 160px 24px 120px;
+    }
+
+    .about-hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.5rem, 6vw, 4.2rem);
+      font-weight: 400;
+      color: var(--bg-white);
+      line-height: 1.15;
+      max-width: 800px;
+      margin: 0 auto 32px;
+    }
+
+    .about-hero .hero-subtitle {
+      font-size: clamp(1.05rem, 2vw, 1.3rem);
+      color: var(--text-muted-dark);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    /* Manifesto Section */
+    .manifesto-section {
+      padding: 120px 24px;
+      background: var(--bg-white);
+    }
+
+    .manifesto-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .manifesto-opening {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text-primary);
+      line-height: 1.4;
+      margin-bottom: 56px;
+      position: relative;
+      padding: 0 16px;
+    }
+
+    .manifesto-opening::before {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: var(--accent);
+      margin: 0 auto 40px;
+      border-radius: 2px;
+    }
+
+    .manifesto-body p {
+      font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+      color: var(--text-secondary);
+      line-height: 2;
+      margin-bottom: 28px;
+      text-align: left;
+    }
+
+    .manifesto-body p:last-child {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+      color: var(--text-primary);
+      text-align: center;
+      margin-top: 48px;
+      margin-bottom: 0;
+      line-height: 1.4;
+    }
+
+    /* Dark Quote Block */
+    .dark-quote-section {
+      padding: 100px 24px;
       background: linear-gradient(135deg, var(--dark) 0%, var(--dark-surface) 100%);
-      padding: 160px 0 100px;
       text-align: center;
       position: relative;
       overflow: hidden;
     }
 
-    .about-hero::before {
+    .dark-quote-section::before {
       content: '';
       position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle at 30% 50%, var(--accent-glow) 0%, transparent 50%);
-      opacity: 0.4;
+      top: -40%;
+      left: -20%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      opacity: 0.35;
       pointer-events: none;
     }
 
-    .about-hero h1 {
-      font-size: clamp(2.5rem, 5vw, 3.5rem);
-      font-weight: 800;
+    .dark-quote-text {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.6rem, 4vw, 2.8rem);
+      font-weight: 400;
       color: var(--bg-white);
-      margin-bottom: 20px;
-      position: relative;
-    }
-
-    .about-hero .hero-subtitle {
-      font-size: clamp(1.1rem, 2vw, 1.35rem);
-      color: var(--text-muted-dark);
-      max-width: 640px;
-      margin: 0 auto;
-      line-height: 1.7;
-      position: relative;
-    }
-
-    /* Mission Section */
-    .mission-section {
-      padding: 100px 0;
-      background: var(--bg-white);
-    }
-
-    .mission-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 60px;
-      align-items: center;
-    }
-
-    .mission-content h2 {
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      font-weight: 800;
-      color: var(--text-primary);
-      margin-bottom: 24px;
-      line-height: 1.2;
-    }
-
-    .mission-content p {
-      font-size: 1.1rem;
-      color: var(--text-secondary);
-      line-height: 1.8;
-      margin-bottom: 16px;
-    }
-
-    .mission-visual {
-      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-      border-radius: var(--radius-lg);
-      padding: 60px 40px;
-      text-align: center;
-      color: white;
-    }
-
-    .mission-visual .mission-quote {
-      font-size: 1.5rem;
-      font-weight: 700;
-      line-height: 1.4;
-      margin-bottom: 16px;
-    }
-
-    .mission-visual .mission-attribution {
-      font-size: 0.95rem;
-      opacity: 0.8;
-    }
-
-    /* Story Section */
-    .story-section {
-      padding: 100px 0;
-      background: var(--bg-light);
-    }
-
-    .story-content {
       max-width: 800px;
       margin: 0 auto;
-      text-align: center;
-    }
-
-    .story-content h2 {
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      font-weight: 800;
-      color: var(--text-primary);
-      margin-bottom: 32px;
-    }
-
-    .story-content p {
-      font-size: 1.1rem;
-      color: var(--text-secondary);
-      line-height: 1.8;
-      margin-bottom: 20px;
-    }
-
-    .story-timeline {
-      display: flex;
-      justify-content: center;
-      gap: 48px;
-      margin-top: 48px;
-      flex-wrap: wrap;
-    }
-
-    .timeline-item {
-      text-align: center;
-    }
-
-    .timeline-year {
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--accent);
-      display: block;
-      margin-bottom: 8px;
-    }
-
-    .timeline-desc {
-      font-size: 0.95rem;
-      color: var(--text-secondary);
-      max-width: 180px;
-    }
-
-    /* Team Section */
-    .team-section {
-      padding: 100px 0;
-      background: var(--bg-white);
-    }
-
-    .team-section .section-header {
-      text-align: center;
-      margin-bottom: 60px;
-    }
-
-    .team-section .section-header h2 {
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      font-weight: 800;
-      color: var(--text-primary);
-      margin-bottom: 16px;
-    }
-
-    .team-section .section-header p {
-      font-size: 1.1rem;
-      color: var(--text-secondary);
-      max-width: 600px;
-      margin: 0 auto;
-    }
-
-    .team-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 32px;
-    }
-
-    .team-card {
-      background: var(--bg-white);
-      border: 1px solid #E5E7EB;
-      border-radius: var(--radius-md);
-      padding: 32px 24px;
-      text-align: center;
-      transition: transform var(--transition-base), box-shadow var(--transition-base);
-    }
-
-    .team-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-lg);
-    }
-
-    .team-card.featured {
-      border-color: var(--accent);
-      background: linear-gradient(180deg, rgba(79, 70, 229, 0.03) 0%, var(--bg-white) 100%);
-    }
-
-    .team-photo {
-      width: 96px;
-      height: 96px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, #E5E7EB 0%, #D1D5DB 100%);
-      margin: 0 auto 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 2rem;
-      color: var(--text-secondary);
-    }
-
-    .team-card.featured .team-photo {
-      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-      color: white;
-    }
-
-    .team-card h3 {
-      font-size: 1.15rem;
-      font-weight: 700;
-      color: var(--text-primary);
-      margin-bottom: 4px;
-    }
-
-    .team-card .team-role {
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: var(--accent);
-      margin-bottom: 12px;
-    }
-
-    .team-card .team-desc {
-      font-size: 0.9rem;
-      color: var(--text-secondary);
-      line-height: 1.6;
-    }
-
-    .team-card .team-members {
-      font-size: 0.85rem;
-      color: var(--text-secondary);
-      margin-top: 8px;
-      font-style: italic;
+      line-height: 1.35;
+      position: relative;
+      z-index: 1;
     }
 
     /* Stats Section */
-    .stats-section {
-      padding: 100px 0;
-      background: linear-gradient(135deg, var(--dark) 0%, var(--dark-surface) 100%);
-    }
-
-    .stats-section h2 {
-      text-align: center;
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      font-weight: 800;
-      color: var(--bg-white);
-      margin-bottom: 60px;
-    }
-
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 32px;
-    }
-
-    .stat-card {
-      text-align: center;
-      padding: 32px 16px;
-      background: var(--glass);
-      border: 1px solid var(--glass-border);
-      border-radius: var(--radius-md);
-    }
-
-    .stat-card .stat-value {
-      font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 800;
-      color: var(--bg-white);
-      display: block;
-      margin-bottom: 8px;
-    }
-
-    .stat-card .stat-value .accent {
-      color: var(--accent-light);
-    }
-
-    .stat-card .stat-desc {
-      font-size: 0.95rem;
-      color: var(--text-muted-dark);
-      line-height: 1.5;
-    }
-
-    /* Partners Section */
-    .partners-section {
-      padding: 100px 0;
+    .about-stats {
+      padding: 100px 24px;
       background: var(--bg-light);
     }
 
-    .partners-section h2 {
-      text-align: center;
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      font-weight: 800;
-      color: var(--text-primary);
-      margin-bottom: 16px;
-    }
-
-    .partners-section .partners-subtitle {
-      text-align: center;
-      font-size: 1.1rem;
-      color: var(--text-secondary);
-      margin-bottom: 48px;
-    }
-
-    .partners-grid {
+    .about-stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 32px;
-      max-width: 800px;
+      gap: 48px;
+      max-width: 900px;
       margin: 0 auto;
-    }
-
-    .partner-card {
-      background: var(--bg-white);
-      border: 1px solid #E5E7EB;
-      border-radius: var(--radius-md);
-      padding: 40px 24px;
       text-align: center;
-      transition: box-shadow var(--transition-base);
     }
 
-    .partner-card:hover {
-      box-shadow: var(--shadow-md);
-    }
-
-    .partner-logo {
-      width: 80px;
-      height: 80px;
-      border-radius: var(--radius-sm);
-      background: #F3F4F6;
-      margin: 0 auto 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: var(--text-secondary);
-    }
-
-    .partner-card h3 {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: var(--text-primary);
+    .about-stat-number {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.8rem, 5vw, 4rem);
+      font-weight: 400;
+      color: var(--accent);
+      display: block;
       margin-bottom: 8px;
+      line-height: 1;
     }
 
-    .partner-card p {
-      font-size: 0.9rem;
+    .about-stat-label {
+      font-size: 1rem;
       color: var(--text-secondary);
       line-height: 1.5;
+      font-weight: 400;
+    }
+
+    /* Team Photo Section */
+    .team-photo-section {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .team-photo-img {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+      display: block;
+      border-radius: 0;
+    }
+
+    .team-photo-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(10, 10, 20, 0) 0%, rgba(10, 10, 20, 0.75) 100%);
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 48px 24px;
+    }
+
+    .team-photo-text {
+      color: var(--bg-white);
+      text-align: center;
+      max-width: 760px;
+      font-size: clamp(1rem, 1.8vw, 1.2rem);
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    /* Promise Section */
+    .promise-section {
+      padding: 120px 24px;
+      background: var(--bg-white);
+    }
+
+    .promise-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .promise-inner h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      font-weight: 400;
+      color: var(--text-primary);
+      margin-bottom: 40px;
+      line-height: 1.25;
+    }
+
+    .promise-inner p {
+      font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+      color: var(--text-secondary);
+      line-height: 2;
+      margin-bottom: 24px;
+    }
+
+    .promise-inner p.promise-closer {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.4rem, 2.5vw, 2rem);
+      color: var(--text-primary);
+      margin-top: 48px;
+      margin-bottom: 0;
+      line-height: 1.4;
     }
 
     /* CTA Section */
     .about-cta {
-      padding: 100px 0;
-      background: linear-gradient(135deg, var(--dark) 0%, var(--dark-surface) 100%);
+      padding: 120px 24px;
+      background: linear-gradient(135deg, var(--accent) 0%, #6D28D9 50%, var(--dark) 100%);
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -441,76 +337,71 @@
       position: absolute;
       top: -50%;
       right: -20%;
-      width: 600px;
-      height: 600px;
-      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
-      opacity: 0.5;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
       pointer-events: none;
     }
 
     .about-cta h2 {
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      font-weight: 800;
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.6rem, 3.5vw, 2.6rem);
+      font-weight: 400;
       color: var(--bg-white);
-      margin-bottom: 16px;
-      position: relative;
-    }
-
-    .about-cta p {
-      font-size: 1.15rem;
-      color: var(--text-muted-dark);
       margin-bottom: 32px;
-      max-width: 560px;
+      max-width: 700px;
       margin-left: auto;
       margin-right: auto;
       position: relative;
+      line-height: 1.3;
     }
 
-    .about-cta .cta-buttons {
-      display: flex;
-      gap: 16px;
-      justify-content: center;
-      flex-wrap: wrap;
+    .about-cta .btn-cta {
+      display: inline-block;
+      padding: 18px 48px;
+      background: var(--bg-white);
+      color: var(--dark);
+      font-size: 1.1rem;
+      font-weight: 700;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      transition: transform var(--transition-base), box-shadow var(--transition-base);
       position: relative;
+    }
+
+    .about-cta .btn-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
     }
 
     /* Responsive */
     @media (max-width: 768px) {
-      .mission-grid {
+      .about-stats-grid {
         grid-template-columns: 1fr;
         gap: 40px;
       }
 
-      .stats-grid {
-        grid-template-columns: 1fr 1fr;
+      .team-photo-img {
+        height: 300px;
       }
 
-      .partners-grid {
-        grid-template-columns: 1fr;
-        max-width: 360px;
-      }
-
-      .story-timeline {
-        flex-direction: column;
-        align-items: center;
-        gap: 32px;
-      }
-
-      .team-grid {
-        grid-template-columns: 1fr;
-        max-width: 400px;
-        margin: 0 auto;
+      .about-hero .container {
+        padding: 140px 24px 80px;
       }
     }
   </style>
 </head>
 <body>
 
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXDGDXZN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <!-- ===== NAVIGATION ===== -->
   <header class="site-header" id="site-header">
     <div class="container nav-container">
       <a href="/" class="logo" aria-label="Tally Global Home">
-        <span class="logo-text">Tally<span class="logo-accent">Global</span></span>
+        <svg viewBox="0 0 226.8 185" xmlns="http://www.w3.org/2000/svg" width="150" height="56" style="fill:currentColor" class="logo-svg"><g><path d="M57.2,135.4c0,8.5,0,17,0,25.4c0,0.8-0.2,0.9-0.9,0.9c-6.5,0-13,0-19.5,0c-0.8,0-1-0.2-1-1c0-16.9,0-33.7,0-50.6c0-1.4,0.1-1.2-1.2-1.2c-6.1,0-12.1,0-18.2,0c-0.7,0-1-0.2-1-0.9c-0.1-2.2-0.5-4.4-0.3-6.6c0.4-4.8,3.8-8.3,8.6-9.2c1.3-0.2,2.6-0.3,4-0.3c16.2,0,32.3,0,48.5,0c0.8,0,1,0.2,1,1c0.2,2,0.2,3.9,0.3,5.9c0.2,5.7-3.2,9-8.3,9.8c-1.8,0.3-3.6,0.3-5.4,0.3c-1.8,0-3.7,0-5.5,0c-1,0-1,0-1,1C57.2,118.5,57.2,127,57.2,135.4z"/><path d="M167.1,182c-1.7,0-3.4,0-5-0.3c-4.4-0.9-6.3-3.8-5.3-8.1c0.5-2.1,1.5-4,2.6-5.9c0.2-0.5,0.5-0.2,0.8-0.1c1.8,1,3.7,1.5,5.8,1.4c3.5-0.1,5.5-1.5,6.7-4.8c0.8-2.4,0.8-2.4-1.6-2.4c-1.3,0-2.5-0.1-3.8,0c-0.8,0.1-1-0.3-1.3-0.9c-1.8-5.4-3.5-10.9-5.3-16.3c-2.4-7.3-4.8-14.7-7.2-22c-0.1-0.4-0.3-0.7,0.3-0.9c4-1.2,8.1-1.8,12.2-0.9c3.8,0.8,5.9,3.4,6.8,7.1c1.2,5.4,2.3,10.9,3.4,16.4c0.2,1.1,0.4,2.2,0.7,3.3c0.1,0.2,0,0.6,0.3,0.6c0.3,0,0.3-0.4,0.3-0.6c0.8-4,1.6-8,2.4-11.9c0.6-2.9,1-5.8,1.9-8.5c1.4-4.2,4.8-6.6,9.3-6.7c3,0,5.9,0.4,8.7,1.4c0.4,0.2,0.6,0.3,0.4,0.8c-3.2,11.7-6.3,23.5-9.5,35.2c-1,3.8-1.9,7.7-3.6,11.4c-1.6,3.6-3.7,6.9-7,9.3c-3.1,2.3-6.6,3.2-10.4,3.4C168.7,182.1,167.9,182,167.1,182z"/><path d="M103.6,145.2c0.1,2.8-0.1,6.2,0.1,9.7c0.1,2.3,0.4,4.5,1.1,6.7c0.2,0.5,0,0.7-0.5,0.8c-3.8,1.1-7.6,1.2-11.4,0.6c-1.9-0.3-3.6-1.2-4.4-3.2c-0.2-0.4-0.3-0.3-0.6-0.1c-4.7,3.7-10.2,4.1-15.8,3c-6.1-1.3-9.3-5.6-9.5-11.8c-0.2-6.5,3.2-10.5,8.6-12.9c3.9-1.7,8-2.4,12.3-2.6c0.9-0.1,1.9-0.1,2.8-0.1c0.4,0,0.5-0.1,0.5-0.5c0.2-2.6-0.9-3.9-3.4-4.3c-4-0.5-7.8,0.3-11.5,1.7c-1,0.4-2,0.8-2.9,1.3c-0.3,0.1-0.6,0.2-0.8-0.1c-1.2-1.6-2.3-3.3-2.8-5.3c-0.5-1.7,0-3.2,1.4-4.3c1.7-1.4,3.7-2.3,5.9-2.9c6.1-1.6,12.3-2,18.5-1c2.4,0.4,4.6,1.1,6.7,2.4c3.2,2.1,4.7,5.2,5.4,8.8c0.3,1.5,0.4,3.1,0.4,4.6C103.6,138.8,103.6,141.7,103.6,145.2z M87.1,147.1c0-1.1,0-2.2,0-3.4c0-0.4-0.1-0.7-0.6-0.6c-1.7,0.2-3.4,0.5-5,1.3c-1.4,0.7-2.3,1.8-2.6,3.4c-0.5,2.9,0.8,4.9,3.3,5.3c1,0.1,1.9,0,2.8-0.3c1.4-0.5,2-1.4,2-2.9C87.1,149,87.1,148.1,87.1,147.1z"/><path d="M150.6,130.9c0,10.1,0,20.2,0,30.4c0,0.7-0.2,1-0.9,1.2c-3.2,0.9-6.5,1.1-9.8,0.5c-4.3-0.8-6.5-3.1-6.9-7.5c-0.1-1.1-0.1-2.2-0.1-3.3c0-19.5,0-38.9,0-58.4c0-0.8,0.2-1.1,1-1.2c3.1-0.4,6.2-0.7,9.4-0.1c3.1,0.6,5.6,1.9,6.7,5c0.5,1.3,0.6,2.8,0.6,4.2C150.6,111.4,150.6,121.2,150.6,130.9z"/><path d="M125.8,130.7c0,10.2,0,20.3,0,30.5c0,0.7-0.2,1-0.9,1.2c-3.4,1-6.9,1.1-10.3,0.4c-3.9-0.9-5.9-3.2-6.3-7.3c-0.1-1.3-0.2-2.6-0.2-3.9c0-19.3,0-38.6,0-57.9c0-0.8,0.2-1.1,1-1.2c3.1-0.4,6.3-0.7,9.4-0.1c2.9,0.5,5.3,1.8,6.5,4.6c0.6,1.3,0.8,2.6,0.8,4C125.8,110.9,125.8,120.8,125.8,130.7z"/></g></svg>
       </a>
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
         <ul class="nav-links">
@@ -518,8 +409,9 @@
           <li><a href="/#how-it-works">How It Works</a></li>
           <li><a href="/#why-tally">Why Tally</a></li>
           <li><a href="/#china-desk">China Desk</a></li>
+          <li><a href="/#testimonials">Testimonials</a></li>
           <li><a href="/#faq">FAQ</a></li>
-          <li><a href="/contact" class="nav-cta">Get Started</a></li>
+          <li><a href="/pricing.html">Pricing</a></li>
         </ul>
       </nav>
       <div class="nav-right">
@@ -527,9 +419,8 @@
           <a href="/" class="lang-active">EN</a>
           <span class="lang-sep">|</span>
           <a href="/china/">&#x4E2D;&#x6587;</a>
-          <span class="lang-sep">|</span>
-          <a href="/es/">ES</a>
         </div>
+        <a href="/#cta-final" class="nav-cta">Talk to Us</a>
         <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
@@ -541,250 +432,104 @@
 
   <!-- ===== HERO ===== -->
   <section class="about-hero">
+    <div class="about-hero-bg"></div>
+    <div class="about-hero-overlay"></div>
     <div class="container">
-      <h1>About Tally Global</h1>
+      <h1>A small group of believers trying to change the world.</h1>
       <p class="hero-subtitle">
-        The leading end-to-end Mexico market entry partner for international ecommerce brands.
-        20+ specialists on the ground in Mexico City.
+        Founded in 2019 in Mexico City. 4,500+ companies formed. This is just the beginning.
       </p>
     </div>
   </section>
 
-  <!-- ===== OUR MISSION ===== -->
-  <section class="mission-section">
+  <!-- ===== MANIFESTO ===== -->
+  <section class="manifesto-section">
+    <div class="manifesto-inner">
+      <p class="manifesto-opening">
+        &ldquo;A revolution is not an event. It is a process. And it takes time.&rdquo;
+      </p>
+      <div class="manifesto-body">
+        <p>
+          Our dream is to turn Latin America into a global powerhouse. We believe the engine of change
+          is not in politics or multinational corporations &mdash; it is in entrepreneurs like you.
+        </p>
+        <p>
+          We were born in 2019 in a small office in Mexico City with one idea: make it radically easier
+          for international brands to build real businesses in Mexico. Not shortcuts. Not workarounds.
+          Real companies, fully owned by the people who built them.
+        </p>
+        <p>
+          Since then, we have formed over 4,500 companies through our platform. Entrepreneurs from the
+          United States, China, Korea, Brazil, Spain, Vietnam, Argentina, and 20+ more countries have
+          trusted us to be their strategic partner.
+        </p>
+        <p>This is only the beginning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DARK QUOTE BLOCK ===== -->
+  <section class="dark-quote-section">
     <div class="container">
-      <div class="mission-grid">
-        <div class="mission-content">
-          <h2>Our Mission</h2>
-          <p>
-            We exist to help international brands build real, lasting businesses in Mexico &mdash;
-            not just list products on a marketplace. While others offer shortcuts, we build the
-            infrastructure that lets you own and operate a genuine Mexican subsidiary.
-          </p>
-          <p>
-            Every brand that works with Tally gets their own legal entity, their own tax ID, their
-            own bank account, and their own marketplace seller accounts. Full ownership. Full control.
-            Full brand equity from day one.
-          </p>
-          <p>
-            We handle every layer of complexity &mdash; legal, regulatory, financial, logistical &mdash;
-            so our clients can focus on what they do best: building great products and growing their brands.
-          </p>
+      <p class="dark-quote-text">
+        &ldquo;Competitors let you rent access to Mexico.<br>
+        Tally lets you own a business there.&rdquo;
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="about-stats">
+    <div class="container">
+      <div class="about-stats-grid">
+        <div>
+          <span class="about-stat-number">4,500+</span>
+          <span class="about-stat-label">Companies formed</span>
         </div>
-        <div class="mission-visual">
-          <p class="mission-quote">
-            &ldquo;Competitors let you rent access to Mexico. Tally lets you own a business there.&rdquo;
-          </p>
-          <p class="mission-attribution">&mdash; The Tally Difference</p>
+        <div>
+          <span class="about-stat-number">20+</span>
+          <span class="about-stat-label">Countries of origin</span>
+        </div>
+        <div>
+          <span class="about-stat-number">2019</span>
+          <span class="about-stat-label">Founded in Mexico City</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== OUR STORY ===== -->
-  <section class="story-section">
-    <div class="container">
-      <div class="story-content">
-        <h2>Our Story</h2>
-        <p>
-          Tally Global was founded in Mexico City with a straightforward insight: international brands
-          wanted to sell in Mexico, but the bureaucracy was stopping them. Amazon sellers trying to
-          navigate RFC registration, COFEPRIS permits, customs clearance, and banking requirements
-          were spending 12&ndash;18 months and thousands of dollars before making a single sale.
-        </p>
-        <p>
-          We started by helping a handful of US supplement brands cut through the red tape. Entity
-          formation, regulatory filings, bank account setup &mdash; all managed end-to-end by our
-          growing team in CDMX. Word spread. More brands came. The services expanded.
-        </p>
-        <p>
-          Today, Tally Global is the leading Mexico market entry partner for international ecommerce brands.
-          We have helped 200+ companies from 15+ countries launch and operate in Mexico &mdash; from entity
-          formation through to their thousandth sale. Our team of 20+ specialists covers every discipline
-          required to build a real business in Latin America's fastest-growing ecommerce market.
-        </p>
-        <div class="story-timeline">
-          <div class="timeline-item">
-            <span class="timeline-year">2023</span>
-            <p class="timeline-desc">Founded in Mexico City, helping Amazon sellers with legal setup</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-year">2024</span>
-            <p class="timeline-desc">Expanded to full-service: imports, COFEPRIS, banking, accounting</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-year">2025</span>
-            <p class="timeline-desc">200+ brands, Amazon SPN Partner, China Desk launched</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-year">2026</span>
-            <p class="timeline-desc">Mercado Libre partnership, immigration services, 20+ team</p>
-          </div>
-        </div>
-      </div>
+  <!-- ===== TEAM PHOTO ===== -->
+  <section class="team-photo-section">
+    <img src="images/tally-team.jpg" alt="The Tally Global team in Mexico City" class="team-photo-img">
+    <div class="team-photo-overlay">
+      <p class="team-photo-text">
+        20+ specialists. One office in Mexico City. Legal, regulatory, imports, accounting, banking,
+        marketplaces &mdash; every discipline under one roof.
+      </p>
     </div>
   </section>
 
-  <!-- ===== THE TEAM ===== -->
-  <section id="team" class="team-section">
-    <div class="container">
-      <div class="section-header">
-        <h2>The Team</h2>
-        <p>
-          20+ specialists on the ground in Mexico City, covering every discipline needed to launch
-          and operate your business in Mexico.
-        </p>
-      </div>
-
-      <div class="team-grid">
-        <!-- CEO -->
-        <div class="team-card featured">
-          <div class="team-photo">PR</div>
-          <h3>Pablo Rocha</h3>
-          <p class="team-role">CEO &amp; Co-Founder</p>
-          <p class="team-desc">
-            Leads Tally Global's strategy and vision. Oversees client relationships, partnerships,
-            and the company's expansion across Latin America.
-          </p>
-        </div>
-
-        <!-- Legal Team -->
-        <div class="team-card">
-          <div class="team-photo">LG</div>
-          <h3>Legal Team</h3>
-          <p class="team-role">Entity Formation &amp; Corporate Governance</p>
-          <p class="team-desc">
-            S de RL, SA, and SAPI incorporation. RFC and eFirma registration, Registro Publico
-            filings, SAT operations, and full corporate legal support.
-          </p>
-          <p class="team-members">Uriel, Brandon, Karla</p>
-        </div>
-
-        <!-- Regulatory Team -->
-        <div class="team-card">
-          <div class="team-photo">RG</div>
-          <h3>Regulatory Team</h3>
-          <p class="team-role">COFEPRIS, NOM &amp; SENASICA Compliance</p>
-          <p class="team-desc">
-            Sanitary permits for supplements, cosmetics, food, and medical devices. NOM labeling
-            certification, SENASICA clearance, and ongoing regulatory monitoring.
-          </p>
-          <p class="team-members">Samantha, Adriana</p>
-        </div>
-
-        <!-- Operations -->
-        <div class="team-card">
-          <div class="team-photo">OP</div>
-          <h3>Operations</h3>
-          <p class="team-role">Imports, Customs &amp; Logistics</p>
-          <p class="team-desc">
-            End-to-end import management including tariff classification, Padron de Importadores,
-            customs broker coordination, and door-to-FBA delivery.
-          </p>
-          <p class="team-members">Alejandra, Joaquin</p>
-        </div>
-
-        <!-- Finance -->
-        <div class="team-card">
-          <div class="team-photo">FN</div>
-          <h3>Finance</h3>
-          <p class="team-role">Accounting, Banking &amp; Tax Compliance</p>
-          <p class="team-desc">
-            Monthly bookkeeping, ISR, IVA, and DIOT filings. Bank account opening, PLD compliance,
-            CFDI invoice management, and fiscal configuration with SAT.
-          </p>
-          <p class="team-members">Juan, Edgar, Elizabeth</p>
-        </div>
-
-        <!-- Customer Success -->
-        <div class="team-card">
-          <div class="team-photo">CS</div>
-          <h3>Customer Success</h3>
-          <p class="team-role">Client-Facing SPOC Model</p>
-          <p class="team-desc">
-            Your Single Point of Contact throughout the entire journey. Manages communications,
-            coordinates internal specialists, and ensures nothing falls through the cracks.
-          </p>
-          <p class="team-members">Ximena, Marta, Paola</p>
-        </div>
-
-        <!-- Immigration -->
-        <div class="team-card">
-          <div class="team-photo">IM</div>
-          <h3>Immigration</h3>
-          <p class="team-role">Visa &amp; Residency Support</p>
-          <p class="team-desc">
-            Work visas, temporary and permanent residency applications for founders and team
-            members relocating to Mexico. Full immigration process management.
-          </p>
-          <p class="team-members">Nadia</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== BY THE NUMBERS ===== -->
-  <section class="stats-section">
-    <div class="container">
-      <h2>By the Numbers</h2>
-      <div class="stats-grid">
-        <div class="stat-card">
-          <span class="stat-value"><span class="accent">200+</span></span>
-          <span class="stat-desc">Brands launched in Mexico from the US, China, Europe, and Latin America</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value"><span class="accent">20+</span></span>
-          <span class="stat-desc">Team members on the ground in Mexico City covering every discipline</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value"><span class="accent">15+</span></span>
-          <span class="stat-desc">Countries served &mdash; US, China, Canada, UK, Germany, Korea, Japan, and more</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value"><span class="accent">CDMX</span></span>
-          <span class="stat-desc">Headquartered in Mexico City &mdash; Xola 1106, Narvarte Poniente, 03020</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== OUR PARTNERS ===== -->
-  <section class="partners-section">
-    <div class="container">
-      <h2>Our Partners</h2>
-      <p class="partners-subtitle">Trusted partnerships with the platforms and institutions that matter most.</p>
-      <div class="partners-grid">
-        <div class="partner-card">
-          <div class="partner-logo">SPN</div>
-          <h3>Amazon SPN</h3>
-          <p>Official Amazon Seller Partner Network member. Preferred access and dedicated support for seller onboarding.</p>
-        </div>
-        <div class="partner-card">
-          <div class="partner-logo">MELI</div>
-          <h3>Mercado Libre</h3>
-          <p>Direct Mercado Libre partnership for marketplace onboarding across Latin America's largest ecommerce platform.</p>
-        </div>
-        <div class="partner-card">
-          <div class="partner-logo">BBVA</div>
-          <h3>BBVA Mexico</h3>
-          <p>Banking partnership for streamlined account opening, KYC processing, and ongoing financial operations.</p>
-        </div>
-      </div>
+  <!-- ===== OUR PROMISE ===== -->
+  <section class="promise-section">
+    <div class="promise-inner">
+      <h2>Our Promise</h2>
+      <p>
+        We exist to remove obstacles from your path so you can focus on what truly matters:
+        building something great.
+      </p>
+      <p>
+        Tally exists to clear the rocks from your road. But success depends on you &mdash;
+        and only you.
+      </p>
+      <p class="promise-closer">We are here to propel you forward.</p>
     </div>
   </section>
 
   <!-- ===== CTA ===== -->
   <section class="about-cta">
     <div class="container">
-      <h2>Ready to Build Your Business in Mexico?</h2>
-      <p>
-        Get a free assessment of your products, timeline, and costs.
-        No commitment &mdash; just clarity.
-      </p>
-      <div class="cta-buttons">
-        <a href="/contact" class="btn btn-primary">Get Your Free Market Assessment</a>
-        <a href="/#how-it-works" class="btn btn-ghost">See How It Works</a>
-      </div>
+      <h2>Ready to join 4,500+ entrepreneurs building in Mexico?</h2>
+      <a href="/#cta-final" class="btn-cta">Get Your Mexico Roadmap</a>
     </div>
   </section>
 
@@ -799,6 +544,7 @@
             <li><a href="/about#team">Our Team</a></li>
             <li><a href="/careers">Careers</a></li>
             <li><a href="/blog">Blog</a></li>
+            <li><a href="/pricing.html">Pricing</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -817,7 +563,7 @@
           <h4>Resources</h4>
           <ul>
             <li><a href="/#faq">FAQ</a></li>
-            <li><a href="/guides">Market Guides</a></li>
+            <li><a href="/guides.html">Market Guides</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/privacy-policy">Privacy Policy</a></li>
           </ul>
@@ -826,7 +572,7 @@
           <h4>Connect</h4>
           <ul>
             <li><a href="mailto:hello@tallyglobal.ai">hello@tallyglobal.ai</a></li>
-            <li><a href="tel:+5255XXXXXXXX">+52 55 XXXX XXXX</a></li>
+            <li><a href="mailto:hello@tallyglobal.ai">Schedule a Call</a></li>
             <li><a href="https://www.linkedin.com/company/tallylegal" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
             <li><a href="/china/">WeChat &rarr;</a></li>
           </ul>
@@ -838,8 +584,6 @@
           <a href="/" class="lang-active">EN</a>
           <span class="lang-sep">|</span>
           <a href="/china/">&#x4E2D;&#x6587;</a>
-          <span class="lang-sep">|</span>
-          <a href="/es/">ES</a>
         </div>
       </div>
     </div>
