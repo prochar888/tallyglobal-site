@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://tallyglobal.ai/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tallyglobal.ai/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tallyglobal.ai/pricing.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tallyglobal.ai/guides.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tallyglobal.ai/services/legal-formation.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tallyglobal.ai/services/cofepris.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tallyglobal.ai/services/imports.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tallyglobal.ai/services/banking.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tallyglobal.ai/services/accounting.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tallyglobal.ai/services/marketplace-access.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tallyglobal.ai/services/trademark-registration.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tallyglobal.ai/services/immigration.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>

@@ -376,12 +376,6 @@
     leadForm.addEventListener('submit', function (e) {
       e.preventDefault();
 
-      var formData = new FormData(leadForm);
-      var data = {};
-      formData.forEach(function (value, key) {
-        data[key] = value;
-      });
-
       // Basic validation
       var emailField = leadForm.querySelector('#work-email');
       if (emailField && !emailField.value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
@@ -390,23 +384,53 @@
         return;
       }
 
-      // Simulate submission (replace with actual endpoint)
       var submitBtn = leadForm.querySelector('.form-submit');
       var originalText = submitBtn.textContent;
       submitBtn.textContent = 'Sending...';
       submitBtn.disabled = true;
 
-      setTimeout(function () {
-        submitBtn.textContent = 'Thank you! We\'ll be in touch within 24 hours.';
-        submitBtn.style.background = '#49d475';
-        leadForm.reset();
+      // Push conversion event to GTM
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event': 'form_submission',
+        'form_name': 'lead_assessment',
+        'form_location': 'homepage_cta'
+      });
 
+      // Submit to Formspree
+      var formData = new FormData(leadForm);
+      fetch(leadForm.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      }).then(function (response) {
+        if (response.ok) {
+          submitBtn.textContent = 'Thank you! We\'ll be in touch within 24 hours.';
+          submitBtn.style.background = '#49d475';
+          leadForm.reset();
+          setTimeout(function () {
+            submitBtn.textContent = originalText;
+            submitBtn.style.background = '';
+            submitBtn.disabled = false;
+          }, 5000);
+        } else {
+          submitBtn.textContent = 'Something went wrong. Try again.';
+          submitBtn.style.background = '#EF4444';
+          submitBtn.disabled = false;
+          setTimeout(function () {
+            submitBtn.textContent = originalText;
+            submitBtn.style.background = '';
+          }, 3000);
+        }
+      }).catch(function () {
+        submitBtn.textContent = 'Network error. Try again.';
+        submitBtn.style.background = '#EF4444';
+        submitBtn.disabled = false;
         setTimeout(function () {
           submitBtn.textContent = originalText;
           submitBtn.style.background = '';
-          submitBtn.disabled = false;
-        }, 4000);
-      }, 1000);
+        }, 3000);
+      });
     });
   }
 
