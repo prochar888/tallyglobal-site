@@ -643,7 +643,7 @@ input, select, textarea {
 }
 
 .logo-svg {
-  height: 36px;
+  height: 44px;
   width: auto;
 }
 
@@ -678,7 +678,7 @@ input, select, textarea {
 .nav-right {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .lang-switcher {
