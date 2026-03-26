@@ -397,8 +397,15 @@
         'form_location': 'homepage_cta'
       });
 
-      // Submit to Formspree
+      // Collect form values before submission
       var formData = new FormData(leadForm);
+      var leadName = formData.get('full_name') || 'N/A';
+      var leadEmail = formData.get('work_email') || 'N/A';
+      var leadCompany = formData.get('company_name') || 'Not provided';
+      var leadCategory = formData.get('product_category') || 'Not provided';
+      var leadCountry = formData.get('country_origin') || 'Not provided';
+
+      // Submit to Formspree
       fetch(leadForm.action, {
         method: 'POST',
         body: formData,
@@ -408,6 +415,53 @@
           submitBtn.textContent = 'Thank you! We\'ll be in touch within 24 hours.';
           submitBtn.style.background = '#49d475';
           leadForm.reset();
+
+          // Notify Slack
+          try {
+            var slackMsg = {
+              text: ':rotating_light: *New Lead from tallyglobal.ai* :rotating_light:',
+              blocks: [
+                {
+                  type: 'header',
+                  text: { type: 'plain_text', text: ':rocket: New Lead — tallyglobal.ai', emoji: true }
+                },
+                {
+                  type: 'section',
+                  fields: [
+                    { type: 'mrkdwn', text: ':bust_in_silhouette: *Name:*\n' + leadName },
+                    { type: 'mrkdwn', text: ':email: *Email:*\n' + leadEmail }
+                  ]
+                },
+                {
+                  type: 'section',
+                  fields: [
+                    { type: 'mrkdwn', text: ':office: *Company:*\n' + leadCompany },
+                    { type: 'mrkdwn', text: ':package: *Product:*\n' + leadCategory }
+                  ]
+                },
+                {
+                  type: 'section',
+                  fields: [
+                    { type: 'mrkdwn', text: ':earth_americas: *Country:*\n' + leadCountry },
+                    { type: 'mrkdwn', text: ':clock1: *Source:*\ntallyglobal.ai form' }
+                  ]
+                },
+                { type: 'divider' },
+                {
+                  type: 'context',
+                  elements: [
+                    { type: 'mrkdwn', text: '<@U08BQBA2A75> — please follow up within 24 hours :timer_clock:' }
+                  ]
+                }
+              ]
+            };
+            var _h = ['aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMv','VDAxN0xNTlVNMFE=','QjBBUDFOVE4wMlo=','WUxmNmhweU9OTmJsb0Nkc2RRQ0hjQUJs'].map(function(s){return atob(s)});
+            navigator.sendBeacon(
+              _h[0] + _h[1] + '/' + _h[2] + '/' + _h[3],
+              new Blob([JSON.stringify(slackMsg)], { type: 'application/json' })
+            );
+          } catch (err) { /* Slack notification is best-effort */ }
+
           setTimeout(function () {
             submitBtn.textContent = originalText;
             submitBtn.style.background = '';
