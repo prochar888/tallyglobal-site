@@ -2672,6 +2672,10 @@ input, select, textarea {
     gap: 24px;
   }
 
+  .china-team-grid {
+    grid-template-columns: 1fr !important;
+  }
+
   .china-contact-info {
     text-align: center;
   }
