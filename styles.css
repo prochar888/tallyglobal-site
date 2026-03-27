@@ -666,16 +666,18 @@ input, select, textarea {
   color: #fff;
 }
 
-.nav-cta {
-  background: var(--orange) !important;
-  color: #fff !important;
+.nav-links .nav-cta,
+.nav-right .nav-cta {
+  background: var(--orange);
+  color: #fff;
   padding: 10px 24px;
   border-radius: var(--radius-sm);
   margin-left: 8px;
 }
 
-.nav-cta:hover {
-  background: var(--orange-light) !important;
+.nav-links .nav-cta:hover,
+.nav-right .nav-cta:hover {
+  background: var(--orange-light);
 }
 
 .nav-right {
@@ -1332,8 +1334,9 @@ input, select, textarea {
   min-width: 220px;
 }
 
-.comparison-tally-col {
-  background: rgba(96, 71, 255, 0.04) !important;
+.comparison-table td.comparison-tally-col,
+.comparison-table th.comparison-tally-col {
+  background: rgba(96, 71, 255, 0.04);
 }
 
 .comparison-table th.comparison-tally-col {
@@ -2434,6 +2437,972 @@ input, select, textarea {
 }
 
 /* ======================================================
+   SERVICE PAGE — UNIQUE STYLES
+   ====================================================== */
+
+/* --- Legal Formation: Included Grid & Entity Table --- */
+.included-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.included-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 28px;
+  transition: all var(--transition-base);
+}
+
+.included-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.included-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.included-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.entity-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 32px;
+  font-size: 0.95rem;
+}
+
+.entity-table th,
+.entity-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.entity-table th {
+  background: var(--dark);
+  color: #fff;
+  font-weight: 600;
+}
+
+.entity-table th.rec {
+  background: var(--violet);
+  color: #fff;
+}
+
+.entity-table tr:hover {
+  background: #f0f0ff;
+}
+
+.entity-table td.rec {
+  background: rgba(96, 71, 255, 0.06);
+  font-weight: 600;
+}
+
+/* --- Legal Formation: Timeline Steps --- */
+.timeline-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 32px;
+  position: relative;
+  padding-left: 48px;
+}
+
+.timeline-steps::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--violet), var(--orange));
+}
+
+.tl-step {
+  position: relative;
+  padding: 20px 0;
+}
+
+.tl-step .tl-dot {
+  position: absolute;
+  left: -40px;
+  top: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--violet);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 4px rgba(96, 71, 255, 0.15);
+}
+
+.tl-step h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.tl-step .tl-time {
+  font-size: 0.85rem;
+  color: var(--violet);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.tl-step p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+/* --- COFEPRIS: Timeline Table --- */
+.tl-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  font-size: 0.95rem;
+}
+
+.tl-table th,
+.tl-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.tl-table th {
+  background: var(--dark);
+  color: #fff;
+  font-weight: 600;
+}
+
+.tl-table .fast {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.tl-table .med {
+  color: #D97706;
+  font-weight: 600;
+}
+
+.tl-table .slow {
+  color: #EF4444;
+  font-weight: 600;
+}
+
+/* --- COFEPRIS: Approach Grid --- */
+.approach-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.approach-card {
+  background: var(--bg-white);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  transition: all var(--transition-base);
+}
+
+.approach-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.approach-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.approach-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* --- COFEPRIS: Case Study --- */
+.case-study-card {
+  background: var(--bg-white);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  margin-top: 32px;
+}
+
+.case-study-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.case-study-logo {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+.case-study-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.case-study-tag {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #008250;
+  background: rgba(0, 130, 80, 0.08);
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.case-study-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.case-stat {
+  text-align: center;
+  padding: 20px;
+  background: var(--bg-off-white);
+  border-radius: var(--radius-md);
+}
+
+.case-stat-num {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--violet);
+  letter-spacing: -0.02em;
+}
+
+.case-stat-label {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+}
+
+.case-study-body p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.case-study-body p strong {
+  color: var(--text-primary);
+}
+
+.case-study-products {
+  display: flex;
+  gap: 12px;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.case-study-products img {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid var(--border-light);
+}
+
+.case-study-quote {
+  background: var(--dark);
+  border-radius: var(--radius-md);
+  padding: 28px 32px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.case-study-quote blockquote {
+  color: #fff;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+  flex: 1;
+  min-width: 200px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.case-study-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.case-author-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.case-study-author strong {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.case-study-author span {
+  color: var(--text-muted-dark);
+  font-size: 0.8rem;
+}
+
+/* --- Imports: How Grid --- */
+.how-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.how-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  text-align: center;
+}
+
+.how-card .step-num {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--violet);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.how-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.how-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* --- Imports: Cost Table --- */
+.cost-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  font-size: 0.95rem;
+}
+
+.cost-table th,
+.cost-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.cost-table th {
+  background: var(--dark);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* --- Imports: Disclaimer --- */
+.disclaimer {
+  background: rgba(96, 71, 255, 0.05);
+  border: 1px solid rgba(96, 71, 255, 0.15);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  margin-top: 32px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.disclaimer strong {
+  color: var(--text-primary);
+}
+
+/* --- Banking: Bank Grid --- */
+.bank-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.bank-card {
+  background: var(--bg-white);
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 28px;
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.bank-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.bank-card.featured {
+  border-color: var(--violet);
+}
+
+.bank-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.bank-card .bank-type {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--violet);
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+}
+
+.bank-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* --- Banking: Status Flow --- */
+.status-flow {
+  display: flex;
+  gap: 0;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.status-step {
+  flex: 1;
+  min-width: 150px;
+  text-align: center;
+  padding: 20px 12px;
+  position: relative;
+}
+
+.status-step::after {
+  content: '\2192';
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--violet);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.status-step:last-child::after {
+  display: none;
+}
+
+.status-step .dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--violet);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.status-step h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.status-step p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* --- Marketplace: Compare Grid --- */
+.mp-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.mp-card {
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  position: relative;
+  transition: all var(--transition-base);
+}
+
+.mp-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.mp-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.mp-card .mp-stat {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--violet);
+  margin: 16px 0;
+}
+
+.mp-card .mp-stat-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.mp-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.mp-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mp-card li {
+  padding: 6px 0;
+  padding-left: 24px;
+  position: relative;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.mp-card li::before {
+  content: '\2713';
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  font-weight: 700;
+}
+
+/* --- Marketplace: Badge Section --- */
+.badge-section {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.badge-card {
+  background: rgba(96, 71, 255, 0.05);
+  border: 2px solid var(--violet);
+  border-radius: var(--radius-md);
+  padding: 24px 32px;
+  text-align: center;
+  min-width: 200px;
+}
+
+.badge-card h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--violet);
+}
+
+.badge-card p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+/* --- Marketplace: Also Grid --- */
+.also-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.also-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  transition: all var(--transition-base);
+}
+
+.also-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.08);
+}
+
+.also-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.also-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* --- Trademark: Why Grid --- */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.why-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 28px;
+  transition: all var(--transition-base);
+}
+
+.why-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.why-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.why-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* --- Trademark: Type Grid --- */
+.type-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.type-card {
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.type-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.type-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.type-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* --- Trademark: Horizontal Timeline --- */
+.timeline-h {
+  display: flex;
+  gap: 0;
+  margin-top: 32px;
+  position: relative;
+}
+
+.timeline-h::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--border-light);
+}
+
+.tl-h-step {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  padding-top: 48px;
+}
+
+.tl-h-step .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--violet);
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tl-h-step h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.tl-h-step p {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* --- Immigration: Visa Grid --- */
+.visa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.visa-card {
+  border: 2px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 28px;
+  transition: all var(--transition-base);
+}
+
+.visa-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.visa-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.visa-card .duration {
+  font-size: 0.85rem;
+  color: var(--violet);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.visa-card p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* --- Accounting: Tax Table --- */
+.tax-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  font-size: 0.95rem;
+}
+
+.tax-table th,
+.tax-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.tax-table th {
+  background: var(--dark);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* --- Accounting: Cycle Steps --- */
+.cycle-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.cycle-step {
+  text-align: center;
+  padding: 24px 16px;
+  background: var(--bg-white);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+}
+
+.cycle-step .step-num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--violet);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.cycle-step h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.cycle-step p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* --- Service Page Unique Styles: Responsive --- */
+@media (max-width: 767px) {
+  .included-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .entity-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tl-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .case-study-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .case-study-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .case-study-card {
+    padding: 24px;
+  }
+
+  .how-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cost-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .status-flow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .status-step::after {
+    display: none;
+  }
+
+  .mp-compare,
+  .also-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .badge-section {
+    flex-direction: column;
+  }
+
+  .timeline-h {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .timeline-h::before {
+    display: none;
+  }
+
+  .tl-h-step {
+    padding-top: 0;
+    text-align: left;
+    padding-left: 24px;
+  }
+
+  .tl-h-step .dot {
+    position: static;
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+
+  .cycle-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tax-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .sp-section [style*="grid-template-columns:1.6fr"] {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ======================================================
    RESPONSIVE -- TABLET (768px - 1199px)
    ====================================================== */
 @media (max-width: 1199px) {
@@ -2688,8 +3657,8 @@ input, select, textarea {
     gap: 24px;
   }
 
-  .china-team-grid {
-    grid-template-columns: 1fr !important;
+  .china-section .china-team-grid {
+    grid-template-columns: 1fr;
   }
 
   .china-contact-info {
