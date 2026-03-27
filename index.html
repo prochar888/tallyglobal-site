@@ -64,7 +64,6 @@
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "email": "hello@tallyglobal.ai",
       "contactType": "sales",
       "availableLanguage": ["English", "Spanish", "Chinese"]
     },
@@ -830,7 +829,7 @@
                 <h4 style="font-size:1.05rem;font-weight:700;margin-bottom:2px">Haziel</h4>
                 <p style="font-size:0.8rem;color:var(--china-accent);font-weight:600;margin-bottom:6px">China Desk Lead</p>
                 <p style="font-size:0.8rem;color:var(--text-secondary);line-height:1.4;margin-bottom:6px">Mandarin-speaking. Bridges Chinese brands into the Mexican market.</p>
-                <a href="mailto:haziel@tally.legal" style="font-size:0.8rem;color:var(--china-accent);font-weight:500">haziel@tally.legal</a>
+                <a href="#" data-email="aGF6aWVsQHRhbGx5LmxlZ2Fs" style="font-size:0.8rem;color:var(--china-accent);font-weight:500">Contact</a>
               </div>
             </div>
             <!-- Kai Card -->
@@ -840,7 +839,7 @@
                 <h4 style="font-size:1.05rem;font-weight:700;margin-bottom:2px">Kai</h4>
                 <p style="font-size:0.8rem;color:var(--china-accent);font-weight:600;margin-bottom:6px">Customer Success</p>
                 <p style="font-size:0.8rem;color:var(--text-secondary);line-height:1.4;margin-bottom:6px">Ensures smooth onboarding and ongoing support for Chinese clients.</p>
-                <a href="mailto:kai@tally.legal" style="font-size:0.8rem;color:var(--china-accent);font-weight:500">kai@tally.legal</a>
+                <a href="#" data-email="a2FpQHRhbGx5LmxlZ2Fs" style="font-size:0.8rem;color:var(--china-accent);font-weight:500">Contact</a>
               </div>
             </div>
           </div>
@@ -1192,14 +1191,14 @@
             <li><a href="#faq">FAQ</a></li>
             <li><a href="/guides.html">Market Guides</a></li>
             <li><a href="/#cta-final">Contact</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Connect</h4>
           <ul>
-            <li><a href="mailto:hello@tallyglobal.ai">hello@tallyglobal.ai</a></li>
-            <li><a href="mailto:hello@tallyglobal.ai">Schedule a Call</a></li>
+            <li><a href="#" data-email="aGVsbG9AdGFsbHlnbG9iYWwuYWk=">Contact us</a></li>
+            <li><a href="#" data-email="aGVsbG9AdGFsbHlnbG9iYWwuYWk=">Schedule a Call</a></li>
             <li><a href="https://www.linkedin.com/company/tallylegal" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
             <li><a href="/china/">WeChat &rarr;</a></li>
           </ul>
@@ -1216,6 +1215,15 @@
     </div>
   </footer>
 
+  <script>
+(function(){
+  document.querySelectorAll('[data-email]').forEach(function(el){
+    var e = atob(el.getAttribute('data-email'));
+    el.href = 'mailto:' + e;
+    el.textContent = e;
+  });
+})();
+</script>
   <script src="script.js"></script>
 </body>
 </html>
