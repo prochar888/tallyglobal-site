@@ -105,6 +105,12 @@ This document catalogs all key TallyGlobal.ai pages for strategic internal linki
 - **When to Link**: Any article about Amazon Mexico, marketplace selling, Mexico ecommerce
 - **Anchor Text Examples**: "complete guide to selling on Amazon Mexico", "how to sell on Amazon Mexico", "Amazon Mexico requirements"
 
+### How to Form a Company in Mexico as a Foreigner (2026 Guide)
+- **URL**: https://tallyglobal.ai/blog/form-company-mexico-foreigner-guide.html
+- **Primary Topic**: Mexico entity formation for foreigners (pillar content)
+- **When to Link**: Any article about entity formation, S de RL de CV, company setup, RFC, foreign ownership in Mexico
+- **Anchor Text Examples**: "form a company in Mexico as a foreigner", "Mexico entity formation guide", "S de RL vs SA vs SAPI comparison", "how to open a company in Mexico"
+
 *Add new blog posts here as they are published, following the same format.*
 
 ---
