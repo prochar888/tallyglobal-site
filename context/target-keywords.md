@@ -1,375 +1,379 @@
-# Target Keywords & Topic Clusters
+# Tally Global Target Keywords & Topic Clusters
 
-This document organizes Castos's target keywords by topic cluster for strategic content planning and SEO optimization.
-
-## Instructions
-Fill in this template with your target keywords organized by topic cluster. Update regularly based on keyword research and content performance.
+This document organizes Tally Global's target keywords by topic cluster for strategic content planning and SEO optimization.
 
 ---
 
-## Topic Cluster Structure
-
-Each topic cluster should have:
-- **Pillar Keyword**: Main, high-volume keyword (typically competitive)
-- **Cluster Keywords**: 5-10 related keywords (subtopics)
-- **Long-Tail Keywords**: 10-15 specific, lower-volume phrases
-- **Search Intent**: What users want (informational, commercial, transactional)
-
----
-
-## Cluster 1: Podcast Hosting
+## Cluster 1: Amazon Mexico Market Entry
 
 ### Pillar Keyword
-- **Keyword**: podcast hosting
-- **Search Volume**: [monthly searches]
-- **Difficulty**: [competition level]
+- **Keyword**: sell on amazon mexico
+- **Intent**: Commercial / Informational
+- **Pillar Content URL**: /blog/sell-on-amazon-mexico-complete-guide.html
+
+### Head Keywords
+- sell on amazon mexico
+- amazon mexico
+- amazon fba mexico
+- how to sell on amazon mexico
+- amazon mexico seller
+
+### Cluster Keywords (Subtopics)
+1. **amazon mexico requirements** - What you need to sell
+2. **amazon seller central mexico** - Account setup
+3. **amazon fba mexico fees** - Cost breakdown
+4. **amazon mexico vs mercado libre** - Marketplace comparison
+5. **amazon mexico product categories** - What sells well
+6. **NARF mexico** - North America Remote Fulfillment
+7. **amazon SPN mexico** - Service Provider Network
+
+### Long-Tail Keywords
+- how to sell on amazon mexico as a foreigner
+- amazon mexico seller requirements 2026
+- start selling on amazon mexico step by step
+- can I sell on amazon mexico from the US
+- amazon mexico FBA vs FBM which is better
+- how much does it cost to sell on amazon mexico
+- amazon mexico seller account setup guide
+- best products to sell on amazon mexico
+- amazon mexico prime delivery requirements
+- amazon mexico referral fees by category
+
+### Question Keywords (FAQ/PAA Targeting)
+- How long does it take to start selling on Amazon Mexico?
+- Do I need a Mexican company to sell on Amazon Mexico?
+- Can I sell on Amazon Mexico from the US?
+- What are Amazon Mexico referral fees?
+- How does Amazon FBA work in Mexico?
+- Do I need to speak Spanish to sell on Amazon Mexico?
+- Is Amazon Mexico profitable?
+- What products sell best on Amazon Mexico?
+
+---
+
+## Cluster 2: Mexico Entity Formation
+
+### Pillar Keyword
+- **Keyword**: open company in mexico
 - **Intent**: Commercial
-- **Current Ranking**: [position if known]
-- **Pillar Content URL**: [URL of main guide]
+- **Pillar Content URL**: To create (priority #2)
+
+### Head Keywords
+- open company in mexico
+- form company mexico
+- mexico entity formation
+- S de RL de CV
+- mexican LLC
 
 ### Cluster Keywords (Subtopics)
-1. **best podcast hosting**
-   - Volume: [searches]
-   - Difficulty: [level]
-   - Content: [URL if exists, or "Not yet created"]
-
-2. **podcast hosting platform**
-   - Volume: [searches]
-   - Difficulty: [level]
-   - Content: [URL or status]
-
-3. **podcast hosting comparison**
-   - Volume: [searches]
-   - Difficulty: [level]
-   - Content: [URL or status]
-
-4. **free podcast hosting**
-   - Volume: [searches]
-   - Difficulty: [level]
-   - Content: [URL or status]
-
-5. **podcast hosting pricing**
-   - Volume: [searches]
-   - Difficulty: [level]
-   - Content: [URL or status]
-
-[Add 5-10 cluster keywords total]
+1. **S de RL vs SA vs SAPI** - Entity type comparison
+2. **mexican LLC foreigners** - Foreign ownership
+3. **mexico subsidiary setup** - For existing companies
+4. **RFC mexico foreigners** - Tax ID process
+5. **eFirma mexico** - Digital signature requirement
+6. **mexico legal representative** - SAT requirement
+7. **mexico notary public process** - Notarization requirement
 
 ### Long-Tail Keywords
-- how to choose a podcast host
-- podcast hosting for beginners
-- podcast hosting with unlimited bandwidth
-- podcast hosting that includes a website
-- difference between podcast hosting and website hosting
-- what to look for in a podcast host
-- podcast hosting for multiple shows
-- [Add 10-15 long-tail variations]
+- how to open a company in mexico as a foreigner
+- best entity type for foreign business in mexico
+- S de RL de CV requirements for foreigners
+- how long does it take to form a company in mexico
+- cost of forming a company in mexico
+- SAPI structure for startups in mexico
+- holding company structure mexico foreign investment
+- mexico company formation documents required
+- can a foreigner own 100% of a mexican company
 
-### Related Questions (People Also Ask)
-- What is podcast hosting?
-- Do I need podcast hosting?
-- How much does podcast hosting cost?
-- Can I host my podcast for free?
-- [Add questions from PAA boxes]
+### Question Keywords (FAQ/PAA Targeting)
+- What is an S de RL de CV?
+- Can a foreigner open a company in Mexico?
+- How long does Mexico entity formation take?
+- Do I need to be in Mexico to form a company?
+- What is the difference between SA and S de RL in Mexico?
+- How much does it cost to incorporate in Mexico?
+- What is an RFC in Mexico?
+- Do I need a Mexican partner to start a business?
 
 ---
 
-## Cluster 2: Podcast Analytics
+## Cluster 3: COFEPRIS & Product Compliance
 
 ### Pillar Keyword
-- **Keyword**: podcast analytics
-- **Search Volume**: [monthly searches]
-- **Difficulty**: [competition level]
-- **Intent**: Informational
-- **Current Ranking**: [position if known]
-- **Pillar Content URL**: [URL or "To create"]
+- **Keyword**: cofepris registration
+- **Intent**: Commercial / Informational
+- **Pillar Content URL**: To create (priority #3)
+
+### Head Keywords
+- cofepris
+- cofepris registration
+- cofepris requirements
+- cofepris mexico
+- mexico fda equivalent
 
 ### Cluster Keywords (Subtopics)
-1. **podcast metrics**
-2. **podcast download statistics**
-3. **podcast listener data**
-4. **podcast performance tracking**
-5. **podcast growth metrics**
-[Continue with 5-10 cluster keywords]
+1. **cofepris supplements** - Supplement registration process
+2. **cofepris cosmetics** - Cosmetics notification
+3. **cofepris medical devices** - Device classification and registration
+4. **NOM labeling mexico** - Labeling requirements
+5. **aviso de funcionamiento** - Operating notice
+6. **registro sanitario mexico** - Sanitary registration
+7. **cofepris food requirements** - Food and beverage compliance
 
 ### Long-Tail Keywords
-- how to track podcast analytics
-- understanding podcast download numbers
-- most important podcast metrics
-- how to measure podcast success
-- podcast analytics tools
-[Add 10-15 long-tail variations]
+- cofepris registration process for supplements
+- how long does cofepris approval take
+- cofepris cosmetics notification timeline
+- cofepris requirements for imported food
+- NOM labeling requirements for cosmetics mexico
+- NOM-051 labeling requirements mexico
+- how to get cofepris approval for dietary supplements
+- cofepris registration cost breakdown
+- mexico supplement import requirements
+- cofepris vs FDA comparison
 
-### Related Questions
-[Add PAA questions]
+### Question Keywords (FAQ/PAA Targeting)
+- What is COFEPRIS?
+- How long does COFEPRIS registration take?
+- Do I need COFEPRIS to sell cosmetics in Mexico?
+- What products need COFEPRIS approval?
+- How much does COFEPRIS registration cost?
+- Can I sell supplements in Mexico without COFEPRIS?
+- What is the difference between Aviso and Registro Sanitario?
+- What are NOM labeling requirements for Mexico?
 
 ---
 
-## Cluster 3: Podcast Growth
+## Cluster 4: Mexico Ecommerce Opportunity
 
 ### Pillar Keyword
-- **Keyword**: grow podcast audience
-- **Search Volume**: [monthly searches]
-- **Difficulty**: [competition level]
+- **Keyword**: mexico ecommerce market
 - **Intent**: Informational
-- **Current Ranking**: [position]
-- **Pillar Content URL**: [URL or status]
+- **Pillar Content URL**: To create (Month 3)
 
-### Cluster Keywords
-1. **podcast growth strategies**
-2. **increase podcast downloads**
-3. **podcast marketing**
-4. **podcast promotion**
-5. **podcast audience development**
-[Continue with cluster keywords]
+### Head Keywords
+- mexico ecommerce market
+- sell online mexico
+- ecommerce mexico
+- mexico ecommerce 2026
+- mercado libre seller
+
+### Cluster Keywords (Subtopics)
+1. **mexico ecommerce market size** - Market data and projections
+2. **mercado libre seller account** - ML setup
+3. **walmart mexico seller** - Walmart marketplace
+4. **mexico online shopping trends** - Consumer behavior
+5. **mexico ecommerce growth rate** - Growth data
+6. **sell on mercado libre** - ML strategy
 
 ### Long-Tail Keywords
-- how to get more podcast listeners
-- promote your podcast free
-- grow podcast audience fast
-- podcast growth tips for beginners
-[Add long-tail variations]
+- mexico ecommerce market size and growth 2026
+- amazon mexico vs mercado libre which is better
+- best marketplace to sell in mexico
+- mexico ecommerce consumer demographics
+- how to sell on mercado libre as a foreigner
+- mexico ecommerce market projections 2034
+- top selling categories online in mexico
+- mexico internet penetration rate 2026
+- mobile commerce trends mexico
 
-### Related Questions
-[Add PAA questions]
+### Question Keywords (FAQ/PAA Targeting)
+- How big is the Mexico ecommerce market?
+- Is Mexico a good market for ecommerce?
+- What is the most popular marketplace in Mexico?
+- How fast is Mexico ecommerce growing?
+- What do Mexican consumers buy online?
 
 ---
 
-## Cluster 4: Podcast Monetization
+## Cluster 5: Cross-Border Imports & Customs
 
 ### Pillar Keyword
-- **Keyword**: podcast monetization
-- **Search Volume**: [monthly searches]
-- **Difficulty**: [competition level]
-- **Intent**: Commercial/Informational
-- **Current Ranking**: [position]
-- **Pillar Content URL**: [URL or status]
+- **Keyword**: import to mexico
+- **Intent**: Commercial / Informational
+- **Pillar Content URL**: To create (priority #5)
 
-### Cluster Keywords
-1. **how to monetize a podcast**
-2. **podcast advertising**
-3. **podcast sponsorships**
-4. **make money podcasting**
-5. **podcast revenue streams**
-[Continue]
+### Head Keywords
+- import to mexico
+- mexico import duties
+- mexico customs
+- padron de importadores
+- mexico tariff rates
+
+### Cluster Keywords (Subtopics)
+1. **mexico import duty rates** - Tariff breakdown
+2. **padron de importadores registration** - Import registry
+3. **USMCA duty benefits** - Trade agreement advantages
+4. **mexico customs broker** - Broker requirements
+5. **NOM certification mexico** - Product standards
+6. **IVA on imports mexico** - Value-added tax
+7. **T1 vs IOR mexico** - Import structures
 
 ### Long-Tail Keywords
-[Add 10-15 variations]
+- how to import products to mexico legally
+- mexico import duty rates by product category
+- USMCA duty benefits for mexico imports
+- padron de importadores requirements for foreigners
+- how to register as an importer in mexico
+- mexico customs clearance process step by step
+- IVA recovery on mexican imports
+- T1 customs entry vs importer of record mexico
+- mexico import regulations for consumer products
+- customs broker fees mexico
 
-### Related Questions
-[Add PAA questions]
+### Question Keywords (FAQ/PAA Targeting)
+- What are the import duties for Mexico?
+- Do I need a Padron de Importadores?
+- Can USMCA reduce my Mexico import duties to 0%?
+- How does IVA work on imports to Mexico?
+- What is the difference between T1 and IOR?
+- How long does Mexico customs clearance take?
 
 ---
 
-## Cluster 5: Starting a Podcast
+## Cluster 6: China to Mexico Corridor
 
 ### Pillar Keyword
-- **Keyword**: how to start a podcast
-- **Search Volume**: [monthly searches]
-- **Difficulty**: [competition level]
-- **Intent**: Informational
-- **Current Ranking**: [position]
-- **Pillar Content URL**: [URL or status]
+- **Keyword**: chinese sellers mexico
+- **Intent**: Commercial
+- **Pillar Content URL**: To create (Month 2)
 
-### Cluster Keywords
-1. **podcast equipment**
-2. **podcast recording software**
-3. **podcast editing**
-4. **podcast launch checklist**
-5. **podcast setup**
-[Continue]
+### Head Keywords
+- chinese sellers mexico
+- china to mexico imports
+- china desk mexico
+- 19% courier tariff mexico
+
+### Cluster Keywords (Subtopics)
+1. **avoid 19% courier surcharge mexico** - Surcharge elimination
+2. **chinese brands amazon mexico** - Amazon access
+3. **china mexico trade** - Trade corridor
+4. **chinese exporters latin america** - LatAm expansion
 
 ### Long-Tail Keywords
-[Add variations]
+- how chinese sellers can sell on amazon mexico
+- eliminate 19% courier import surcharge mexico
+- chinese sellers mexico entity formation
+- china to mexico direct import setup
+- mandarin speaking business support mexico
+- chinese ecommerce brands entering mexico market
+- avoid courier tax mexico chinese sellers
+- T1 customs entry for chinese importers mexico
 
-### Related Questions
-[Add PAA questions]
-
----
-
-## Cluster 6: [Additional Cluster]
-
-[Follow same format for:]
-- Podcast SEO
-- Podcast Distribution
-- Podcast Equipment
-- Podcast Editing
-- Podcast Formats
-- Private Podcasting
-- Podcast for Business
-- etc.
+### Question Keywords (FAQ/PAA Targeting)
+- Can Chinese sellers sell on Amazon Mexico?
+- What is the 19% courier surcharge in Mexico?
+- How can Chinese sellers avoid the courier tax in Mexico?
+- Do Chinese sellers need a Mexican entity?
 
 ---
 
-## Seasonal/Trending Keywords
+## Commercial Intent Keywords (High Priority)
 
-### Q1 Keywords (Jan-Mar)
-- New year podcast goals
-- Podcast trends 2025
-- [Add seasonal opportunities]
+These keywords signal purchase/hiring intent. Target in service pages and bottom-of-funnel content.
 
-### Q2 Keywords (Apr-Jun)
-[Add seasonal keywords]
+### Pricing/Cost Keywords
+- how much does it cost to sell on amazon mexico
+- mexico entity formation cost
+- cofepris registration cost
+- mexico import duties cost
+- cost to open company in mexico
+- mexico accounting services pricing
+- cheapest way to enter mexico market
 
-### Q3 Keywords (Jul-Sep)
-[Add seasonal keywords]
+### Service-Seeking Keywords
+- mexico market entry services
+- mexico entity formation company
+- cofepris registration service
+- mexico customs broker for amazon sellers
+- mexico accounting firm for foreign companies
+- help selling on amazon mexico
+- amazon mexico launch service
 
-### Q4 Keywords (Oct-Dec)
-[Add seasonal keywords]
-
----
-
-## Competitor Keyword Gaps
-
-Track keywords where competitors rank but Castos doesn't:
-
-### Competitor: [Name]
-- **Keyword**: [keyword they rank for]
-  - Their Position: [rank]
-  - Castos Position: [rank or "Not ranking"]
-  - Opportunity: [High/Medium/Low]
-  - Action: [Create content, optimize existing, etc.]
-
-[Add more competitors and gaps]
+### Comparison Keywords
+- NocNoc vs Tally Global
+- outpost merchant of record vs own entity mexico
+- DIY vs full service mexico market entry
+- best mexico market entry company
+- amazon mexico aggregator vs own entity
 
 ---
 
 ## Keyword Opportunity Pipeline
 
-### High Priority (Create Soon)
-Keywords with high volume, achievable difficulty, strong business value:
-
-1. **Keyword**: [keyword]
-   - Volume: [searches]
-   - Difficulty: [score]
-   - Intent: [type]
-   - Why Priority: [strategic reason]
-   - Action: [Create pillar content / cluster article / etc.]
-
-[List 5-10 high-priority keywords]
+### High Priority (Create Content Now)
+1. **sell on amazon mexico** - Pillar created, needs promotion and supporting cluster content
+2. **open company in mexico as a foreigner** - Next pillar to create
+3. **cofepris registration** - High commercial intent, no good English content exists
+4. **S de RL vs SA vs SAPI** - Decision-stage content, high conversion potential
+5. **mexico import duties and tariffs** - High search volume, evergreen
 
 ### Medium Priority (Next Quarter)
-[List keywords to target in next 3 months]
+6. **china to mexico import playbook** - Unique angle, no competition
+7. **amazon mexico vs mercado libre** - Comparison content, good for featured snippets
+8. **open bank account mexico business** - Part of the entity formation journey
+9. **cofepris supplements timeline** - Specific, high-intent query
+10. **mexico ecommerce market 2026** - Informational, top-of-funnel
 
-### Low Priority (Future Consideration)
-[List keywords for future content planning]
-
----
-
-## Keyword Tracking & Performance
-
-### Top Performing Keywords
-Keywords where Castos ranks in positions 1-10:
-
-1. **Keyword**: [keyword]
-   - Position: [current rank]
-   - Volume: [searches]
-   - URL: [ranking page]
-   - Trend: [↑ Rising / → Stable / ↓ Declining]
-
-[List current winners]
-
-### Keywords to Improve
-Keywords ranking 11-20 (page 2) with opportunity:
-
-1. **Keyword**: [keyword]
-   - Position: [current rank]
-   - Volume: [searches]
-   - URL: [ranking page]
-   - Action Needed: [Update content, build links, etc.]
-
-[List improvement opportunities]
-
----
-
-## Keyword Cannibalization Check
-
-Track multiple pages targeting same/similar keywords:
-
-### Potential Cannibalization Issues
-
-**Keyword**: [keyword]
-- Page 1: [URL] - Position [rank]
-- Page 2: [URL] - Position [rank]
-- **Issue**: Both pages competing for same keyword
-- **Solution**: [Consolidate, differentiate, redirect, etc.]
-
-[Monitor and document conflicts]
+### Long-Term (Build Authority)
+11. **mexico ecommerce** - Broad, informational authority builder
+12. **import to mexico** - Broad, evergreen
+13. **mexico business** - Very broad, brand building
+14. **LatAm ecommerce** - Regional authority play
 
 ---
 
 ## LSI & Semantic Keywords
 
-Common related terms to include across podcasting content:
+### Mexico Business Terms (Use Across All Content)
+- RFC (Registro Federal de Contribuyentes)
+- eFirma (electronic signature)
+- CFDI (Comprobante Fiscal Digital por Internet)
+- SAT (Servicio de Administracion Tributaria)
+- ISR (Impuesto Sobre la Renta)
+- IVA (Impuesto al Valor Agregado)
+- Notario publico
+- Padron de Importadores
+- Fraccion arancelaria (tariff classification)
 
-### Podcast Industry Terms
-- RSS feed
-- podcast directory
-- podcast app
-- podcast player
-- episode
-- show notes
-- audio content
-- podcast network
-[Add more]
+### Regulatory Terms
+- COFEPRIS
+- NOM (Norma Oficial Mexicana)
+- IMPI (Instituto Mexicano de la Propiedad Industrial)
+- SENASICA
+- Registro Sanitario
+- Aviso de Funcionamiento
 
-### Podcast Creation Terms
-- recording
-- editing
-- post-production
-- audio quality
-- microphone
-- podcast equipment
-[Add more]
+### Marketplace Terms
+- FBA (Fulfillment by Amazon)
+- NARF (North America Remote Fulfillment)
+- Seller Central
+- Mercado Libre
+- Mercado Envios
+- Amazon SPN
 
-### Podcast Growth Terms
-- downloads
-- listeners
-- audience
-- subscribers
-- engagement
-- retention
-[Add more]
-
----
-
-## Usage Guidelines
-
-### When Writing New Content
-1. Check which cluster the topic belongs to
-2. Target the appropriate cluster or long-tail keyword
-3. Reference pillar content in that cluster
-4. Include LSI keywords naturally
-5. Link to related cluster articles
-
-### When Optimizing Existing Content
-1. Verify content targets the right keyword
-2. Check for cannibalization with other pages
-3. Ensure keyword appears in critical locations
-4. Update if search intent has shifted
-5. Add internal links to/from related cluster content
-
-### When Planning Content Calendar
-1. Review keyword opportunity pipeline
-2. Prioritize high-value, achievable keywords
-3. Build out topic clusters systematically
-4. Balance pillar content with cluster articles
-5. Track keyword performance over time
+### Trade Terms
+- USMCA (United States-Mexico-Canada Agreement)
+- T1 customs entry
+- IOR (Importer of Record)
+- Duty rate
+- Tariff classification
+- Certificate of origin
 
 ---
 
 ## Maintenance
 
-**Last Updated**: [Date]
-**Next Review**: [Date - quarterly recommended]
+**Last Updated**: March 2026
+**Next Review**: June 2026
 
 **Regular Updates**:
 - Add new keyword opportunities monthly
 - Track ranking changes monthly
 - Update volumes/difficulty quarterly
 - Review competitor gaps quarterly
-- Refine clusters based on performance
+- Refine clusters based on content performance
 
 ---
 
-**Note**: This is a living document. As you conduct keyword research, track performance, and identify new opportunities, update this file to keep your SEO strategy aligned with your content creation.
+*This is a living document. Update as keyword research reveals new opportunities and as published content begins ranking.*

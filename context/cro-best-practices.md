@@ -1,396 +1,242 @@
-# CRO Best Practices for Landing Pages
+# Tally Global CRO Best Practices for Content
 
-Conversion Rate Optimization guidelines for landing pages.
-
----
-
-## Above-the-Fold Rules
-
-### The 5-Second Test
-Visitors should understand these within 5 seconds of landing:
-1. **What** you offer
-2. **Who** it's for
-3. **Why** they should care
-4. **What** to do next (CTA)
-
-### Required Elements
-| Element | Purpose | Guidelines |
-|---------|---------|------------|
-| Headline | Grab attention | Benefit-focused, <70 chars |
-| Subheadline | Clarify value | Expand on headline, 1-2 sentences |
-| CTA Button | Drive action | High contrast, action verb |
-| Trust Signal | Build credibility | Customer count, rating, or logo |
-
-### Above-the-Fold Don'ts
-- No sliders or carousels
-- No multiple competing CTAs
-- No walls of text
-- No autoplay videos with sound
-- No navigation that distracts from CTA
+Conversion Rate Optimization guidelines for all TallyGlobal.ai blog posts, guides, and content assets. Every piece of content is a conversion asset, not just an article.
 
 ---
 
-## Headline Best Practices
+## Core Principle
 
-### Headline Formulas That Convert
-
-**Problem-Solution:**
-- "Stop [Pain Point]. Start [Desired Outcome]."
-- "No More [Problem]. Just [Solution]."
-
-**Benefit-First:**
-- "[Achieve Outcome] Without [Sacrifice]"
-- "The [Fastest/Easiest/Only] Way to [Outcome]"
-
-**Social Proof:**
-- "Join [Number] [Audience] Who [Achieved Outcome]"
-- "Why [Number] [Audience] Switched to [Product]"
-
-**Question:**
-- "Ready to [Achieve Outcome]?"
-- "What if You Could [Desired Outcome]?"
-
-### Headline Testing Checklist
-- [ ] Contains the primary benefit
-- [ ] Under 70 characters (mobile-friendly)
-- [ ] Uses "you" or implies the reader
-- [ ] Specific (not vague or generic)
-- [ ] Creates curiosity or urgency
-
-### Weak Headlines to Avoid
-- "Welcome to [Company]"
-- "The Best [Product] Solution"
-- "Everything You Need"
-- "We Help You [Generic Verb]"
-- Starting with "Our" or "We"
+Every article must rank AND convert. SEO gets the traffic; CRO turns it into leads. These are not separate disciplines at Tally -- they work together in every piece of content.
 
 ---
 
-## CTA Best Practices
+## Article CTA Structure
 
-### CTA Text Guidelines
-
-**By Conversion Goal:**
-
-| Goal | Strong CTAs | Avoid |
-|------|-------------|-------|
-| Trial | "Start Your Free Trial" | "Sign Up" |
-| Trial | "Try Free for 14 Days" | "Submit" |
-| Trial | "Get Started Free" | "Register" |
-| Demo | "Book Your Demo" | "Contact Us" |
-| Demo | "Schedule a Call" | "Get in Touch" |
-| Demo | "See It in Action" | "Learn More" |
-| Lead | "Download the Free Guide" | "Submit" |
-| Lead | "Get Instant Access" | "Subscribe" |
-| Lead | "Claim Your Copy" | "Send" |
-
-### CTA Button Formula
-**[Action Verb] + [Benefit/Object] + [Urgency (optional)]**
-
-Examples:
-- "Start" + "Your Free Trial" + "→"
-- "Get" + "Instant Access" + "Now"
-- "Book" + "Your Demo" + "Today"
+### Every Article Ends with a CTA Section
+- **Background**: Dark (#212121)
+- **Headline**: DM Serif Display, white, e.g., "Ready to Launch in Mexico?"
+- **Supporting text**: 1-2 sentences with proof point and value prop
+- **Button**: Orange pill button, "Get Your Mexico Roadmap"
+- **Link**: /#cta-final (lead form on homepage)
 
 ### CTA Placement Strategy
-1. **Hero CTA** (0-20% of page): Primary, most prominent
-2. **Post-Problem CTA** (30-40%): After establishing pain
-3. **Post-Proof CTA** (60-70%): After testimonials
-4. **Closing CTA** (90-100%): Final push with risk reversal
+1. **In-article contextual links** (throughout): Natural links to service pages within body paragraphs
+2. **Mid-article pricing anchor** (30-40% of article): Mention $588/mo with link to /pricing.html
+3. **Post-proof CTA** (after case study or social proof section): "Brands like GROWVE launched in 10 weeks. Get your roadmap."
+4. **Closing CTA section** (end of every article): Full dark-background CTA block
 
-### CTA Visual Best Practices
-- **Color**: High contrast with background
-- **Size**: Large enough to tap (44x44px minimum)
-- **Whitespace**: Breathing room around button
-- **Consistency**: Same style throughout page
-- **Mobile**: Full-width on small screens
+### CTA Copy Rules
+- Never: "Contact us," "Submit," "Click here," "Learn more"
+- Always: Action verb + specific benefit: "Get Your Mexico Roadmap," "Talk to Our Team," "See Pricing Plans"
+- Include risk reversal near CTA: "Free assessment, no obligation" or "15-minute call"
 
 ---
 
-## Trust Signal Hierarchy
+## Pricing Anchoring
 
-### Strongest (Use First)
-1. **Specific Results**: "Grew audience by 300%"
-2. **Named Testimonials**: "Sarah M., The Creative Hour"
-3. **Customer Count with Context**: "50,000+ customers"
+### Mention Pricing Early and Often
+The $588/month Starter plan is Tally's most powerful conversion lever. It anchors the reader's cost expectations and positions Tally as transparent and affordable.
 
-### Strong
-4. **Star Ratings**: "4.9/5 on G2"
-5. **Media Logos**: "As seen in..."
-6. **Customer Logos**: Enterprise/recognizable brands
+### How to Anchor Pricing in Content
 
-### Supporting
-7. **Awards/Certifications**: "Best in Category 2024"
-8. **Partnerships**: "Official Partner"
-9. **Security Badges**: For payment/data collection pages
+**In cost breakdown sections**:
+> "Core monthly costs include accounting and compliance ($588-$1,200/month depending on plan)."
 
-### Trust Signal Placement
-| Location | Best Trust Signal |
-|----------|-------------------|
-| Hero (above fold) | Customer count or rating |
-| After problem section | Mini-story with outcome |
-| Middle of page | Full testimonials (2-3) |
-| Near CTA | Risk reversal statement |
-| Footer | Security/privacy badges |
+**In comparison with DIY**:
+> "The alternative is hiring a Mexican lawyer ($300-500/hr), accountant ($200-400/mo), customs broker ($250-600/shipment), and regulatory consultant separately. Total: $2,000-3,000/month minimum."
 
----
+**In competitive positioning**:
+> "With NocNoc, you pay a percentage of every sale and own nothing. With Tally, you pay $588/month and own everything."
 
-## Risk Reversal Tactics
+**Near CTAs**:
+> "Plans start at $588/month. Entity formation included."
 
-### For Free Trial
-- "No credit card required"
-- "Cancel anytime"
-- "Full access for [X] days"
-- "No commitment"
-- "Set up in under 5 minutes"
-
-### For Demo Requests
-- "No pressure, no hard sell"
-- "Just [X] minutes of your time"
-- "Get your questions answered"
-- "See if we're a fit"
-
-### For Lead Capture
-- "No spam, ever"
-- "Unsubscribe anytime"
-- "Instant download"
-- "Free, no strings attached"
-
-### Risk Reversal Placement
-Always place risk reversal **directly below or beside the CTA button**.
+### Pricing Rules
+- Always show the actual number ($588, $700, $1,200), never "affordable" or "competitive"
+- Always link to /pricing.html when mentioning pricing
+- Show the DIY comparison cost when possible ($2,000-3,000/mo)
+- Mention that entity formation is included in the plan (high perceived value)
 
 ---
 
-## Objection Handling
+## Social Proof Integration
 
-### Common Objections & Responses
+### Primary Proof Points (Use in Every Article)
+- **"4,500+ companies formed in Mexico"** -- Our strongest credibility signal
+- **"Brands from 20+ countries"** -- Demonstrates international capability
+- **"20+ specialists in Mexico City"** -- Shows local presence and depth
+- **"8-12 weeks from zero to first sale"** -- Concrete outcome
+- **"100% first-pass COFEPRIS approval rate"** -- For regulated product content
 
-**"It's too expensive"**
-- Lead with free trial
-- Show ROI/value
-- Compare to competitor costs
-- Highlight what's included
+### Case Study: GROWVE (Use When Relevant)
+- 12+ supplement brands launched in Mexico
+- Entity formed in 4 weeks
+- First import at week 10
+- 100% first-pass COFEPRIS approval
+- **When to use**: Supplement/cosmetics content, COFEPRIS articles, case study sections, "proof this works" moments
 
-**"It looks complicated"**
-- "Set up in 5 minutes"
-- Show simple 3-step process
-- Include "no technical skills needed"
+### Other Named References
+- **Formula Air (Vietnam)**: Launched in Mexico in record time
+- **Latitud (Brazil)**: "Just created a subsidiary thanks to Tally"
+- **When to use**: When demonstrating multi-country capability, when addressing non-US audiences
 
-**"I'm not ready"**
-- Use urgency sparingly
-- Offer lead magnet alternative
-- Provide "learn more" secondary CTA
-
-**"I don't know if it's right for me"**
-- Testimonials from similar users
-- Specific use case sections
-- "Perfect for [audience]" positioning
-
-**"Can I trust you?"**
-- Customer count
-- Years in business
-- Known customer logos
-- Money-back guarantee
-
----
-
-## Form Optimization
-
-### Field Reduction
-Every additional field reduces conversions by ~10%
-
-**Recommended Fields by Goal:**
-| Goal | Fields | What to Ask |
-|------|--------|-------------|
-| Trial | 2-3 | Email, Password, (Name) |
-| Demo | 3-4 | Name, Email, Company, (Role) |
-| Lead | 1-2 | Email, (Name) |
-
-### Form Best Practices
-- Single column layout
-- Clear labels above fields
-- Helpful placeholder text
-- Real-time validation
-- Mobile-friendly input types
-- Progress indicator for multi-step
-
-### Form Placement
-- Above the fold for PPC
-- After value establishment for SEO
-- Never at the very bottom
+### Social Proof Placement
+| Location in Article | Best Proof Point |
+|---------------------|------------------|
+| Introduction (first 200 words) | "4,500+ companies formed" or "20+ countries" |
+| After problem statement | Specific timeline: "Most brands launch in 8-12 weeks" |
+| Mid-article (after complex section) | GROWVE case study or specific outcome |
+| Near pricing mention | "Plans start at $588/mo. Entity formation included." |
+| CTA section | "4,500+ companies. 20+ countries. 8-12 weeks." |
 
 ---
 
-## Page Speed Impact
+## Objection Handling in Content
 
-### Conversion Impact
-- 1 second delay = 7% conversion drop
-- 3 second load = 40% abandonment
-- Mobile users expect <3 seconds
+Every article must proactively address the reader's fears and concerns. Do not wait for them to object -- handle it before they think of it.
 
-### Quick Wins
-- Compress images (WebP format)
-- Minimize JavaScript
-- Use lazy loading for below-fold
-- Optimize fonts (system fonts fastest)
-- Enable browser caching
+### Common Objections and How to Handle Them
 
----
+**"This sounds complicated"**
+- Break the process into clear, numbered steps with timelines
+- Use step boxes with week-by-week breakdowns
+- End with: "Tally handles the entire process. You focus on your business."
 
-## Mobile Optimization
+**"This is going to be expensive"**
+- Lead with the $588/month anchor
+- Show DIY comparison cost ($2,000-3,000/mo)
+- Mention entity formation is included
+- Note that IVA on imports is recoverable
 
-### Mobile-First Rules
-- 60%+ traffic is mobile
-- Design for mobile, then adapt for desktop
-- Touch-friendly tap targets (44x44px)
-- Readable without zooming (16px+ font)
+**"I do not need to be in Mexico, right?"**
+- Address directly: "No. Tally manages everything on the ground in Mexico City with a team of 20+ specialists."
+- Reinforce: "You own the entity and all assets, but you do not need to relocate."
 
-### Mobile CTA Guidelines
-- Full-width buttons
-- Sticky CTA on scroll (optional)
-- Phone number click-to-call
-- Simplified forms
+**"Can I just use an aggregator?"**
+- Explain the ownership trade-off clearly
+- Use the comparison table (Tally vs NocNoc vs Outpost vs DIY)
+- Line: "When you leave an aggregator, you leave with nothing. When you leave Tally, you keep everything."
 
-### Mobile Content Rules
-- Shorter headlines (<60 chars)
-- Front-load key information
-- Accordion FAQs to save space
-- Minimal navigation
+**"How do I know this will work?"**
+- GROWVE case study: 12 brands, entity in 4 weeks, first import week 10
+- 4,500+ companies formed (scale proof)
+- 100% first-pass COFEPRIS approval rate (quality proof)
 
----
+**"The Mexico market is not big enough"**
+- $54.4 billion ecommerce market (2025)
+- Projected $175.8 billion by 2034
+- Amazon Mexico growing at 34% YoY
+- 130M consumers, 79% internet penetration
 
-## A/B Testing Priorities
+**"I will just do it myself"**
+- "Takes 12-18 months alone, costs 3x more"
+- List the vendors they would need to coordinate: lawyer, accountant, customs broker, COFEPRIS consultant, bank relationship manager
+- Highlight common DIY mistakes: wrong entity type, failed COFEPRIS submissions, customs seizures
 
-### High Impact (Test First)
-1. Headline
-2. CTA text
-3. CTA color/size
-4. Hero image/video
-5. Social proof placement
-
-### Medium Impact
-6. Subheadline
-7. Form length
-8. Testimonial selection
-9. Pricing presentation
-10. Risk reversal text
-
-### Low Impact (Test Later)
-11. Button shape
-12. Font choices
-13. Footer content
-14. Image style
-15. Color scheme
-
-### Testing Rules
-- One variable at a time
-- Minimum 100 conversions per variant
-- Run for at least 2 weeks
-- 95% statistical significance
+### Objection Placement
+- Address the biggest objection for the article's topic within the first 500 words
+- Handle 2-3 additional objections naturally throughout the body
+- The FAQ section at the end catches remaining objections
 
 ---
 
-## Conversion Goal Benchmarks
+## Internal Linking for Conversion
 
-### Industry Averages
-| Goal | Average | Good | Excellent |
-|------|---------|------|-----------|
-| Free Trial | 3-5% | 7-10% | 15%+ |
-| Demo Request | 2-4% | 5-8% | 10%+ |
-| Lead Capture | 5-10% | 15-25% | 30%+ |
+### Every Article Must Link To:
+1. **At least 1 relevant service page** (entity formation, COFEPRIS, imports, etc.)
+2. **Pricing page** (/pricing.html) when costs are discussed
+3. **Lead form** (/#cta-final) in the closing CTA section
+4. **Related blog posts** to keep readers in the content ecosystem
 
-### Factors That Affect Conversion
-- Traffic source quality
-- Brand awareness
-- Price point
-- Competition
-- Offer strength
-- Page experience
+### Link Placement Priority
+- Links in the first 300 words carry the most SEO weight and get the most clicks
+- Link to the most commercially relevant page first (service page > pricing > blog)
+- Distribute links naturally, max 2 per paragraph
 
----
-
-## Psychology Principles
-
-### Scarcity
-- Limited time offers
-- Limited spots available
-- Stock/availability indicators
-- Use sparingly and honestly
-
-### Social Proof
-- "Join 50,000+ customers"
-- Testimonials with faces
-- Live user counts
-- Recent signup notifications
-
-### Authority
-- Expert endorsements
-- Media mentions
-- Certifications
-- Years of experience
-
-### Reciprocity
-- Free trial first
-- Free resources/guides
-- Helpful content before ask
-
-### Urgency
-- Time-limited offers
-- "Start today" messaging
-- Countdown timers (use carefully)
-- Season/event-based hooks
+### Anchor Text for Conversion
+- Use benefit-oriented anchors when linking to service/pricing pages
+- "Tally's entity formation service gets you operational in 4-6 weeks" (links to /services/legal-formation.html)
+- "$588/month Starter plan includes entity formation" (links to /pricing.html)
+- "Get your free Mexico roadmap" (links to /#cta-final)
 
 ---
 
-## Landing Page Audit Checklist
+## Content-Specific CRO Patterns
 
-### Above the Fold
-- [ ] Clear, benefit-focused headline
-- [ ] Value proposition in 5 seconds
-- [ ] Prominent CTA button
-- [ ] Trust signal visible
-- [ ] No distracting elements
+### For How-To Guides
+- Step boxes with clear week-by-week timelines
+- "Tally handles this step" callout after each step
+- Cost table with Tally plan prices
+- CTA: "Skip the DIY headaches. Get your roadmap."
 
-### Content
-- [ ] Benefits before features
-- [ ] Scannable format (lists, bold, headers)
-- [ ] Appropriate length for page type
-- [ ] Addresses objections
-- [ ] Clear next step
+### For Comparison Articles
+- Side-by-side tables (Tally vs competitor)
+- Bold Tally advantages, neutral competitor descriptions
+- End with: "Own your Mexico business from day one."
 
-### CTAs
-- [ ] Action verb + benefit
-- [ ] High contrast visibility
-- [ ] Distributed throughout page
-- [ ] Goal-aligned messaging
-- [ ] Risk reversal nearby
+### For Regulatory/Compliance Content
+- Specific timelines and costs for each regulatory pathway
+- "Tally has 100% first-pass approval rates" proof point
+- Address the complexity fear: "We handle the entire process"
+- CTA: "Get your regulatory assessment."
 
-### Trust
-- [ ] Customer testimonials with names
-- [ ] Specific results/numbers
-- [ ] Social proof (count, logos)
-- [ ] Risk reversal present
-- [ ] Security indicators (if needed)
-
-### Technical
-- [ ] Mobile responsive
-- [ ] Fast load time (<3s)
-- [ ] Form works correctly
-- [ ] Links not broken
-- [ ] Analytics tracking installed
+### For Market Opportunity Content
+- Lead with market data ($54.4B, 34% YoY, 130M consumers)
+- Bridge to "how to capture this opportunity"
+- Present Tally as the execution partner
+- CTA: "Ready to enter the Mexico market?"
 
 ---
 
-## Quick Reference: Conversion Killers
+## FAQ Section CRO
 
-**Avoid These:**
-1. Generic headlines ("Welcome to our site")
-2. Weak CTAs ("Submit", "Click here")
-3. No visible trust signals
-4. Walls of unformatted text
-5. Multiple competing goals
-6. Slow page load
-7. Forms with too many fields
-8. No risk reversal
-9. Mobile-unfriendly design
-10. Navigation that distracts from goal
+Every article has an FAQ section. This section serves three purposes:
+1. **SEO**: FAQPage schema for featured snippets and PAA targeting
+2. **Objection handling**: Address remaining concerns
+3. **Conversion**: Include commercial-intent questions that lead to action
+
+### FAQ Must-Include Questions
+For every article, include at least one of each:
+- **Timeline question**: "How long does [X] take?"
+- **Cost question**: "How much does [X] cost?"
+- **Requirement question**: "Do I need [X]?"
+- **Comparison question**: "What is the difference between [X] and [Y]?"
+- **Feasibility question**: "Can I [do X] from [location]?"
+
+### FAQ Answer Format
+- Concise: Under 300 characters for featured snippet eligibility
+- Specific: Include a number, timeline, or cost in every answer
+- Action-oriented: End with an implicit or explicit next step
+- Tally-referenced: Mention Tally's role where natural ("Tally Global handles...")
+
+---
+
+## Conversion Metrics to Track
+
+- Article-to-lead form click-through rate
+- Pricing page visits from blog content
+- Service page visits from blog content
+- Time on page (engagement signal)
+- Scroll depth (reaching the CTA section)
+- FAQ expansion clicks (schema engagement)
+
+---
+
+## CRO Checklist for Every Article
+
+Before publishing, verify:
+
+- [ ] Closing CTA section with dark background and orange button linking to /#cta-final
+- [ ] $588/month pricing mentioned and linked to /pricing.html
+- [ ] At least one social proof point in the first 300 words
+- [ ] GROWVE case study or specific outcome referenced (where relevant)
+- [ ] 2-3 objections addressed proactively in the body
+- [ ] FAQ section with 5-8 questions including cost, timeline, and feasibility questions
+- [ ] Internal links to relevant service pages with benefit-oriented anchor text
+- [ ] DIY comparison cost shown when discussing pricing
+- [ ] Ownership narrative reinforced (own vs. rent)
+- [ ] Specific numbers throughout (no vague claims)
+
+---
+
+*Every piece of content is a conversion asset. If it does not help the reader take the next step toward launching in Mexico, it is not doing its job.*

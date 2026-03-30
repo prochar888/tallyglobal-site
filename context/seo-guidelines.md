@@ -1,426 +1,279 @@
-# SEO Guidelines for Castos Content
+# SEO Guidelines for Tally Global Content
 
-This document outlines SEO best practices and requirements for all Castos blog content to maximize organic search visibility and rankings.
+This document outlines SEO best practices and requirements for all TallyGlobal.ai blog content to maximize organic search visibility and conversions.
 
 ## Content Length Requirements
 
 ### Target Word Counts
-- **Standard Blog Post**: 1,500-3,000 words (target: 2,000-2,500)
+- **Standard Blog Post**: 2,000-3,000 words (target: 2,500)
 - **Pillar Content / Comprehensive Guides**: 3,000-5,000 words maximum
 - **How-To Guides**: 1,500-2,500 words
-- **News / Updates**: 800-1,200 words (exception to standard)
-
-### Important Length Guidelines
-- **Maximum for most articles**: 3,000 words
-- **Maximum for pillar content**: 5,000 words
-- If a topic requires more than the maximum, break it into a series of related articles
-- Aim for the lower end of ranges when possible—concise, focused content often performs better
-
-### Why Length Matters
-- Longer content typically ranks higher in search results
-- More words = more opportunities for keyword integration and topic coverage
-- Comprehensive content earns more backlinks and engagement
-- Depth signals expertise and authority to search engines
+- **Comparison Articles**: 1,500-2,000 words
+- **Regulatory Deep-Dives**: 2,000-3,500 words
 
 ### Quality Over Quantity
-- Don't add fluff just to hit word counts
-- Every section should provide genuine value
-- Better to have 2,000 valuable words than 3,000 padded words
-- **Stay within the maximum word counts**—overly long articles hurt user experience
+- Every paragraph must contain specific value: a data point, regulatory reference, cost figure, timeline, or actionable step
+- No filler paragraphs. No "In this article we will discuss..." introductions
+- Maximum 3 paragraphs without a heading break
+- If a section exceeds 500 words, break it into subsections with H3s
 
-## Keyword Optimization
+## Primary Keywords by Content Pillar
 
-### Keyword Research Requirements
-Before writing any article:
-1. Identify primary target keyword
-2. Research search volume and difficulty
-3. Analyze top 10 ranking competitors
-4. Identify 3-5 secondary/related keywords
-5. List LSI (Latent Semantic Indexing) keywords
+### Pillar 1: Amazon Mexico Market Entry
+- **Head keywords**: "sell on amazon mexico", "amazon mexico", "amazon fba mexico"
+- **Secondary**: "how to sell on amazon mexico", "amazon mexico requirements", "amazon seller central mexico", "amazon mexico seller"
+- **Long-tail**: "how to sell on amazon mexico as a foreigner", "amazon mexico seller requirements 2026", "start selling on amazon mexico step by step"
 
-### Keyword Density Guidelines
-- **Primary Keyword**: 1-2% density
-  - Example: In a 2,000-word article, use keyword 20-40 times
-  - Natural integration is critical—never force keywords
-- **Secondary Keywords**: 0.5-1% density each
-- **LSI Keywords**: Sprinkle throughout naturally
+### Pillar 2: Mexico Entity Formation
+- **Head keywords**: "open company in mexico", "mexico entity formation", "S de RL de CV"
+- **Secondary**: "mexican LLC foreigners", "form company mexico foreigner", "mexico subsidiary setup"
+- **Long-tail**: "how to open a company in mexico as a foreigner", "S de RL vs SA vs SAPI mexico", "best entity type for foreign business in mexico"
 
-### Critical Keyword Placement
+### Pillar 3: COFEPRIS & Product Compliance
+- **Head keywords**: "cofepris", "cofepris registration", "cofepris requirements"
+- **Secondary**: "import supplements mexico", "NOM labeling mexico", "mexico fda equivalent"
+- **Long-tail**: "cofepris registration process for supplements", "how long does cofepris approval take", "cofepris cosmetics notification timeline"
+
+### Pillar 4: Mexico Ecommerce Opportunity
+- **Head keywords**: "mexico ecommerce market", "sell online mexico", "ecommerce mexico"
+- **Secondary**: "mexico ecommerce market 2026", "mercado libre seller", "sell on mercado libre"
+- **Long-tail**: "mexico ecommerce market size and growth 2026", "amazon mexico vs mercado libre which is better", "best marketplace to sell in mexico"
+
+### Pillar 5: Cross-Border Imports & Customs
+- **Head keywords**: "import to mexico", "mexico customs", "mexico import duties"
+- **Secondary**: "padron de importadores", "mexico tariff rates", "customs broker mexico"
+- **Long-tail**: "how to import products to mexico legally", "mexico import duty rates by product", "USMCA duty benefits for mexico imports"
+
+### Pillar 6: China to Mexico Corridor
+- **Head keywords**: "chinese sellers mexico", "china to mexico imports", "china desk mexico"
+- **Secondary**: "19% courier tariff mexico", "avoid courier surcharge mexico", "chinese brands amazon mexico"
+- **Long-tail**: "how chinese sellers can sell on amazon mexico", "eliminate 19% courier import surcharge mexico", "chinese sellers mexico entity formation"
+
+## On-Page SEO Rules
+
+### Keyword Placement (Mandatory)
 Primary keyword MUST appear in:
 - [ ] H1 headline (preferably near the beginning)
-- [ ] First 100 words of article
-- [ ] At least 2-3 H2 subheadings
+- [ ] First 100 words of the article body
+- [ ] At least 2 H2 subheadings (exact match or close variation)
 - [ ] Last paragraph / conclusion
 - [ ] Meta title (within first 60 characters)
 - [ ] Meta description
 - [ ] URL slug
 
-### Keyword Integration Best Practices
-- **Natural language first**: Write for humans, optimize for search engines
-- **Use variations**: Don't repeat exact phrase robotically
-  - Example: "podcast hosting" → "hosting your podcast" → "podcast host"
-- **Question formats**: Include conversational variations
-  - "How to start a podcast" vs "starting a podcast"
-- **Semantic keywords**: Use related terms to support topical authority
-  - For "podcast editing": include "audio editing", "post-production", "editing workflow"
-
-### Keyword Stuffing (Avoid)
-❌ "Podcast hosting is important. Podcast hosting helps podcasters. Our podcast hosting platform offers podcast hosting services for podcast hosting needs."
-
-✅ "Podcast hosting is important for creators who want to distribute their show to major platforms. A reliable host ensures your episodes are accessible wherever listeners discover new content."
-
-## Content Structure Requirements
-
 ### Heading Hierarchy
 
-#### H1 (Title)
-- **Only one H1 per article**
+**H1 (Title)**:
+- Only one H1 per article
 - Include primary keyword naturally
-- 60 characters or less (for SERP display)
-- Compelling and benefit-focused
-- Should answer: "What will I learn/gain from this?"
+- 50-60 characters for SERP display
+- Compelling, benefit-focused, or question-format
+- Front-load the keyword: "Sell on Amazon Mexico: The Complete Guide" not "The Complete Guide to Selling on Amazon Mexico"
 
-#### H2 (Main Sections)
-- **4-7 H2 sections** for standard articles
-- At least **2-3 should include keyword variations**
-- Descriptive and keyword-rich
-- Logical progression through topic
-- Can be standalone (readers should understand flow from H2s alone)
+**H2 (Main Sections)**:
+- 5-8 H2 sections for standard articles
+- At least 2-3 must include keyword variations
+- Use question format for featured snippet targeting: "How Much Does It Cost to Sell on Amazon Mexico?"
+- Can be standalone: readers should understand the article flow from H2s alone
 
-#### H3 (Subsections)
+**H3 (Subsections)**:
 - Nested under H2s (never skip from H2 to H4)
-- Break complex sections into digestible chunks
-- Include keywords where natural
-- More specific than H2s
+- Include secondary keywords where natural
+- Use for step-by-step breakdowns, category lists, sub-topics
 
-### Article Structure Template
+### Content Structure Requirements
+- Maximum 3 paragraphs without a heading
+- Every section must include at least one of: bullet points, table, callout box, or specific data point
+- Paragraphs: 3-4 sentences max
+- Use `<strong>` for key terms, numbers, and differentiators
+- Internal link anchor text: descriptive and keyword-rich, NEVER "click here" or "read more"
 
-```markdown
-# [H1: Compelling Title with Primary Keyword]
+### NLP & Semantic Optimization
+- **TF-IDF**: Include semantic entities related to the topic, not just exact-match keywords
+- **LSI terms**: Weave in related concepts naturally (e.g., for "amazon mexico" article include: FBA, seller central, RFC, eFirma, CFDI, marketplace, Mercado Libre, SAT, customs, tariff)
+- **E-E-A-T signals**: Cite real Tally experience (4,500+ companies), real client outcomes (GROWVE), real regulatory references (SAT, COFEPRIS, IMPI)
+- **Entity optimization**: Reference official entities (SAT, COFEPRIS, IMPI, SENASICA, Amazon SPN, Mercado Libre) to build topical authority
 
-## Introduction (150-250 words)
-- Hook: Attention-grabbing opening
-- Problem: What challenge does this address?
-- Promise: What will reader learn/achieve?
-- Keyword in first 100 words
+## Schema Markup Requirements
 
-## [H2: Main Section 1 - Include Keyword Variation]
-### [H3: Subsection if needed]
-- Content depth
-- Examples
-- Data/statistics
-
-## [H2: Main Section 2]
-### [H3: Subsection if needed]
-- Content depth
-- Examples
-- Data/statistics
-
-## [H2: Main Section 3 - Include Keyword Variation]
-### [H3: Subsection if needed]
-- Content depth
-- Examples
-- Data/statistics
-
-## [H2: Main Section 4]
-[Continue with 4-7 total H2 sections]
-
-## Conclusion (150-250 words)
-- Recap key points (3-5 takeaways)
-- Include keyword
-- Clear call-to-action
-- Next steps for reader
+### Article Schema (Required on Every Blog Post)
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "<H1 title>",
+  "description": "<meta description>",
+  "author": {
+    "@type": "Organization",
+    "name": "Tally Global",
+    "url": "https://tallyglobal.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Tally Global",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/68d0a16872bd6561dfde96a8/69915507dfd1c29c053f54a3_Favicon.png"
+    }
+  },
+  "datePublished": "<ISO date>",
+  "dateModified": "<ISO date>",
+  "mainEntityOfPage": "https://tallyglobal.ai/blog/<slug>"
+}
 ```
 
-## Meta Elements
+### FAQPage Schema (Required on Every Blog Post)
+Every article must include 5-8 FAQ questions with FAQPage schema markup. Questions should:
+- Target "People Also Ask" queries for the primary keyword
+- Include concise answers under 300 characters for featured snippet eligibility
+- Cover commercial intent questions (cost, timeline, requirements)
+- Address objections (do I need to be in Mexico, can I do this myself)
 
-### Meta Title
-**Requirements**:
-- **Length**: 50-60 characters (including "| Castos" if used)
-- **Primary keyword**: Must be included
-- **Compelling**: Should encourage clicks from SERP
-- **Unique**: Different from all other Castos page titles
-- **Accurate**: Must match page content
-
-**Format Options**:
-- `[Primary Keyword]: [Benefit/Promise]`
-- `How to [Goal] | [Qualifier]`
-- `[Number] Ways to [Achieve Benefit]`
-- `[Topic] Guide for [Audience] | Castos`
-
-**Examples**:
-- ✅ "How to Start a Podcast in 2025: Complete Guide"
-- ✅ "12 Proven Podcast Growth Strategies | Castos"
-- ❌ "Podcast Tips and Tricks" (too vague, no keyword)
-- ❌ "The Ultimate Comprehensive Guide to Everything About Starting Your First Podcast Successfully" (too long)
-
-### Meta Description
-**Requirements**:
-- **Length**: 150-160 characters
-- **Primary keyword**: Include naturally
-- **Value proposition**: Clear benefit to reader
-- **Call-to-action**: Action phrase (Learn, Discover, Find out, Get, etc.)
-- **Complete**: Must not cut off mid-sentence
-- **Compelling**: Should drive clicks from SERP
-
-**Formula**:
-```
-[Problem/Question]? [Solution/Benefit]. [Unique angle]. [CTA].
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "<question>",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<concise answer under 300 chars>"
+      }
+    }
+  ]
+}
 ```
 
-**Examples**:
-- ✅ "Learn how to start a podcast with our step-by-step guide. Everything from equipment to launch strategy. Perfect for beginners. Start your show today." (159 chars)
-- ✅ "Discover 12 proven podcast growth strategies that top creators use. Increase downloads, engagement, and audience loyalty. Actionable tips inside." (155 chars)
-- ❌ "This is a blog post about podcasting where we discuss many podcast-related topics." (vague, no value prop, no CTA)
+## Technical SEO Requirements
 
-### URL Slug
-**Requirements**:
+### Meta Elements
+
+**Meta Title**:
+- 50-60 characters including spaces
+- Primary keyword front-loaded
+- Include "| Tally Global" if space allows
+- No ending punctuation
+- Format: `[Primary Keyword]: [Benefit/Promise] | Tally Global`
+
+**Meta Description**:
+- 140-155 characters
+- Include primary keyword + benefit + CTA
+- End with complete thought
+- Include a differentiator (4,500+ companies, specific timeline, specific cost)
+- Formula: `[What the article covers]. [Differentiator/proof point]. [CTA verb].`
+
+**URL Slug**:
+- Lowercase, hyphenated, no stop words
 - Include primary keyword
-- Lowercase letters only
-- Hyphens between words (not underscores)
-- Short and descriptive (3-5 words ideal)
-- No stop words unless necessary (a, the, and, of, etc.)
+- 3-5 words ideal
+- Format: `/blog/[primary-keyword-phrase].html`
 
-**Format**: `/blog/[primary-keyword-phrase]`
+### Canonical URLs
+- Every page must have a `<link rel="canonical">` tag
+- Format: `https://tallyglobal.ai/blog/<slug>.html`
+- Self-referencing canonical on all blog posts
 
-**Examples**:
-- ✅ `/blog/start-podcast-guide`
-- ✅ `/blog/podcast-growth-strategies`
-- ✅ `/blog/podcast-editing-software`
-- ❌ `/blog/how-to-start-a-podcast-in-2025-the-complete-guide` (too long)
-- ❌ `/blog/post-12345` (no keywords)
+### Open Graph Tags (Required)
+```html
+<meta property="og:title" content="<variant for LinkedIn/Twitter>">
+<meta property="og:description" content="<social-optimized description>">
+<meta property="og:image" content="https://tallyglobal.ai/og-image.jpg">
+<meta property="og:type" content="article">
+<meta property="og:url" content="<canonical URL>">
+<meta property="og:site_name" content="Tally Global">
+```
+
+### Twitter Card Tags (Required)
+```html
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<title>">
+<meta name="twitter:description" content="<description>">
+<meta name="twitter:image" content="<image URL>">
+```
+
+### Sitemap
+- Every new blog post must be added to `sitemap.xml`
+- Include `<lastmod>` date
+- Priority: 0.8 for blog posts, 1.0 for service pages
+
+### Robots
+- All blog posts: `<meta name="robots" content="index, follow">`
+- No noindex on content pages
 
 ## Internal Linking Strategy
 
 ### Requirements
 - **Minimum**: 3 internal links per article
-- **Optimal**: 4-5 internal links
-- **Maximum**: 7 internal links (unless 3,000+ word article)
+- **Optimal**: 4-6 internal links
+- **Maximum**: 8 internal links (unless 3,000+ word article)
 
-### Link Types to Include
+### Anchor Text Rules
+- Descriptive and keyword-rich: "form a Mexican company" not "click here"
+- Use exact match or partial match keywords for anchor text
+- Vary anchor text for the same destination across articles
+- Never use "click here," "read more," "learn more," or "this article"
 
-#### 1. Pillar Content (1-2 links)
-- Link to main comprehensive guides on related topics
-- Builds topic cluster authority
-- Usually 2,000+ word cornerstone content
+### Link Priority
+1. **Service pages**: Link to relevant service page in every article (legal-formation, cofepris, imports, etc.)
+2. **Pricing page**: Mention pricing with link when discussing costs
+3. **Related blog posts**: Cross-link between related articles within the same content pillar
+4. **Lead form**: Every article must link to `/#cta-final` at least once (usually in the CTA section)
 
-#### 2. Related Blog Posts (2-3 links)
-- Link to articles on related subtopics
-- Creates content web
-- Helps readers explore topics comprehensively
-
-#### 3. Product/Feature Pages (0-1 link)
-- Only when contextually relevant
-- Natural mention of how Castos solves problem
-- Never forced or overly promotional
-
-#### 4. Resource Pages (0-1 link)
-- Templates, tools, checklists
-- When mentioned as solutions in content
-- Provides additional value to reader
-
-### Internal Linking Best Practices
-
-**Anchor Text**:
-- ✅ Descriptive and keyword-rich: "our complete guide to podcast analytics"
-- ✅ Natural in sentence flow: "Learn more about podcast SEO strategies"
-- ❌ Generic: "click here" or "read more"
-- ❌ Exact match repeatedly: Always using same anchor text for same page
-
-**Placement**:
-- Within body paragraphs (most valuable)
-- Natural context that adds value to reader
-- Never more than 2 links per paragraph
-- Distributed throughout article, not clustered
-
-**Reference**:
-- Always check @context/internal-links-map.md for priority linking targets
-- Ensure links are current and functional
-- Link to most relevant, up-to-date content
+### Reference
+Always check `@context/internal-links-map.md` for the full URL map and anchor text recommendations.
 
 ## External Linking Strategy
 
 ### Requirements
 - **Minimum**: 2 external links per article
 - **Optimal**: 3-4 external authority links
-- Purpose: Add credibility, provide sources, support claims
 
-### What to Link Externally
-- **Statistics and data sources**: Always cite where numbers come from
-- **Research and studies**: Link to original research
-- **Tools and resources**: When recommending specific tools
-- **Industry authorities**: Expert opinions or industry publications
+### Preferred External Sources
+- SAT (sat.gob.mx) for tax and RFC references
+- COFEPRIS (gob.mx/cofepris) for regulatory references
+- Amazon Seller Central documentation
+- IMARC Group for market data
+- Statista for internet/population data
+- USMCA official text for trade agreement references
 
-### External Link Quality Standards
-- **Authority**: Link to credible, well-known sources
-  - ✅ Industry publications (Podcast Host, Podnews, etc.)
-  - ✅ Research institutions and studies
-  - ✅ Established media outlets
-  - ❌ Random blogs with no authority
-  - ❌ Spammy or low-quality sites
-
-- **Relevance**: Links must directly support content claims
-- **Freshness**: Prefer recent sources (within 1-2 years for data)
-- **Functionality**: All links must work (no broken links)
-
-### External Link Attributes
-- Most external links: No special attributes needed
-- Sponsored/affiliate links: Use `rel="sponsored"` or `rel="nofollow"`
-- User-generated content: Use `rel="nofollow"`
-
-## Readability Optimization
-
-### Target Reading Level
-- **Goal**: 8th-10th grade reading level (Flesch-Kincaid)
-- Makes content accessible to wider audience
-- Easier to scan and understand quickly
-
-### Sentence Structure
-- **Average length**: 15-20 words per sentence
-- **Maximum**: 25 words (break longer sentences into two)
-- **Variety**: Mix short punchy sentences with longer explanatory ones
-- **Active voice**: Preferred over passive voice (80%+ active)
-
-### Paragraph Structure
-- **Length**: 2-4 sentences per paragraph
-- **One idea**: Focus each paragraph on single point
-- **White space**: No walls of text
-- **Mobile-friendly**: Short paragraphs scan better on phones
-
-### Formatting for Scannability
-- **Subheadings**: Every 300-400 words
-- **Lists**: Use bullets/numbers for sequential or multiple items
-- **Bold**: Emphasize key concepts or takeaways
-- **Short paragraphs**: Easier to digest
-- **White space**: Makes content less intimidating
-
-### Transition Words
-Use transition words to improve flow (target: one per paragraph):
-- Addition: Additionally, Furthermore, Moreover
-- Contrast: However, On the other hand, Nevertheless
-- Cause/Effect: Therefore, Consequently, As a result
-- Example: For instance, For example, Specifically
-- Time: First, Next, Finally
-
-## Content Quality Standards
-
-### Expertise, Authoritativeness, Trustworthiness (E-A-T)
-
-#### Expertise
-- Provide accurate, detailed information on podcasting topics
-- Back claims with data and examples
-- Demonstrate deep understanding of podcast creator needs
-- Include actionable, practical advice
-
-#### Authoritativeness
-- Cite credible sources
-- Reference industry data and trends
-- Include expert quotes when relevant
-- Leverage Castos's position as hosting platform
-
-#### Trustworthiness
-- Be transparent and honest
-- Acknowledge limitations or challenges
-- Don't overpromise results
-- Cite sources for all statistics and claims
-- Update outdated content regularly
-
-### Content Originality
-- **Never plagiarize**: All content must be original
-- **Add unique value**: What perspective or insight do we add?
-- **Fresh examples**: Use current, relevant examples
-- **Updated data**: Use most recent statistics available
-- **Unique angle**: Differentiate from competitor content
-
-### Factual Accuracy
-- **Verify statistics**: Check all numbers and data points
-- **Current information**: Ensure practices/processes are up-to-date
-- **Technical accuracy**: Podcasting terminology and processes must be correct
-- **Castos features**: Ensure product references are accurate
-
-## Image Optimization
-
-### Image Requirements
-- **Relevant**: Images should support content points
-- **High-quality**: Professional appearance
-- **Optimized**: Compressed for fast loading
-- **Mobile-friendly**: Visible and useful on small screens
-
-### Image SEO
-**File Names**:
-- Descriptive and keyword-rich
-- ✅ `podcast-editing-software-interface.jpg`
-- ❌ `IMG_12345.jpg`
-
-**Alt Text**:
-- Describe what image shows (accessibility + SEO)
-- Include keywords naturally where relevant
-- 125 characters or less
-- ✅ "Podcast editing software interface showing waveform and timeline"
-- ❌ "Image"
-
-**Placement**:
-- Break up long text sections
-- Illustrate concepts being discussed
-- After explaining concept, not before
+### External Link Rules
+- Link to authoritative, government, or recognized industry sources
+- Always open in new tab: `target="_blank" rel="noopener"`
+- Cite the source name in text: "According to IMARC Group..."
+- Prefer recent sources (within 1-2 years for data)
 
 ## Featured Snippet Optimization
 
-Featured snippets appear at position 0 in Google search results. Optimize for them when possible.
-
 ### Question-Based Snippets
-- Include question as H2 heading
-- Answer concisely in 40-60 words immediately after
+- Format target questions as H2 headings
+- Answer concisely in 40-60 words immediately after the heading
 - Use clear, direct language
-
-**Example**:
-```markdown
-## What is Podcast Hosting?
-
-Podcast hosting is a service that stores your audio files and generates an RSS feed that distributes your episodes to podcast platforms like Apple Podcasts, Spotify, and Google Podcasts. Without a host, listeners can't discover or access your show on their favorite apps.
-```
-
-### List-Based Snippets
-- Use numbered or bulleted lists
-- Keep items concise (1-2 sentences each)
-- Include 5-8 items typically
+- Then expand with detail below
 
 ### Table-Based Snippets
-- Use HTML tables or markdown tables
-- Comparison charts, pricing, specifications
-- Clear headers and organized data
+- Use HTML tables for comparisons, cost breakdowns, and timelines
+- Clear headers with proper `<thead>` and `<th>` elements
+- Keep tables to 4-8 rows for optimal snippet extraction
 
-### Definition Snippets
-- Define term in first sentence after heading
-- 40-60 word clear, concise definition
-- Expand with additional detail after
+### List-Based Snippets
+- Use numbered lists for steps and processes
+- Keep items to 1-2 sentences each
+- Include 5-8 items per list
 
-## Mobile Optimization
+## Content Quality Standards
 
-### Mobile-First Considerations
-- **Short paragraphs**: 2-3 sentences max
-- **Scannable**: Heavy use of subheadings and lists
-- **Large fonts**: Readable without zooming
-- **Tap-friendly links**: Adequate spacing
-- **Fast loading**: Optimized images
+### E-E-A-T Signals (Mandatory)
+- **Experience**: Reference Tally's direct experience (4,500+ companies, 20+ countries, specific client outcomes)
+- **Expertise**: Use correct Mexican regulatory terminology, cite real processes, demonstrate deep knowledge
+- **Authoritativeness**: Reference official entities (SAT, COFEPRIS, IMPI), link to primary sources
+- **Trustworthiness**: Be transparent about costs, timelines, and limitations. Acknowledge when processes vary.
 
-## Content Refresh Strategy
-
-### When to Update Content
-- Article is 12+ months old
-- Statistics or data are outdated
-- Processes or best practices have changed
-- Competitor content has surpassed ours
-- Rankings have declined
-- New relevant information available
-
-### What to Update
-- Publication date or "Last Updated" date
-- Statistics with current data
-- Screenshots with current versions
-- Examples with recent case studies
-- SEO elements (keyword focus may have shifted)
-- Internal links to newer content
+### Content Originality
+- Every article must provide a unique Tally perspective or proprietary data point
+- Include real cost figures, timelines, and process details that competitors do not share
+- Address the specific gap that existing top-ranking content misses
 
 ## SEO Checklist for Every Article
 
@@ -428,72 +281,44 @@ Before publishing, verify:
 
 ### Content
 - [ ] 2,000+ words (or appropriate for content type)
-- [ ] Primary keyword identified
-- [ ] Keyword density 1-2%
-- [ ] 3-5 secondary keywords included
-- [ ] LSI keywords naturally integrated
-- [ ] Provides unique value vs. competitors
-- [ ] Factually accurate and current
+- [ ] Primary keyword in first 100 words
+- [ ] 3-5 secondary keywords integrated naturally
+- [ ] Every paragraph adds specific value (data, cost, timeline, regulatory reference)
+- [ ] No fluff, no filler, no generic advice
 
 ### Structure
 - [ ] One H1 with primary keyword
-- [ ] 4-7 H2 sections
-- [ ] 2-3 H2s include keyword variations
-- [ ] Proper H1>H2>H3 hierarchy
-- [ ] Keyword in first 100 words
-- [ ] Keyword in conclusion
+- [ ] 5-8 H2 sections, 2-3 with keyword variations
+- [ ] Proper H1 > H2 > H3 hierarchy (no skipping)
+- [ ] Max 3 paragraphs between headings
+- [ ] At least one table, list, or callout per major section
 
 ### Meta Elements
-- [ ] Meta title 50-60 characters with keyword
-- [ ] Meta description 150-160 characters with keyword & CTA
-- [ ] URL slug includes primary keyword
-- [ ] All meta elements are unique
+- [ ] Meta title 50-60 chars with front-loaded keyword
+- [ ] Meta description 140-155 chars with keyword + benefit + differentiator
+- [ ] URL slug includes primary keyword (short, hyphenated)
+- [ ] Canonical URL set
+- [ ] OG tags set
+- [ ] Twitter Card tags set
+
+### Schema
+- [ ] Article JSON-LD markup
+- [ ] FAQPage JSON-LD markup with 5-8 questions
 
 ### Links
-- [ ] 3-5 internal links included
-- [ ] Internal links use descriptive anchor text
-- [ ] 2-3 external authority links
-- [ ] All links functional (no broken links)
-- [ ] Links add value to reader
+- [ ] 3-6 internal links with descriptive anchor text
+- [ ] At least 1 link to relevant service page
+- [ ] At least 1 link to /#cta-final or pricing
+- [ ] 2-4 external authority links
+- [ ] All links functional
 
-### Readability
-- [ ] 8th-10th grade reading level
-- [ ] Average sentence length 15-20 words
-- [ ] Paragraphs 2-4 sentences
-- [ ] Subheadings every 300-400 words
-- [ ] Lists used for scannability
-- [ ] Active voice predominantly
-
-### Images
-- [ ] Relevant images included
-- [ ] Descriptive file names
-- [ ] Alt text with keywords
-- [ ] Images optimized for web
-
-### Quality
-- [ ] No spelling or grammar errors
-- [ ] Factually accurate
-- [ ] Sources cited
-- [ ] Brand voice maintained
-- [ ] Provides actionable value
-- [ ] Clear call-to-action
-
-## SEO Tools & Resources
-
-### Recommended Tools
-- **Keyword Research**: Ahrefs, SEMrush, Google Keyword Planner
-- **Content Analysis**: Clearscope, Surfer SEO, MarketMuse
-- **Readability**: Hemingway Editor, Grammarly
-- **Technical SEO**: Screaming Frog, Google Search Console
-- **Rank Tracking**: Ahrefs, SEMrush, Google Search Console
-
-### Reference Resources
-- Google's Search Quality Evaluator Guidelines
-- Moz Beginner's Guide to SEO
-- Backlinko Blog (Brian Dean)
-- Search Engine Journal
-- Ahrefs Blog
+### Technical
+- [ ] GTM installed (GTM-KXDGDXZN)
+- [ ] Added to sitemap.xml
+- [ ] robots meta = index, follow
+- [ ] Mobile-friendly layout verified
+- [ ] Page load under 3 seconds
 
 ---
 
-**Remember**: SEO serves the user, not the algorithm. Never sacrifice content quality, accuracy, or helpfulness for keyword optimization. The best SEO is great content that genuinely helps podcast creators succeed.
+**Remember**: SEO serves the user, not the algorithm. Every optimization must improve the reader's experience. The best SEO for Tally is content that genuinely helps international brands understand and navigate Mexico market entry better than anything else on the internet.

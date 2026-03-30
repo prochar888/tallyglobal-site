@@ -1,9 +1,23 @@
-# Castos Style Guide
+# Tally Global Style Guide
 
-This guide defines writing conventions, formatting standards, and editorial guidelines for all Castos content.
+This guide defines writing conventions, formatting standards, and editorial guidelines for all TallyGlobal.ai content.
 
-## Instructions
-Fill in this template with Castos-specific style preferences. Update as the style guide evolves.
+---
+
+## Typography
+
+### Fonts
+- **Headlines (H1, H2)**: DM Serif Display (serif) -- elegant, authoritative, distinctive
+- **Body text, H3, UI elements**: DM Sans (sans-serif) -- clean, modern, highly readable
+- **Code/technical elements**: System monospace
+
+### Font Sizes (Reference)
+- H1: clamp(2rem, 5vw, 3rem)
+- H2: clamp(1.5rem, 3.5vw, 2rem)
+- H3: 1.125rem
+- Body: 1rem (16px base)
+- Small/meta text: 0.875rem
+- Category tags: 0.75rem uppercase
 
 ---
 
@@ -11,358 +25,217 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 
 ### Capitalization
 
-**Headlines & Subheadings**:
-- [ ] Title Case (Capitalize Major Words)
-- [ ] Sentence case (Only capitalize first word)
-- **Decision**: [Choose one and document here]
+**Headlines & Subheadings**: Title Case for H1 and H2. Sentence case for H3.
+- H1: "The Complete Guide to Selling on Amazon Mexico in 2026"
+- H2: "How Much Does It Cost to Sell on Amazon Mexico?"
+- H3: "Mexican bank account (MXN + USD)"
 
-**Product Names**:
-- Castos: [Always capitalized]
-- Seriously Simple Podcasting: [Capitalization style]
-- [Other Castos products]: [Style]
+**Product/Brand Names**:
+- Tally Global (always two words, both capitalized)
+- COFEPRIS (always all caps)
+- SAT (always all caps)
+- IMPI (always all caps)
+- S de RL de CV (capitalized S, lowercase de)
+- Amazon Mexico (both capitalized)
+- Mercado Libre (both capitalized)
 
 **Industry Terms**:
-- podcast / Podcast: [Choose one]
-- podcaster / Podcaster: [Choose one]
-- RSS / rss: [RSS (always caps)]
-- [Add other common terms]
+- ecommerce (lowercase, no hyphen)
+- marketplace (lowercase)
+- FBA, RFC, IVA, ISR, CFDI, NOM (always all caps -- these are acronyms)
 
 ### Numbers
-
-**When to Spell Out**:
-- Spell out: One through nine
+- Spell out: one through nine
 - Use numerals: 10 and above
-- Exceptions:
-  - Percentages: Always use numerals (5%, 50%)
-  - Money: Always use numerals ($5, $500)
-  - Measurements: Always use numerals (5 GB, 50 MB)
-  - Lists/stats: Always use numerals for scannability
-
-**Large Numbers**:
-- 1,000+ (use comma)
-- 1 million (spell out million, billion, etc.)
-- $5,000 or $5K? [Choose convention]
+- Always use numerals for: percentages (16%), money ($588), measurements, statistics
+- Large numbers: 4,500+ (comma separator), $54.4 billion (spell out billion)
+- Ranges: use en dash with no spaces: $588-$1,200/month, 4-6 weeks, 8-12 weeks
 
 ### Punctuation
-
-**Oxford Comma**:
-- [ ] Yes (A, B, and C)
-- [ ] No (A, B and C)
-- **Decision**: [Choose and document]
-
-**Em Dashes**:
-- Style: — (em dash, no spaces) or - - (hyphens with spaces)
-- Usage: For parenthetical statements or emphasis
-- Example: "Podcast analytics—when used correctly—drive better content decisions."
-
-**Quotation Marks**:
-- "Straight quotes" or "Curly quotes"?
-- **Decision**: [Choose one]
-
-**Ellipses**:
-- Three dots: ...
-- Spacing: no spaces before or after
-- Use sparingly: Primarily for omitted text in quotes
+- **Oxford comma**: Yes. "Entity, banking, and compliance."
+- **Em dashes**: Use `—` (HTML: `&mdash;`) with no spaces. "Mexico's tax authority — SAT — requires..."
+- **Periods in lists**: Period if the item is a complete sentence. No period if a fragment.
+- **Quotation marks**: Straight quotes in code, curly quotes in content
 
 ### Abbreviations & Acronyms
-
-**First Use**:
-- Spell out on first use, acronym in parentheses
-- Example: "Really Simple Syndication (RSS) feeds distribute..."
-- Exceptions for universally known: SEO, URL, CTA
-
-**Common Podcasting Acronyms**:
-- RSS: Really Simple Syndication
-- DAI: Dynamic Ad Insertion
-- SEO: Search Engine Optimization
-- IAB: Interactive Advertising Bureau
-- [Add others as needed]
-
-**Latin Abbreviations**:
-- e.g. (for example): [Use or avoid?]
-- i.e. (that is): [Use or avoid?]
-- etc. (and so forth): [Use or avoid?]
-- **Decision**: [Generally avoid in favor of plain English]
-
----
-
-## Word Choice & Usage
-
-### Preferred Terms
-
-**Say This** → **Not That**:
-- podcast creators → podcasters
-- podcast hosting → podcast storage
-- listeners → subscribers
-- audio quality → sound quality
-- show notes → episode notes / shownotes
-- podcast episode → podcast show (episode is unit, show is series)
-- analytics → stats
-- monetize → monetise (US spelling)
-- [Add Castos-specific preferences]
-
-### Words to Avoid
-- Avoid jargon without explanation
-- Avoid "very", "really", "actually" (usually unnecessary)
-- Avoid passive constructions when active is clearer
-- Avoid "click here" or "read more" (use descriptive links)
-- [Add other words/phrases to avoid]
-
-### Inclusive Language
-- Use gender-neutral language ("they" instead of "he/she")
-- "Podcast creator" or "podcaster" instead of gendered terms
-- Avoid idioms that may not translate globally
-- Be mindful of accessibility in descriptions
-
----
-
-## Formatting Standards
-
-### Text Formatting
-
-**Bold**:
-- Use for: Key concepts, important takeaways, emphasis
-- Don't overuse: If everything is bold, nothing stands out
-- Example: "**Keyword density** should be 1-2% for optimal results."
-
-**Italics**:
-- Use for: Emphasis (sparingly), titles of works, foreign phrases
-- Example: "The term *podcast* combines 'iPod' and 'broadcast'."
-
-**Underline**:
-- Generally avoid (reserve for links)
-
-**ALL CAPS**:
-- Avoid except for standard acronyms (RSS, SEO, URL)
-
-### Lists
-
-**Bulleted Lists**:
-- Use for: Non-sequential items, features, benefits
-- Capitalization: [Sentence case or Title Case?]
-- Punctuation: [Period at end of each item or no punctuation?]
-- **Decision**:
-  - Capitalize first word
-  - Period if complete sentence, no period if fragment
-  - Parallel structure (all sentences or all fragments)
-
-**Numbered Lists**:
-- Use for: Sequential steps, rankings, ordered priorities
-- Format: 1. 2. 3. (with period after number)
-- Same capitalization and punctuation rules as bullets
-
-**Nested Lists**:
-- Maximum 2 levels deep for readability
-- Use different markers for sub-items
-
-### Links
-
-**Anchor Text**:
-- Descriptive (tell reader where they're going)
-- Keyword-rich when possible
-- 2-5 words typically
-- ✅ "Learn more about podcast SEO"
-- ❌ "Click here"
-
-**Link Formatting**:
-- Color: [Default blue or Castos brand color?]
-- Underline: [Yes/No]
-- Open in new tab: [Only for external links]
-
-### Code & Technical Elements
-
-**Inline Code**:
-- Use backticks for: URLs, file names, code snippets
-- Example: "Your RSS feed URL is `https://feeds.castos.com/...`"
-
-**Code Blocks**:
-- Use for: Multi-line code, configuration examples
-- Include language identifier for syntax highlighting
-
-### Callout Boxes / Asides
-
-**When to Use**:
-- Important notes or warnings
-- Pro tips or expert insights
-- Key takeaways or summaries
-
-**Format**:
-- [Define how to format: blockquote, box, highlighted section?]
-- Example style to be determined
+- Spell out on first use with acronym in parentheses: "COFEPRIS (Comision Federal para la Proteccion contra Riesgos Sanitarios)"
+- Exception: universally known acronyms need no expansion: SEO, URL, CTA, US, EU
+- Mexican regulatory acronyms always get a brief English explanation on first use: "RFC (Mexico's tax ID, equivalent to a US EIN)"
 
 ---
 
 ## Content Structure
 
-### Article Introduction
-**Standard Structure** (150-250 words):
-1. **Hook** (1-2 sentences): Grab attention with question, statistic, or bold statement
-2. **Problem** (2-3 sentences): What challenge or question does this address?
-3. **Promise** (2-3 sentences): What will reader learn/achieve?
-4. **Credibility** (optional, 1-2 sentences): Why trust this source?
+### Maximum 3 Paragraphs Without a Heading
+This is a hard rule. If three paragraphs pass without an H2 or H3, add one. Readers scan before they read.
 
-**Keyword Placement**:
-- Must include primary keyword in first 100 words
-- Natural integration, not forced
+### Paragraph Length
+- 2-4 sentences per paragraph
+- One idea per paragraph
+- No walls of text
 
-### Section Length
-- **Minimum**: 150 words per section
-- **Maximum**: 500 words per section (break into subsections if longer)
-- **Ideal**: 250-350 words per main section
+### Required Section Elements
+Every major section (under an H2) must include at least one of:
+- Bullet points or numbered list
+- Data table
+- Callout box (stat, warning, or pro tip)
+- Specific data point (cost, timeline, percentage)
 
-### Conclusion
-**Standard Structure** (150-250 words):
-1. **Recap** (3-5 bullet points or paragraph): Key takeaways
-2. **Action** (1-2 sentences): What should reader do next?
-3. **CTA** (1-2 sentences): Call-to-action (trial, resource, related content)
-4. **Forward-looking** (optional, 1 sentence): Encouraging final thought
+### Bullet Points
+- Use for non-sequential items, features, benefits, requirements
+- Capitalize first word
+- Period if complete sentence, no period if fragment
+- Parallel structure (all sentences or all fragments, not mixed)
+- Maximum 8 items per list (break into sub-groups if more)
+
+### Tables
+Use tables for:
+- Cost breakdowns (service, amount, notes)
+- Comparisons (Amazon vs Mercado Libre, entity types, competitor comparison)
+- Timelines (step, weeks, description)
+- Requirements lists (item, required?, details)
+
+Table styling:
+- Dark header row (var(--dark) background, white text)
+- Alternating hover state on rows
+- Rounded corners on first/last cells
+- Left-aligned text, right-aligned numbers
+
+### Callout Boxes
+Three types:
+- **Default (violet border)**: Key information, important context
+- **Orange callout**: Warnings, requirements, "do not miss this" notices
+- **Green callout**: Positive stats, advantages, good news
+
+Format: Bold label line ("Key stat:", "Important:", "Pro tip:") followed by the content.
+
+### Step Boxes
+For multi-step processes, use step boxes with:
+- Step label: "STEP 1 -- WEEK 1" (uppercase, violet color, small text)
+- Step title: H3 level heading
+- Step description: 2-3 sentences max
+- Sequential layout (stacked vertically)
 
 ---
 
-## SEO-Specific Style
+## CTAs (Calls to Action)
 
-### Meta Titles
-- 50-60 characters including spaces
-- Include primary keyword
-- Include "| Castos" if space allows
-- No ending punctuation
+### Primary CTA
+- **Button text**: "Get Your Mexico Roadmap"
+- **Button color**: Orange (var(--orange, #ff8248))
+- **Button shape**: Rounded pill (border-radius: 100px)
+- **Link target**: /#cta-final
+- **Placement**: Dark background section at end of every article
 
-### Meta Descriptions
-- 150-160 characters including spaces
-- Include primary keyword
-- Include call-to-action
-- End with complete thought
+### CTA Section Format
+- Dark background (var(--dark, #212121))
+- Centered layout, max-width 640px
+- H2 in DM Serif Display, white: "Ready to Launch in Mexico?"
+- Supporting paragraph in muted gray: brief value prop + proof point
+- Orange button: "Get Your Mexico Roadmap"
 
-### URL Slugs
-- Lowercase only
-- Hyphens between words
-- Include primary keyword
-- 3-5 words ideal
-- Format: `/blog/primary-keyword-phrase`
+### In-Article CTAs
+- Contextual links to service pages within body text (not buttons)
+- Natural anchor text: "Tally's entity formation service" not "click here for entity formation"
+- Pricing mentions with link: "$588/month" linked to /pricing.html
 
-### Alt Text
-- Describe what image shows
+### CTA Rules
+- Every article must end with the dark CTA section
+- Never use "Contact us" or "Click here" or "Submit"
+- Always be specific: "Get Your Mexico Roadmap" or "Talk to Our Team"
+- Include a proof point near the CTA: "4,500+ companies formed" or "8-12 weeks to first sale"
+
+---
+
+## Links
+
+### Internal Link Anchor Text
+- Descriptive and keyword-rich
+- 3-7 words typically
+- Never: "click here," "read more," "learn more," "this article"
+- Good: "form a Mexican company," "COFEPRIS registration process," "$588/month Starter plan"
+
+### External Links
+- Open in new tab
+- Link to authoritative sources (government sites, recognized data providers)
+- Cite source name in text: "According to IMARC Group..."
+
+---
+
+## Images & Media
+
+### Image Alt Text
+- Describe what the image shows
 - Include keyword naturally if relevant
 - 125 characters or less
-- No "image of" or "picture of" (implied)
+- No "image of" or "picture of" prefix
+
+### Image File Names
+- Descriptive and keyword-rich
+- Lowercase, hyphenated
+- Good: `mexico-entity-formation-timeline.webp`
+- Bad: `IMG_12345.jpg`
+
+---
+
+## Color Reference (Brand Palette)
+
+| Color | Variable | Hex | Usage |
+|-------|----------|-----|-------|
+| Dark | --dark | #212121 | Headers, table headers, CTA backgrounds |
+| Violet | --violet | #6047ff | Accents, category tags, step labels |
+| Orange | --orange | #ff8248 | CTA buttons, orange callout borders |
+| Green | --green | #49d475 | Green callout borders, positive stats |
+| Off-white | --bg-off-white | #fefcf8 | Page backgrounds, hero sections |
+| Text primary | --text-primary | #212121 | Body text, headings |
+| Text secondary | --text-secondary | #6B7280 | Subtitles, meta text, descriptions |
+| Border light | --border-light | #e8e8e8 | Table borders, dividers, FAQ borders |
 
 ---
 
 ## Dates & Time
 
-**Date Format**:
-- Month DD, YYYY (January 15, 2025)
-- Or: DD Month YYYY (15 January 2025)
-- **Decision**: [Choose one]
-
-**Time**:
-- 12-hour format with a.m./p.m.: 3:00 p.m.
-- Or: 24-hour format: 15:00
-- **Decision**: [Choose one]
-
-**Time Zones**:
-- Specify when relevant: "3:00 p.m. EST"
-- Or use: "3:00 p.m. Eastern Time"
+- **Date format**: Month DD, YYYY (March 27, 2026)
+- **In articles**: Spell out month, use numerals for day and year
+- **In meta/schema**: ISO format (2026-03-27)
+- **Time references**: Relative when recent ("this month"), specific when older ("January 2025")
 
 ---
 
 ## Statistics & Data
 
 ### Citing Sources
-- Always cite statistics with sources
-- Format: "According to [Source], [statistic]."
+- Always cite statistics: "Mexico's ecommerce market reached $54.4 billion in 2025 (IMARC Group)"
 - Link to original source when possible
-- Include year of data: "In 2024, podcast listeners reached..."
+- Include year: "As of January 2025, SAT requires..."
 
 ### Presenting Numbers
-- Round large numbers for readability: "1.2 million" not "1,234,567"
-- Use % symbol: 15% (not "percent")
-- Use $ for money: $500 (not "dollars")
-- Include commas: 10,000 not 10000
+- Use `<strong>` for key numbers in body text: **$54.4 billion**, **34% YoY**, **4,500+ companies**
+- Use % symbol (not "percent"): 34%
+- Use $ for money: $588 (not "dollars")
+- Include commas: 4,500 not 4500
+- Use "+" for open-ended counts: 4,500+, 20+, 130M+
 
 ---
 
-## Images & Media
+## SEO-Specific Style
 
-### Image Captions
-- [ ] Required for all images
-- [ ] Optional, only when needed for context
-- **Decision**: [Choose one]
+### Meta Titles
+- 50-60 characters
+- Primary keyword front-loaded
+- Include "| Tally Global" if space allows
+- No ending punctuation
 
-**Caption Style**:
-- Sentence case
-- End with period if complete sentence
-- Placement: Below image
+### Meta Descriptions
+- 140-155 characters
+- Primary keyword + benefit + proof point
+- End with complete thought
 
-### Screenshots
-- Include relevant screenshots when helpful
-- Crop to show only relevant portion
-- Add arrows/highlights if needed to draw attention
-- Alt text should describe what's shown
-
-### Charts & Graphs
-- Include data visualization when it helps understanding
-- Keep design simple and clean
-- Always provide context in surrounding text
-- Alt text should describe the key finding, not just "chart"
-
----
-
-## Brand-Specific Guidelines
-
-### Castos Product References
-
-**Castos Platform**:
-- "Castos" (not "the Castos platform" unless needed for clarity)
-- "Castos analytics dashboard"
-- [Add other product-specific terms]
-
-**Features**:
-- [List how to refer to specific features]
-- [Capitalization conventions for features]
-
-### Competitor References
-- [ ] Name competitors directly when relevant
-- [ ] Use generic terms ("other podcast hosts")
-- **Decision**: [Choose approach]
-
-**If Naming Competitors**:
-- Be fair and factual
-- No disparaging language
-- Focus on differentiation, not criticism
-
----
-
-## Accessibility
-
-### Screen Reader Friendly
-- Descriptive link text (not "click here")
-- Image alt text for all images
-- Proper heading hierarchy (H1→H2→H3, no skipping)
-- Descriptive link previews
-
-### Plain Language
-- Write at 8th-10th grade level
-- Define technical terms on first use
-- Use short sentences and paragraphs
-- Break complex ideas into digestible chunks
-
----
-
-## Voice & Tone Reminders
-
-### Core Voice Characteristics
-1. Professional yet approachable
-2. Educational and empowering
-3. Podcast creator advocate
-4. Technically accurate but accessible
-5. Results and growth-focused
-
-### Tone Variations
-- **How-to content**: Instructive, step-by-step, encouraging
-- **Strategic content**: Authoritative, experienced, actionable
-- **Industry news**: Insightful, analytical, forward-looking
-- **Product content**: Benefit-focused, clear, honest
+### URL Slugs
+- Lowercase, hyphenated
+- 3-5 words
+- Primary keyword included
+- Format: /blog/primary-keyword-phrase.html
 
 ---
 
@@ -370,50 +243,36 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 
 Before publishing any content:
 
-**Grammar & Mechanics**:
-- [ ] Spelling checked
-- [ ] Grammar checked
-- [ ] Punctuation correct (Oxford comma, em dashes, etc.)
-- [ ] Numbers formatted consistently
-- [ ] Dates formatted correctly
+**Structure**:
+- [ ] Max 3 paragraphs between headings
+- [ ] Every section has a list, table, callout, or data point
+- [ ] Proper heading hierarchy (H1 > H2 > H3)
+- [ ] DM Serif Display for H1/H2, DM Sans for body
 
 **Style**:
-- [ ] Follows capitalization guidelines
-- [ ] Uses preferred terminology
-- [ ] Consistent formatting (bold, italics, lists)
-- [ ] Links are descriptive
-- [ ] Voice and tone appropriate
+- [ ] Specific numbers, not vague claims
+- [ ] Active voice predominantly
+- [ ] Mexican terms explained on first use
+- [ ] No filler words (very, really, actually, basically)
+- [ ] Descriptive link anchor text (never "click here")
 
-**Structure**:
-- [ ] Strong introduction (hook, problem, promise)
-- [ ] Logical section flow
-- [ ] Proper heading hierarchy
-- [ ] Effective conclusion with CTA
-- [ ] Appropriate section lengths
+**Formatting**:
+- [ ] Tables used for comparisons and data
+- [ ] Callout boxes for key stats and warnings
+- [ ] Bold (`<strong>`) for key terms and numbers
+- [ ] Step boxes for multi-step processes
+- [ ] Orange CTA button in closing section
 
-**SEO**:
-- [ ] Keyword integrated naturally
-- [ ] Meta elements optimized
-- [ ] Internal and external links included
-- [ ] Images have alt text
-- [ ] URL slug optimized
-
-**Quality**:
-- [ ] Factually accurate
-- [ ] Sources cited
-- [ ] No broken links
-- [ ] Provides genuine value
-- [ ] Ready for publication
+**Brand**:
+- [ ] DM Serif Display + DM Sans fonts loaded
+- [ ] Color palette adhered to
+- [ ] CTA says "Get Your Mexico Roadmap"
+- [ ] Proof point near every CTA
+- [ ] Ownership narrative reinforced
 
 ---
 
-## Updates & Maintenance
-
 **Style Guide Version**: 1.0
-**Last Updated**: [Date]
-**Next Review**: [Date]
+**Last Updated**: March 2026
 
-This style guide is a living document. Update as Castos brand and voice evolve.
-
-**Questions or Additions?**
-If you encounter a style question not covered here, make a decision, document it, and add it to this guide for future reference.
+*This style guide is a living document. Update as the Tally Global brand evolves.*
