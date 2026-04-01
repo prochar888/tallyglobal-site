@@ -117,6 +117,12 @@ This document catalogs all key TallyGlobal.ai pages for strategic internal linki
 - **When to Link**: Any article about COFEPRIS, regulated products, supplements, cosmetics, NOM labeling, import compliance
 - **Anchor Text Examples**: "COFEPRIS registration guide for Amazon sellers", "how to get COFEPRIS approval", "COFEPRIS requirements for supplements", "COFEPRIS registration process"
 
+### Mexico Import Duties and Tariffs: What You'll Actually Pay (2026 Guide)
+- **URL**: https://tallyglobal.ai/blog/mexico-import-duties-tariffs-guide.html
+- **Primary Topic**: Mexico import duties, tariffs, customs costs for ecommerce sellers (pillar content)
+- **When to Link**: Any article about importing to Mexico, customs duties, tariff classification, USMCA, IVA recovery, landed cost
+- **Anchor Text Examples**: "Mexico import duties and tariffs guide", "what you'll pay in Mexico import duties", "real cost breakdown for Mexico imports", "USMCA duty advantages"
+
 *Add new blog posts here as they are published, following the same format.*
 
 ---
