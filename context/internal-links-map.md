@@ -111,6 +111,12 @@ This document catalogs all key TallyGlobal.ai pages for strategic internal linki
 - **When to Link**: Any article about entity formation, S de RL de CV, company setup, RFC, foreign ownership in Mexico
 - **Anchor Text Examples**: "form a company in Mexico as a foreigner", "Mexico entity formation guide", "S de RL vs SA vs SAPI comparison", "how to open a company in Mexico"
 
+### COFEPRIS Registration for Amazon Mexico Sellers: The Complete Guide (2026)
+- **URL**: https://tallyglobal.ai/blog/cofepris-registration-amazon-sellers-guide.html
+- **Primary Topic**: COFEPRIS registration for ecommerce sellers (pillar content)
+- **When to Link**: Any article about COFEPRIS, regulated products, supplements, cosmetics, NOM labeling, import compliance
+- **Anchor Text Examples**: "COFEPRIS registration guide for Amazon sellers", "how to get COFEPRIS approval", "COFEPRIS requirements for supplements", "COFEPRIS registration process"
+
 *Add new blog posts here as they are published, following the same format.*
 
 ---
