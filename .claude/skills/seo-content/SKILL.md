@@ -281,6 +281,29 @@ Also output the CMS JSON schema above for headless CMS injection if needed.
 
 ---
 
+## Legal Language Rules (from Terms & Conditions)
+
+Tally is a COORDINATOR and ADVISOR. All operational services are provided by licensed third-party partners. This is non-negotiable for legal compliance.
+
+**NEVER say:**
+- "our warehouse" or "Tally's warehouse" — use "partner warehouse" or "partner facility"
+- "we import" or "Tally imports" — use "we coordinate imports through licensed partners"
+- "we clear customs" — use "we coordinate with licensed customs brokers"
+- "Tally handles customs clearance" — use "Tally coordinates customs clearance with vetted brokers"
+- "our consolidation center" — use "partner consolidation center"
+
+**ALWAYS say:**
+- "we coordinate", "we manage the process", "we connect you with", "through our partner network"
+- "vetted customs brokers", "licensed third-party providers", "partner warehouse"
+- Include disclaimer where relevant: "Tally acts as coordinator and advisor; operational services are provided by licensed third-party partners."
+
+**OK to say:**
+- "your warehouse" (client's own)
+- "Amazon's warehouses" / "FBA warehouses"
+- "bonded warehouse" (customs term)
+
+---
+
 ## Quality Checklist (verify before publishing)
 
 - [ ] Primary keyword in: title, H1, first 100 words, meta description, URL slug

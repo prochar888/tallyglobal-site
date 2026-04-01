@@ -147,6 +147,24 @@ Imagine you are an experienced Mexico market entry advisor helping a smart, busy
 - "own your entity" --> "we help you set up" (ownership language, not service language)
 - "market entry" --> "expansion" (market entry is the correct frame for Mexico)
 
+## Legal Language Rules (from Terms & Conditions)
+
+Tally is a **coordinator and advisor**, not a direct service provider. All operational services (warehousing, customs clearance, importing) are performed by licensed third-party partners. This is critical for legal/regulatory compliance.
+
+- NEVER say "our warehouse" or "Tally's warehouse" — we use partner facilities
+- NEVER say "we import" or "Tally imports" — we coordinate imports through licensed partners
+- NEVER say "we clear customs" — licensed customs brokers do this, we coordinate
+- NEVER say "Tally handles customs clearance" — say "Tally coordinates with licensed customs brokers"
+- ALWAYS include the disclaimer: Tally is a coordinator/advisor, not the direct service provider
+- ALWAYS say "partner warehouse", "partner network", "vetted customs brokers"
+- OK to say: "we coordinate", "we manage the process", "we connect you with", "through our partner network"
+
+These phrases are fine and should NOT be changed:
+- "your warehouse" (client's own warehouse)
+- "Amazon's warehouses" / "FBA warehouses" (Amazon's facilities)
+- "bonded warehouse" (customs term, not Tally's property)
+- "Warehouse & Handling" in cost tables (general import cost category)
+
 ## What We Never Say
 
 - "Click here" or "Read more" (use descriptive anchor text)
