@@ -2,14 +2,24 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https: data:; frame-src https://www.youtube.com https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://formspree.io">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KXDGDXZN');</script>
+  <!-- End Google Tag Manager -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog | Mexico Ecommerce Guides &amp; Insights | Tally Global</title>
   <meta name="description" content="Expert guides for selling in Mexico. COFEPRIS registration, Amazon Mexico requirements, entity formation, imports, NOM labeling, and more. Updated 2026.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://tallyglobal.ai/blog">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.prod.website-files.com/68d0a16872bd6561dfde96a8/69915507dfd1c29c053f54a3_Favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.prod.website-files.com/68d0a16872bd6561dfde96a8/69915507dfd1c29c053f54a3_Favicon.png">
   <link rel="alternate" hreflang="en" href="https://tallyglobal.ai/blog">
   <link rel="alternate" hreflang="zh" href="https://tallyglobal.ai/china/">
-  <link rel="alternate" hreflang="es" href="https://tallyglobal.ai/es/">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Insights &amp; Guides — Tally Global Blog">
@@ -25,10 +35,11 @@
   <meta name="twitter:description" content="Expert resources for international brands expanding to Mexico.">
   <meta name="twitter:image" content="https://tallyglobal.ai/og-image.jpg">
 
-  <!-- Fonts -->
+  <!-- Fonts (preloaded for faster render) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
@@ -50,18 +61,34 @@
     "blogPost": [
       {
         "@type": "BlogPosting",
-        "headline": "Complete Guide to Selling on Amazon Mexico as a Foreign Company",
-        "description": "Everything you need to know about launching on Amazon Mexico: entity formation, RFC, COFEPRIS, banking, and marketplace setup.",
-        "url": "https://tallyglobal.ai/blog/sell-on-amazon-mexico-guide",
-        "datePublished": "2026-03-15",
+        "headline": "The Complete Guide to Selling on Amazon Mexico in 2026",
+        "description": "Everything you need to sell on Amazon Mexico: entity formation, COFEPRIS, FBA, costs, and a step-by-step timeline from zero to first sale.",
+        "url": "https://tallyglobal.ai/blog/sell-on-amazon-mexico-complete-guide.html",
+        "datePublished": "2026-03-27",
         "author": { "@type": "Organization", "name": "Tally Global" }
       },
       {
         "@type": "BlogPosting",
-        "headline": "COFEPRIS Registration: Everything You Need to Know",
-        "description": "Step-by-step guide to COFEPRIS sanitary permits for supplements, cosmetics, food, and medical devices entering Mexico.",
-        "url": "https://tallyglobal.ai/blog/cofepris-registration-guide",
-        "datePublished": "2026-03-10",
+        "headline": "How to Form a Company in Mexico as a Foreigner",
+        "description": "S de RL vs SA vs SAPI, week-by-week timeline, costs, and the complete process for foreign entrepreneurs.",
+        "url": "https://tallyglobal.ai/blog/form-company-mexico-foreigner-guide.html",
+        "datePublished": "2026-03-30",
+        "author": { "@type": "Organization", "name": "Tally Global" }
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "COFEPRIS Registration for Amazon Mexico Sellers",
+        "description": "Supplements, cosmetics, food, medical devices. Timelines, costs, the viability report, and how GROWVE launched 12 brands.",
+        "url": "https://tallyglobal.ai/blog/cofepris-registration-amazon-sellers-guide.html",
+        "datePublished": "2026-04-01",
+        "author": { "@type": "Organization", "name": "Tally Global" }
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Mexico Import Duties and Tariffs: What You'll Actually Pay",
+        "description": "Real cost breakdowns, USMCA preferential rates, the 19% courier surcharge, and how to estimate your total import cost.",
+        "url": "https://tallyglobal.ai/blog/mexico-import-duties-tariffs-guide.html",
+        "datePublished": "2026-04-01",
         "author": { "@type": "Organization", "name": "Tally Global" }
       }
     ]
@@ -92,8 +119,9 @@
     }
 
     .blog-hero h1 {
+      font-family: 'DM Serif Display', serif;
       font-size: clamp(2.5rem, 5vw, 3.5rem);
-      font-weight: 800;
+      font-weight: 400;
       color: var(--bg-white);
       margin-bottom: 20px;
       position: relative;
@@ -102,60 +130,21 @@
     .blog-hero .hero-subtitle {
       font-size: clamp(1.1rem, 2vw, 1.35rem);
       color: var(--text-muted-dark);
-      max-width: 600px;
+      max-width: 640px;
       margin: 0 auto;
       line-height: 1.7;
       position: relative;
     }
 
-    /* Category Filter Bar */
-    .filter-section {
-      padding: 40px 0 0;
-      background: var(--bg-white);
-    }
-
-    .filter-bar {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
-      padding-bottom: 40px;
-      border-bottom: 1px solid #E5E7EB;
-    }
-
-    .filter-btn {
-      padding: 8px 20px;
-      border-radius: 100px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: var(--text-secondary);
-      background: var(--bg-light);
-      border: 1px solid #E5E7EB;
-      cursor: pointer;
-      transition: all var(--transition-fast);
-    }
-
-    .filter-btn:hover {
-      color: var(--accent);
-      border-color: var(--accent);
-      background: rgba(79, 70, 229, 0.05);
-    }
-
-    .filter-btn.active {
-      color: white;
-      background: var(--accent);
-      border-color: var(--accent);
-    }
-
     /* Blog Grid */
     .blog-grid-section {
-      padding: 60px 0 100px;
+      padding: 80px 0 100px;
       background: var(--bg-white);
     }
 
     .blog-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 32px;
     }
 
@@ -163,106 +152,105 @@
     .blog-card {
       background: var(--bg-white);
       border: 1px solid #E5E7EB;
-      border-radius: var(--radius-md);
+      border-radius: 20px;
       overflow: hidden;
       transition: transform var(--transition-base), box-shadow var(--transition-base);
+      display: flex;
+      flex-direction: column;
     }
 
     .blog-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-lg);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    }
+
+    .blog-card a.blog-card-link {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
     }
 
     .blog-card-image {
       width: 100%;
-      height: 200px;
-      background: linear-gradient(135deg, #F3F4F6 0%, #E5E7EB 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
+      height: 240px;
+      overflow: hidden;
+      border-radius: 20px 20px 0 0;
     }
 
-    .blog-card-image .image-placeholder {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: #9CA3AF;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+    .blog-card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     .blog-card-body {
-      padding: 24px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
     }
 
-    .blog-category-tag {
+    .blog-category-pill {
       display: inline-block;
-      padding: 4px 12px;
+      padding: 4px 14px;
       border-radius: 100px;
       font-size: 0.75rem;
       font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 12px;
+      letter-spacing: 0.06em;
+      margin-bottom: 14px;
+      width: fit-content;
     }
 
-    .tag-legal {
-      background: rgba(79, 70, 229, 0.1);
-      color: var(--accent);
+    .pill-marketplace {
+      background: rgba(6, 182, 212, 0.12);
+      color: #06B6D4;
     }
 
-    .tag-cofepris {
-      background: rgba(16, 185, 129, 0.1);
-      color: var(--green);
+    .pill-legal {
+      background: rgba(139, 92, 246, 0.12);
+      color: #8B5CF6;
     }
 
-    .tag-imports {
-      background: rgba(245, 158, 11, 0.1);
-      color: #D97706;
+    .pill-compliance {
+      background: rgba(249, 115, 22, 0.12);
+      color: #F97316;
     }
 
-    .tag-marketplace {
-      background: rgba(239, 68, 68, 0.1);
-      color: var(--red);
-    }
-
-    .tag-tax {
-      background: rgba(107, 114, 128, 0.1);
-      color: var(--text-secondary);
+    .pill-imports {
+      background: rgba(34, 197, 94, 0.12);
+      color: #16A34A;
     }
 
     .blog-card-title {
-      font-size: 1.15rem;
-      font-weight: 700;
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
       color: var(--text-primary);
-      line-height: 1.4;
+      line-height: 1.35;
       margin-bottom: 12px;
-    }
-
-    .blog-card-title a {
-      color: inherit;
-      transition: color var(--transition-fast);
-    }
-
-    .blog-card-title a:hover {
-      color: var(--accent);
     }
 
     .blog-card-excerpt {
       font-size: 0.9rem;
       color: var(--text-secondary);
-      line-height: 1.6;
-      margin-bottom: 16px;
+      line-height: 1.65;
+      margin-bottom: 20px;
       display: -webkit-box;
-      -webkit-line-clamp: 2;
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
+      flex: 1;
     }
 
     .blog-card-meta {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-top: auto;
     }
 
     .blog-card-date {
@@ -274,135 +262,52 @@
       font-size: 0.9rem;
       font-weight: 600;
       color: var(--accent);
-      transition: color var(--transition-fast);
     }
 
-    .blog-read-more:hover {
-      color: var(--accent-light);
-    }
-
-    /* Load More */
-    .load-more-section {
-      text-align: center;
-      padding: 0 0 100px;
-      background: var(--bg-white);
-    }
-
-    .load-more-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 14px 32px;
-      border: 2px solid #E5E7EB;
-      border-radius: var(--radius-sm);
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: var(--text-secondary);
-      background: var(--bg-white);
-      cursor: pointer;
-      transition: all var(--transition-fast);
-    }
-
-    .load-more-btn:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    /* Newsletter CTA */
-    .blog-newsletter {
+    /* CTA Section */
+    .blog-cta {
       padding: 80px 0;
-      background: var(--bg-light);
+      background: linear-gradient(135deg, var(--dark) 0%, var(--dark-surface) 100%);
       text-align: center;
     }
 
-    .blog-newsletter h2 {
-      font-size: clamp(1.5rem, 3vw, 2rem);
-      font-weight: 800;
-      color: var(--text-primary);
+    .blog-cta h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+      font-weight: 400;
+      color: var(--bg-white);
       margin-bottom: 12px;
     }
 
-    .blog-newsletter p {
+    .blog-cta p {
       font-size: 1rem;
-      color: var(--text-secondary);
+      color: var(--text-muted-dark);
       margin-bottom: 28px;
       max-width: 480px;
       margin-left: auto;
       margin-right: auto;
     }
 
-    .newsletter-form {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      max-width: 480px;
-      margin: 0 auto;
-    }
-
-    .newsletter-form input {
-      flex: 1;
-      padding: 12px 16px;
-      border: 1px solid #D1D5DB;
-      border-radius: var(--radius-sm);
-      font-size: 0.95rem;
-      color: var(--text-primary);
-      background: var(--bg-white);
-    }
-
-    .newsletter-form input:focus {
-      outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px var(--accent-glow);
-    }
-
-    .newsletter-form input::placeholder {
-      color: #9CA3AF;
-    }
-
-    .newsletter-form .btn {
-      white-space: nowrap;
-    }
-
     /* Responsive */
-    @media (max-width: 1024px) {
-      .blog-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-
     @media (max-width: 768px) {
       .blog-grid {
         grid-template-columns: 1fr;
         max-width: 480px;
         margin: 0 auto;
       }
-
-      .filter-bar {
-        gap: 8px;
-      }
-
-      .filter-btn {
-        padding: 6px 14px;
-        font-size: 0.85rem;
-      }
-
-      .newsletter-form {
-        flex-direction: column;
-      }
-
-      .newsletter-form .btn {
-        width: 100%;
-      }
     }
   </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXDGDXZN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <!-- ===== NAVIGATION ===== -->
   <header class="site-header" id="site-header">
     <div class="container nav-container">
       <a href="/" class="logo" aria-label="Tally Global Home">
-        <span class="logo-text">Tally<span class="logo-accent">Global</span></span>
+        <svg viewBox="0 0 226.8 185" xmlns="http://www.w3.org/2000/svg" width="150" height="56" style="fill:currentColor" class="logo-svg"><g><path d="M57.2,135.4c0,8.5,0,17,0,25.4c0,0.8-0.2,0.9-0.9,0.9c-6.5,0-13,0-19.5,0c-0.8,0-1-0.2-1-1c0-16.9,0-33.7,0-50.6c0-1.4,0.1-1.2-1.2-1.2c-6.1,0-12.1,0-18.2,0c-0.7,0-1-0.2-1-0.9c-0.1-2.2-0.5-4.4-0.3-6.6c0.4-4.8,3.8-8.3,8.6-9.2c1.3-0.2,2.6-0.3,4-0.3c16.2,0,32.3,0,48.5,0c0.8,0,1,0.2,1,1c0.2,2,0.2,3.9,0.3,5.9c0.2,5.7-3.2,9-8.3,9.8c-1.8,0.3-3.6,0.3-5.4,0.3c-1.8,0-3.7,0-5.5,0c-1,0-1,0-1,1C57.2,118.5,57.2,127,57.2,135.4z"/><path d="M167.1,182c-1.7,0-3.4,0-5-0.3c-4.4-0.9-6.3-3.8-5.3-8.1c0.5-2.1,1.5-4,2.6-5.9c0.2-0.5,0.5-0.2,0.8-0.1c1.8,1,3.7,1.5,5.8,1.4c3.5-0.1,5.5-1.5,6.7-4.8c0.8-2.4,0.8-2.4-1.6-2.4c-1.3,0-2.5-0.1-3.8,0c-0.8,0.1-1-0.3-1.3-0.9c-1.8-5.4-3.5-10.9-5.3-16.3c-2.4-7.3-4.8-14.7-7.2-22c-0.1-0.4-0.3-0.7,0.3-0.9c4-1.2,8.1-1.8,12.2-0.9c3.8,0.8,5.9,3.4,6.8,7.1c1.2,5.4,2.3,10.9,3.4,16.4c0.2,1.1,0.4,2.2,0.7,3.3c0.1,0.2,0,0.6,0.3,0.6c0.3,0,0.3-0.4,0.3-0.6c0.8-4,1.6-8,2.4-11.9c0.6-2.9,1-5.8,1.9-8.5c1.4-4.2,4.8-6.6,9.3-6.7c3,0,5.9,0.4,8.7,1.4c0.4,0.2,0.6,0.3,0.4,0.8c-3.2,11.7-6.3,23.5-9.5,35.2c-1,3.8-1.9,7.7-3.6,11.4c-1.6,3.6-3.7,6.9-7,9.3c-3.1,2.3-6.6,3.2-10.4,3.4C168.7,182.1,167.9,182,167.1,182z"/><path d="M103.6,145.2c0.1,2.8-0.1,6.2,0.1,9.7c0.1,2.3,0.4,4.5,1.1,6.7c0.2,0.5,0,0.7-0.5,0.8c-3.8,1.1-7.6,1.2-11.4,0.6c-1.9-0.3-3.6-1.2-4.4-3.2c-0.2-0.4-0.3-0.3-0.6-0.1c-4.7,3.7-10.2,4.1-15.8,3c-6.1-1.3-9.3-5.6-9.5-11.8c-0.2-6.5,3.2-10.5,8.6-12.9c3.9-1.7,8-2.4,12.3-2.6c0.9-0.1,1.9-0.1,2.8-0.1c0.4,0,0.5-0.1,0.5-0.5c0.2-2.6-0.9-3.9-3.4-4.3c-4-0.5-7.8,0.3-11.5,1.7c-1,0.4-2,0.8-2.9,1.3c-0.3,0.1-0.6,0.2-0.8-0.1c-1.2-1.6-2.3-3.3-2.8-5.3c-0.5-1.7,0-3.2,1.4-4.3c1.7-1.4,3.7-2.3,5.9-2.9c6.1-1.6,12.3-2,18.5-1c2.4,0.4,4.6,1.1,6.7,2.4c3.2,2.1,4.7,5.2,5.4,8.8c0.3,1.5,0.4,3.1,0.4,4.6C103.6,138.8,103.6,141.7,103.6,145.2z M87.1,147.1c0-1.1,0-2.2,0-3.4c0-0.4-0.1-0.7-0.6-0.6c-1.7,0.2-3.4,0.5-5,1.3c-1.4,0.7-2.3,1.8-2.6,3.4c-0.5,2.9,0.8,4.9,3.3,5.3c1,0.1,1.9,0,2.8-0.3c1.4-0.5,2-1.4,2-2.9C87.1,149,87.1,148.1,87.1,147.1z"/><path d="M150.6,130.9c0,10.1,0,20.2,0,30.4c0,0.7-0.2,1-0.9,1.2c-3.2,0.9-6.5,1.1-9.8,0.5c-4.3-0.8-6.5-3.1-6.9-7.5c-0.1-1.1-0.1-2.2-0.1-3.3c0-19.5,0-38.9,0-58.4c0-0.8,0.2-1.1,1-1.2c3.1-0.4,6.2-0.7,9.4-0.1c3.1,0.6,5.6,1.9,6.7,5c0.5,1.3,0.6,2.8,0.6,4.2C150.6,111.4,150.6,121.2,150.6,130.9z"/><path d="M125.8,130.7c0,10.2,0,20.3,0,30.5c0,0.7-0.2,1-0.9,1.2c-3.4,1-6.9,1.1-10.3,0.4c-3.9-0.9-5.9-3.2-6.3-7.3c-0.1-1.3-0.2-2.6-0.2-3.9c0-19.3,0-38.6,0-57.9c0-0.8,0.2-1.1,1-1.2c3.1-0.4,6.3-0.7,9.4-0.1c2.9,0.5,5.3,1.8,6.5,4.6c0.6,1.3,0.8,2.6,0.8,4C125.8,110.9,125.8,120.8,125.8,130.7z"/></g></svg>
       </a>
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
         <ul class="nav-links">
@@ -410,8 +315,9 @@
           <li><a href="/#how-it-works">How It Works</a></li>
           <li><a href="/#why-tally">Why Tally</a></li>
           <li><a href="/#china-desk">China Desk</a></li>
+          <li><a href="/#testimonials">Testimonials</a></li>
           <li><a href="/#faq">FAQ</a></li>
-          <li><a href="/contact" class="nav-cta">Get Started</a></li>
+          <li><a href="/pricing.html">Pricing</a></li>
         </ul>
       </nav>
       <div class="nav-right">
@@ -419,9 +325,8 @@
           <a href="/" class="lang-active">EN</a>
           <span class="lang-sep">|</span>
           <a href="/china/">&#x4E2D;&#x6587;</a>
-          <span class="lang-sep">|</span>
-          <a href="/es/">ES</a>
         </div>
+        <a href="/#cta-final" class="nav-cta">Talk to Us</a>
         <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
@@ -434,25 +339,10 @@
   <!-- ===== HERO ===== -->
   <section class="blog-hero">
     <div class="container">
-      <h1>Insights &amp; Guides</h1>
+      <h1>Blog</h1>
       <p class="hero-subtitle">
-        Expert resources for international brands expanding to Mexico.
-        Legal, regulatory, imports, marketplace, and tax guides updated for 2026.
+        Expert guides for international brands selling in Mexico. Real data, real processes, real costs.
       </p>
-    </div>
-  </section>
-
-  <!-- ===== CATEGORY FILTER ===== -->
-  <section class="filter-section">
-    <div class="container">
-      <div class="filter-bar">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="legal">Legal</button>
-        <button class="filter-btn" data-filter="cofepris">COFEPRIS</button>
-        <button class="filter-btn" data-filter="imports">Imports</button>
-        <button class="filter-btn" data-filter="marketplace">Marketplace</button>
-        <button class="filter-btn" data-filter="tax">Tax &amp; Accounting</button>
-      </div>
     </div>
   </section>
 
@@ -461,159 +351,108 @@
     <div class="container">
       <div class="blog-grid">
 
-        <!-- Post 1 -->
-        <article class="blog-card" data-category="legal">
-          <div class="blog-card-image">
-            <span class="image-placeholder">Featured Image</span>
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-category-tag tag-legal">Legal</span>
-            <h3 class="blog-card-title">
-              <a href="/blog/sell-on-amazon-mexico-guide">Complete Guide to Selling on Amazon Mexico as a Foreign Company</a>
-            </h3>
-            <p class="blog-card-excerpt">
-              Everything you need to know about launching on Amazon Mexico in 2026: entity formation,
-              RFC registration, COFEPRIS permits, banking, and marketplace setup requirements.
-            </p>
-            <div class="blog-card-meta">
-              <span class="blog-card-date">March 15, 2026</span>
-              <a href="/blog/sell-on-amazon-mexico-guide" class="blog-read-more">Read more &rarr;</a>
+        <!-- Article 1: Amazon Mexico Guide -->
+        <article class="blog-card">
+          <a href="/blog/sell-on-amazon-mexico-complete-guide.html" class="blog-card-link">
+            <div class="blog-card-image">
+              <picture>
+                <source srcset="images/stock/ecommerce.webp" type="image/webp">
+                <img src="images/stock/ecommerce.jpg" alt="Selling on Amazon Mexico" loading="lazy" width="600" height="240">
+              </picture>
             </div>
-          </div>
+            <div class="blog-card-body">
+              <span class="blog-category-pill pill-marketplace">Marketplace</span>
+              <h3 class="blog-card-title">The Complete Guide to Selling on Amazon Mexico in 2026</h3>
+              <p class="blog-card-excerpt">
+                Everything you need to sell on Amazon Mexico: entity formation, COFEPRIS, FBA, costs, and a step-by-step timeline from zero to first sale.
+              </p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date">March 27, 2026</span>
+                <span class="blog-read-more">Read more &rarr;</span>
+              </div>
+            </div>
+          </a>
         </article>
 
-        <!-- Post 2 -->
-        <article class="blog-card" data-category="cofepris">
-          <div class="blog-card-image">
-            <span class="image-placeholder">Featured Image</span>
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-category-tag tag-cofepris">COFEPRIS</span>
-            <h3 class="blog-card-title">
-              <a href="/blog/cofepris-registration-guide">COFEPRIS Registration: Everything You Need to Know</a>
-            </h3>
-            <p class="blog-card-excerpt">
-              Step-by-step guide to obtaining COFEPRIS sanitary permits for supplements, cosmetics,
-              food products, and medical devices entering the Mexican market.
-            </p>
-            <div class="blog-card-meta">
-              <span class="blog-card-date">March 10, 2026</span>
-              <a href="/blog/cofepris-registration-guide" class="blog-read-more">Read more &rarr;</a>
+        <!-- Article 2: Company Formation -->
+        <article class="blog-card">
+          <a href="/blog/form-company-mexico-foreigner-guide.html" class="blog-card-link">
+            <div class="blog-card-image">
+              <picture>
+                <source srcset="images/stock/legal.webp" type="image/webp">
+                <img src="images/stock/legal.jpg" alt="Forming a company in Mexico" loading="lazy" width="600" height="240">
+              </picture>
             </div>
-          </div>
+            <div class="blog-card-body">
+              <span class="blog-category-pill pill-legal">Legal</span>
+              <h3 class="blog-card-title">How to Form a Company in Mexico as a Foreigner</h3>
+              <p class="blog-card-excerpt">
+                S de RL vs SA vs SAPI, week-by-week timeline, costs, and the complete process for foreign entrepreneurs.
+              </p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date">March 30, 2026</span>
+                <span class="blog-read-more">Read more &rarr;</span>
+              </div>
+            </div>
+          </a>
         </article>
 
-        <!-- Post 3 -->
-        <article class="blog-card" data-category="legal">
-          <div class="blog-card-image">
-            <span class="image-placeholder">Featured Image</span>
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-category-tag tag-legal">Legal</span>
-            <h3 class="blog-card-title">
-              <a href="/blog/mexico-entity-formation-srl-vs-sa-vs-sapi">Mexico Entity Formation: S de RL vs SA vs SAPI Compared</a>
-            </h3>
-            <p class="blog-card-excerpt">
-              Choosing the right legal structure for your Mexican subsidiary. We compare S de RL de CV,
-              SA de CV, and SAPI across cost, complexity, liability, and use cases.
-            </p>
-            <div class="blog-card-meta">
-              <span class="blog-card-date">March 5, 2026</span>
-              <a href="/blog/mexico-entity-formation-srl-vs-sa-vs-sapi" class="blog-read-more">Read more &rarr;</a>
+        <!-- Article 3: COFEPRIS -->
+        <article class="blog-card">
+          <a href="/blog/cofepris-registration-amazon-sellers-guide.html" class="blog-card-link">
+            <div class="blog-card-image">
+              <picture>
+                <source srcset="images/stock/pharmaceutical.webp" type="image/webp">
+                <img src="images/stock/pharmaceutical.jpg" alt="COFEPRIS registration process" loading="lazy" width="600" height="240">
+              </picture>
             </div>
-          </div>
+            <div class="blog-card-body">
+              <span class="blog-category-pill pill-compliance">Compliance</span>
+              <h3 class="blog-card-title">COFEPRIS Registration for Amazon Mexico Sellers</h3>
+              <p class="blog-card-excerpt">
+                Supplements, cosmetics, food, medical devices. Timelines, costs, the viability report, and how GROWVE launched 12 brands.
+              </p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date">April 1, 2026</span>
+                <span class="blog-read-more">Read more &rarr;</span>
+              </div>
+            </div>
+          </a>
         </article>
 
-        <!-- Post 4 -->
-        <article class="blog-card" data-category="imports">
-          <div class="blog-card-image">
-            <span class="image-placeholder">Featured Image</span>
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-category-tag tag-imports">Imports</span>
-            <h3 class="blog-card-title">
-              <a href="/blog/import-supplements-to-mexico">How to Import Supplements to Mexico: Step-by-Step</a>
-            </h3>
-            <p class="blog-card-excerpt">
-              The complete process for importing dietary supplements into Mexico, including COFEPRIS sanitary
-              permits, NOM labeling, customs classification, and FBA delivery.
-            </p>
-            <div class="blog-card-meta">
-              <span class="blog-card-date">February 28, 2026</span>
-              <a href="/blog/import-supplements-to-mexico" class="blog-read-more">Read more &rarr;</a>
+        <!-- Article 4: Import Duties -->
+        <article class="blog-card">
+          <a href="/blog/mexico-import-duties-tariffs-guide.html" class="blog-card-link">
+            <div class="blog-card-image">
+              <picture>
+                <source srcset="images/stock/shipping-containers.webp" type="image/webp">
+                <img src="images/stock/shipping-containers.jpg" alt="Mexico import duties and tariffs" loading="lazy" width="600" height="240">
+              </picture>
             </div>
-          </div>
-        </article>
-
-        <!-- Post 5 -->
-        <article class="blog-card" data-category="imports">
-          <div class="blog-card-image">
-            <span class="image-placeholder">Featured Image</span>
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-category-tag tag-imports">Imports</span>
-            <h3 class="blog-card-title">
-              <a href="/blog/nom-labeling-requirements-mexico">NOM Labeling Requirements for Consumer Products in Mexico</a>
-            </h3>
-            <p class="blog-card-excerpt">
-              A practical guide to NOM-050, NOM-141, and other labeling standards required for selling
-              consumer products in Mexico. Avoid customs holds and marketplace rejections.
-            </p>
-            <div class="blog-card-meta">
-              <span class="blog-card-date">February 20, 2026</span>
-              <a href="/blog/nom-labeling-requirements-mexico" class="blog-read-more">Read more &rarr;</a>
+            <div class="blog-card-body">
+              <span class="blog-category-pill pill-imports">Imports</span>
+              <h3 class="blog-card-title">Mexico Import Duties and Tariffs: What You'll Actually Pay</h3>
+              <p class="blog-card-excerpt">
+                Real cost breakdowns, USMCA preferential rates, the 19% courier surcharge, and how to estimate your total import cost.
+              </p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date">April 1, 2026</span>
+                <span class="blog-read-more">Read more &rarr;</span>
+              </div>
             </div>
-          </div>
-        </article>
-
-        <!-- Post 6 -->
-        <article class="blog-card" data-category="marketplace">
-          <div class="blog-card-image">
-            <span class="image-placeholder">Featured Image</span>
-          </div>
-          <div class="blog-card-body">
-            <span class="blog-category-tag tag-marketplace">Marketplace</span>
-            <h3 class="blog-card-title">
-              <a href="/blog/china-to-mexico-customs-tariffs">China to Mexico: Navigating Customs, Tariffs, and Regulations</a>
-            </h3>
-            <p class="blog-card-excerpt">
-              How Chinese brands can avoid the 19% courier surcharge, navigate Mexico's duty structure,
-              and build a compliant import operation through their own Mexican entity.
-            </p>
-            <div class="blog-card-meta">
-              <span class="blog-card-date">February 12, 2026</span>
-              <a href="/blog/china-to-mexico-customs-tariffs" class="blog-read-more">Read more &rarr;</a>
-            </div>
-          </div>
+          </a>
         </article>
 
       </div>
     </div>
   </section>
 
-  <!-- ===== LOAD MORE ===== -->
-  <section class="load-more-section">
+  <!-- ===== CTA ===== -->
+  <section class="blog-cta">
     <div class="container">
-      <button class="load-more-btn" id="load-more">
-        Load More Articles
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-          <path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-    </div>
-  </section>
-
-  <!-- ===== NEWSLETTER CTA ===== -->
-  <section class="blog-newsletter">
-    <div class="container">
-      <h2>Stay Updated on Mexico Market Entry</h2>
-      <p>
-        Get our latest guides, regulatory updates, and market insights delivered to your inbox.
-      </p>
-      <form class="newsletter-form" action="#" method="POST">
-        <input type="email" placeholder="Your work email" required>
-        <button type="submit" class="btn btn-primary">Subscribe</button>
-      </form>
+      <h2>Ready to sell in Mexico?</h2>
+      <p>Get a custom roadmap with timelines, costs, and regulatory requirements for your products.</p>
+      <a href="/#cta-final" class="btn btn-primary">Get Your Mexico Roadmap</a>
     </div>
   </section>
 
@@ -624,10 +463,11 @@
         <div class="footer-col">
           <h4>Company</h4>
           <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/about#team">Our Team</a></li>
-            <li><a href="/careers">Careers</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/about.html#team">Our Team</a></li>
+            <li><a href="/about.html">Careers</a></li>
             <li><a href="/blog">Blog</a></li>
+            <li><a href="/pricing.html">Pricing</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -646,16 +486,16 @@
           <h4>Resources</h4>
           <ul>
             <li><a href="/#faq">FAQ</a></li>
-            <li><a href="/guides">Market Guides</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/guides.html">Market Guides</a></li>
+            <li><a href="/#cta-final">Contact</a></li>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Connect</h4>
           <ul>
-            <li><a href="mailto:hello@tallyglobal.ai">hello@tallyglobal.ai</a></li>
-            <li><a href="tel:+5255XXXXXXXX">+52 55 XXXX XXXX</a></li>
+            <li><a href="#" data-email="aGVsbG9AdGFsbHlnbG9iYWwuYWk=">Contact us</a></li>
+            <li><a href="#" data-email="aGVsbG9AdGFsbHlnbG9iYWwuYWk=">Schedule a Call</a></li>
             <li><a href="https://www.linkedin.com/company/tallylegal" target="_blank" rel="noopener">LinkedIn &rarr;</a></li>
             <li><a href="/china/">WeChat &rarr;</a></li>
           </ul>
@@ -667,38 +507,11 @@
           <a href="/" class="lang-active">EN</a>
           <span class="lang-sep">|</span>
           <a href="/china/">&#x4E2D;&#x6587;</a>
-          <span class="lang-sep">|</span>
-          <a href="/es/">ES</a>
         </div>
       </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
-  <script>
-    // Blog category filter (placeholder functionality)
-    document.addEventListener('DOMContentLoaded', function() {
-      const filterBtns = document.querySelectorAll('.filter-btn');
-      const blogCards = document.querySelectorAll('.blog-card');
-
-      filterBtns.forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          // Update active state
-          filterBtns.forEach(function(b) { b.classList.remove('active'); });
-          btn.classList.add('active');
-
-          var filter = btn.getAttribute('data-filter');
-
-          blogCards.forEach(function(card) {
-            if (filter === 'all' || card.getAttribute('data-category') === filter) {
-              card.style.display = '';
-            } else {
-              card.style.display = 'none';
-            }
-          });
-        });
-      });
-    });
-  </script>
 </body>
 </html>
