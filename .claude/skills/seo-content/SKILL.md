@@ -281,6 +281,33 @@ Also output the CMS JSON schema above for headless CMS injection if needed.
 
 ---
 
+## Humanization Rules (Anti-AI Detection)
+
+Write like a human expert, not an AI. Every article MUST pass AI detection tools.
+
+**Contractions are MANDATORY:** Use don't, won't, can't, isn't, you'll, we've, it's, there's, that's. Never write "do not" when "don't" works.
+
+**Vary paragraph length wildly:** Some 1 sentence. Some 2. Some 5. Never uniform 3-4 sentence paragraphs.
+
+**BANNED AI vocabulary:** comprehensive, leverage, utilize, robust, streamline, navigate, landscape, crucial, seamless, facilitate, furthermore, additionally, in conclusion, in summary, it's worth noting, it is important to note, let's explore, let's dive into, when it comes to, in order to, as mentioned earlier.
+
+**BANNED openings:** Never start 2+ paragraphs in a row with "The", "This", or "It". Mix: verbs, "You", numbers, questions, fragments.
+
+**Add human imperfections:**
+- Start sentences with "And" or "But" sometimes
+- Use fragments: "Big mistake." "Worth it." "Not even close."
+- Use parenthetical asides (like this one)
+- Use informal language: "here's the deal", "that's the kicker", "bottom line"
+
+**Vary article lengths:** Never produce 2 articles with similar word counts. Target ranges, not exact numbers.
+
+**Word count targets by type:**
+- Pillar pages: 3,000-4,500 (vary within range)
+- Cluster articles: 1,500-2,800
+- Case studies: 1,000-1,800
+
+---
+
 ## Legal Language Rules (from Terms & Conditions)
 
 Tally is a COORDINATOR and ADVISOR. All operational services are provided by licensed third-party partners. This is non-negotiable for legal compliance.
